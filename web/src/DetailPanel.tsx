@@ -65,7 +65,7 @@ export function DetailPanel({ id, onClose }: { id: string; onClose: () => void }
             ))}
           </div>
 
-          <Chart points={points} width={336} height={200} />
+          <Chart points={points} width={400} height={260} />
 
           <p className="detail-src">
             {doc.station} · {doc.source}

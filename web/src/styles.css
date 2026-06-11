@@ -110,11 +110,11 @@ body {
 .detail {
   top: 18px;
   right: 18px;
-  width: 380px;
+  width: 448px;
   max-width: calc(100% - 36px);
   max-height: calc(100% - 36px);
   overflow: auto;
-  padding: 18px 20px 16px;
+  padding: 22px 24px 20px;
 }
 
 .detail-close {
@@ -133,8 +133,8 @@ body {
 }
 
 .detail h2 {
-  margin: 0 24px 6px 0;
-  font-size: 18px;
+  margin: 0 24px 8px 0;
+  font-size: 21px;
   letter-spacing: -0.01em;
 }
 
@@ -145,12 +145,12 @@ body {
   margin-bottom: 12px;
 }
 .detail-latest .value {
-  font-size: 27px;
+  font-size: 32px;
   font-weight: 700;
   color: var(--gold);
 }
 .detail-latest .date {
-  font-size: 12px;
+  font-size: 13px;
   color: var(--ink-soft);
 }
 
@@ -192,4 +192,30 @@ body {
 /* uPlot a földes témához */
 .u-legend {
   display: none;
+}
+
+/* Grafikon kurzor-tooltip */
+.chart-tip {
+  position: absolute;
+  z-index: 5;
+  transform: translate(-50%, calc(-100% - 12px));
+  pointer-events: none;
+  white-space: nowrap;
+  background: var(--ink);
+  color: #fff;
+  border-radius: 8px;
+  padding: 6px 9px;
+  font-size: 12px;
+  line-height: 1.3;
+  box-shadow: 0 4px 12px rgba(43, 38, 32, 0.3);
+}
+.chart-tip .t-date {
+  display: block;
+  color: #d9cdb8;
+  font-size: 10.5px;
+  letter-spacing: 0.02em;
+}
+.chart-tip .t-val {
+  font-weight: 700;
+  color: var(--goldSoft, #e6c878);
 }
