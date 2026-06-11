@@ -1,0 +1,137 @@
+{
+  "id": "velencei-to",
+  "name": "Velencei-tó",
+  "station": "Agárd",
+  "unit": "cm",
+  "source": "Országos Vízügyi Főigazgatóság",
+  "latest": {
+    "date": "2026-06-10",
+    "value_cm": 56
+  },
+  "series": [
+    {
+      "date": "2026-05-11",
+      "value_cm": 64
+    },
+    {
+      "date": "2026-05-12",
+      "value_cm": 65
+    },
+    {
+      "date": "2026-05-13",
+      "value_cm": 64
+    },
+    {
+      "date": "2026-05-14",
+      "value_cm": 64
+    },
+    {
+      "date": "2026-05-15",
+      "value_cm": 63
+    },
+    {
+      "date": "2026-05-16",
+      "value_cm": 66
+    },
+    {
+      "date": "2026-05-17",
+      "value_cm": 67
+    },
+    {
+      "date": "2026-05-18",
+      "value_cm": 66
+    },
+    {
+      "date": "2026-05-19",
+      "value_cm": 66
+    },
+    {
+      "date": "2026-05-20",
+      "value_cm": 66
+    },
+    {
+      "date": "2026-05-21",
+      "value_cm": 66
+    },
+    {
+      "date": "2026-05-22",
+      "value_cm": 65
+    },
+    {
+      "date": "2026-05-23",
+      "value_cm": 65
+    },
+    {
+      "date": "2026-05-24",
+      "value_cm": 64
+    },
+    {
+      "date": "2026-05-25",
+      "value_cm": 64
+    },
+    {
+      "date": "2026-05-26",
+      "value_cm": 63
+    },
+    {
+      "date": "2026-05-27",
+      "value_cm": 62
+    },
+    {
+      "date": "2026-05-28",
+      "value_cm": 62
+    },
+    {
+      "date": "2026-05-29",
+      "value_cm": 61
+    },
+    {
+      "date": "2026-05-30",
+      "value_cm": 60
+    },
+    {
+      "date": "2026-05-31",
+      "value_cm": 60
+    },
+    {
+      "date": "2026-06-01",
+      "value_cm": 59
+    },
+    {
+      "date": "2026-06-02",
+      "value_cm": 59
+    },
+    {
+      "date": "2026-06-03",
+      "value_cm": 59
+    },
+    {
+      "date": "2026-06-04",
+      "value_cm": 59
+    },
+    {
+      "date": "2026-06-05",
+      "value_cm": 58
+    },
+    {
+      "date": "2026-06-06",
+      "value_cm": 57
+    },
+    {
+      "date": "2026-06-07",
+      "value_cm": 57
+    },
+    {
+      "date": "2026-06-08",
+      "value_cm": 57
+    },
+    {
+      "date": "2026-06-09",
+      "value_cm": 56
+    },
+    {
+      "date": "2026-06-10",
+      "value_cm": 56
+    }
+  ]
+}

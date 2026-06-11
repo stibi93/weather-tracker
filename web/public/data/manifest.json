@@ -1,0 +1,14 @@
+{
+  "water_bodies": [
+    "balaton",
+    "duna",
+    "ferto-to",
+    "tisza",
+    "tisza-to",
+    "velencei-to"
+  ],
+  "unit": "cm",
+  "sources": {
+    "water_level": "Országos Vízügyi Főigazgatóság"
+  }
+}

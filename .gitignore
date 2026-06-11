@@ -6,6 +6,9 @@
 .env.*
 !.env.example
 
+# Generált kanonikus tár (reprodukálható a forrásokból)
+data/*.sqlite
+
 # Python
 __pycache__/
 *.py[cod]
@@ -29,3 +32,6 @@ npm-debug.log*
 .DS_Store
 .idea/
 .vscode/
+
+# TS build info
+*.tsbuildinfo

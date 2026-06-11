@@ -1,0 +1,113 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.8154,
+          46.8838
+        ]
+      },
+      "properties": {
+        "id": "balaton",
+        "name": "Balaton",
+        "kind": "lake",
+        "station": "Balaton átlag",
+        "latest_value_cm": 80,
+        "latest_date": "2026-06-10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0484,
+          47.4949
+        ]
+      },
+      "properties": {
+        "id": "duna",
+        "name": "Duna",
+        "kind": "river",
+        "station": "Budapest",
+        "latest_value_cm": 134,
+        "latest_date": "2026-06-10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6934,
+          47.7205
+        ]
+      },
+      "properties": {
+        "id": "ferto-to",
+        "name": "Fertő tó",
+        "kind": "lake",
+        "station": "Fertőrákos",
+        "latest_value_cm": 39,
+        "latest_date": "2026-06-10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.1886,
+          47.1696
+        ]
+      },
+      "properties": {
+        "id": "tisza",
+        "name": "Tisza",
+        "kind": "river",
+        "station": "Szolnok",
+        "latest_value_cm": -269,
+        "latest_date": "2026-06-10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5169,
+          47.4941
+        ]
+      },
+      "properties": {
+        "id": "tisza-to",
+        "name": "Tisza-tó (Kisköre)",
+        "kind": "lake",
+        "station": "Kisköre felső",
+        "latest_value_cm": 748,
+        "latest_date": "2026-06-10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5829,
+          47.19
+        ]
+      },
+      "properties": {
+        "id": "velencei-to",
+        "name": "Velencei-tó",
+        "kind": "lake",
+        "station": "Agárd",
+        "latest_value_cm": 56,
+        "latest_date": "2026-06-10"
+      }
+    }
+  ]
+}

@@ -11,11 +11,13 @@ fókuszált kezdőnézettel.
 
 ### Requirement: Víztestek megjelenítése
 A frontend a `water-bodies.geojson` artifactból SHALL megjeleníteni a víztesteket
-térképi rétegként. A frontend kizárólag az előre generált statikus artifactokat olvassa.
+térképi rétegként. A vékony alapban a víztestek a reprezentatív állomásuk
+pont-geometriájával jelennek meg (marker); a valódi tó-poligon/folyó-vonal geometria
+későbbi change. A frontend kizárólag az előre generált statikus artifactokat olvassa.
 
 #### Scenario: Víztestek renderelése
 - **WHEN** a térkép betöltődik és a `water-bodies.geojson` elérhető
-- **THEN** minden víztest megjelenik a térképen a stílushoz illő kitöltéssel
+- **THEN** mind a hat víztest megjelenik a térképen a stílushoz illő markerrel/jelöléssel
 
 ### Requirement: Hover-kiemelés
 A felhasználó egy víztest fölé húzva a kurzort vizuális kiemelést SHALL kapjon, jelezve az

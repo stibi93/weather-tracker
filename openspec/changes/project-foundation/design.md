@@ -29,13 +29,22 @@ Vite + React + MapLibre frontend, topográfiai (C) stílus.
   `water_level_reading(station_id, date, value)` egyedi `(station_id, date)` kulccsal, upsert.
   *Alternatíva:* közvetlenül JSON-fájlokba írni — elvetve, mert az idempotencia és a későbbi
   aggregálás (havi átlag) SQL-ben tiszta, fájlokban törékeny.
-- **Víztest-geometria statikus seed, nem a vizugy-ból.** A vizugy vízállás-értéket ad, geometriát
-  nem. A víztestek körvonalát egyszer beszerezzük OpenStreetMap-ből, és `ingest/seed/`-ben
-  verziózzuk. Az artifact-generátor ezt a seedet köti össze a kanonikus állomás-adatokkal.
-  *Miért:* a geometria ritkán változik, nincs értelme napi pipeline-ba tenni.
-- **Állomás→víztest hozzárendelés explicit konfig.** Egy `ingest/config`-ban rögzített leképezés
-  köti a vizugy-állomásokat a hat víztesthez. *Miért:* a forrás állomásnevei nem feltétlen
-  egyeznek a megjelenített víztest-nevekkel; az explicit map kiszámíthatóvá teszi.
+- **Geometria a vizugy állomás-koordinátákból (pont), nem OSM-ből — a vékony alapnál.** A
+  felderítés kiderítette, hogy a vizugy API minden állomáshoz `Lat`/`Lon`-t (WGS84) ad. Ezért a
+  foundationben a víztesteket a reprezentatív állomásuk **pont-geometriájával** jelenítjük meg —
+  nincs külön geometria-beszerzés. *Miért X Y helyett:* az OSM poligon/vonal seed önálló feladat
+  (forrásozás, egyszerűsítés, tárolás), ami a thin szeletet feleslegesen megnöveli; a valódi
+  tó-poligon és folyó-vonal geometria dedikált, későbbi change lesz.
+- **Állomás→víztest hozzárendelés explicit konfig, koordinátákkal.** Egy `ingest/config`-ban
+  rögzített leképezés köti a vizugy-állomásokat a hat víztesthez, a felderített `Tsz` + név +
+  `Lat`/`Lon` alapján. *Miért:* a forrás állomásnevei nem feltétlen egyeznek a megjelenített
+  víztest-nevekkel; az explicit map kiszámíthatóvá és tesztelhetővé teszi.
+- **Token-alapú API-hozzáférés, anonim.** A `data.vizugy.hu/AuthApi/auth/token` `Origin` fejléccel
+  anonim JWT-t ad; ezt `Bearer`-ként küldjük a `vmservice.vizugy.hu/vraquery/` hívásokon. Nincs
+  szükség regisztrációra/API-kulcsra. *Miért:* automatizálható a napi futás emberi beavatkozás nélkül.
+- **Napi aggregálás kliensoldalon.** Egyes állomások órás adatot adnak; az adapter naponként egy
+  értékre aggregál (napi átlag, cm-re kerekítve). *Miért:* egységes napi idősor minden víztestre,
+  forrástól független felbontással.
 - **Frontend csak statikus artifactot olvas.** A React app `web/public/data/`-ból tölt, lazy
   módon. *Miért:* nulla backend, ingyenes tier, és a frontend nem ismeri a forrásokat.
 - **Alaptérkép ingyenes tier, kulcs env-ben.** MapTiler „outdoor"/„topo" free vagy OpenFreeMap;
@@ -58,7 +67,8 @@ indul. Rollback = a generált artifactok és a SQLite eldobása (mindkettő repr
 
 ## Open Questions
 
-- A pontos vizugy API-végpontok és paraméterek (visszafejtés során derül ki); a portban absztrakt
-  marad, így a felfedezés nem érinti a domaint.
-- A víztest-geometria felbontása (egyszerűsített körvonal elég-e a megjelenítéshez) — implementáció
-  közben dől el, vizuális ellenőrzéssel.
+- A reprezentatív állomás víztestenként (most: Balaton→142300 „Balaton átlag", Velencei-tó→818
+  Agárd, Fertő-tó→52 Fertőrákos, Tisza-tó→2041 Kisköre felső, Duna→1026 Budapest, Tisza→2046
+  Szolnok) — később bővíthető több állomásra víztestenként.
+- A valódi tó-poligon és folyó-vonal geometria (OSM) külön change-ben — felbontás/egyszerűsítés
+  ott dől el.
