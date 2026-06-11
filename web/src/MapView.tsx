@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import maplibregl from "maplibre-gl";
+import maplibregl, { type ExpressionSpecification } from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 import { basemapStyle } from "./basemap";
 import { theme } from "./theme";
@@ -10,15 +10,30 @@ const LAYER_ID = "water-bodies-circles";
 
 function tooltipHTML(p: Record<string, unknown>): string {
   const value = p.latest_value_cm == null ? "—" : `${p.latest_value_cm} cm`;
-  const date = p.latest_date ?? "";
   return `<strong>${p.name}</strong><br/>
     <span style="color:${theme.inkSoft}">${p.station}</span><br/>
     <span style="font-size:15px;font-weight:600">${value}</span>
-    <span style="color:${theme.inkSoft};font-size:11px"> · ${date}</span>`;
+    <span style="color:${theme.inkSoft};font-size:11px"> · ${p.latest_date ?? ""}</span>`;
 }
 
-export function MapView() {
+const hoverOrSelected: ExpressionSpecification = [
+  "any",
+  ["boolean", ["feature-state", "hover"], false],
+  ["boolean", ["feature-state", "selected"], false],
+];
+
+export function MapView({
+  onSelect,
+  selectedId,
+}: {
+  onSelect: (id: string) => void;
+  selectedId: string | null;
+}) {
   const containerRef = useRef<HTMLDivElement | null>(null);
+  const mapRef = useRef<maplibregl.Map | null>(null);
+  const prevSelected = useRef<string | null>(null);
+  const onSelectRef = useRef(onSelect);
+  onSelectRef.current = onSelect;
 
   useEffect(() => {
     if (!containerRef.current) return;
@@ -30,7 +45,11 @@ export function MapView() {
       zoom: 6.6,
       attributionControl: { compact: true },
     });
-    map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-right");
+    mapRef.current = map;
+    if (new URLSearchParams(location.search).has("debug")) {
+      (window as Window & { __map?: maplibregl.Map }).__map = map;
+    }
+    map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "bottom-right");
 
     const popup = new maplibregl.Popup({
       closeButton: false,
@@ -42,33 +61,18 @@ export function MapView() {
 
     map.on("load", async () => {
       const geo = await fetch(DATA_URL).then((r) => r.json());
+      map.addSource(SOURCE_ID, { type: "geojson", data: geo, promoteId: "id" });
 
-      map.addSource(SOURCE_ID, {
-        type: "geojson",
-        data: geo,
-        promoteId: "id", // properties.id -> feature id (feature-state-hez)
-      });
-
-      // Az összes víztestre illesztünk, hogy mind keretben legyen.
       const bounds = new maplibregl.LngLatBounds();
-      for (const f of geo.features) {
-        bounds.extend(f.geometry.coordinates as [number, number]);
-      }
-      if (!bounds.isEmpty()) {
-        map.fitBounds(bounds, { padding: 90, maxZoom: 8, duration: 0 });
-      }
+      for (const f of geo.features) bounds.extend(f.geometry.coordinates as [number, number]);
+      if (!bounds.isEmpty()) map.fitBounds(bounds, { padding: 90, maxZoom: 8, duration: 0 });
 
       map.addLayer({
         id: LAYER_ID,
         type: "circle",
         source: SOURCE_ID,
         paint: {
-          "circle-radius": [
-            "case",
-            ["boolean", ["feature-state", "hover"], false],
-            13,
-            8,
-          ],
+          "circle-radius": ["case", hoverOrSelected, 13, 8],
           "circle-color": [
             "match",
             ["get", "kind"],
@@ -80,16 +84,11 @@ export function MapView() {
           ],
           "circle-stroke-width": [
             "case",
-            ["boolean", ["feature-state", "hover"], false],
-            4,
-            2,
+            ["boolean", ["feature-state", "selected"], false],
+            5,
+            ["case", ["boolean", ["feature-state", "hover"], false], 4, 2],
           ],
-          "circle-stroke-color": [
-            "case",
-            ["boolean", ["feature-state", "hover"], false],
-            theme.gold,
-            "#ffffff",
-          ],
+          "circle-stroke-color": ["case", hoverOrSelected, theme.gold, "#ffffff"],
           "circle-opacity": 0.95,
         },
       });
@@ -113,10 +112,28 @@ export function MapView() {
         setHover(null);
         popup.remove();
       });
+
+      map.on("click", LAYER_ID, (e) => {
+        const f = e.features?.[0];
+        if (f) onSelectRef.current(String(f.id));
+      });
     });
 
     return () => map.remove();
   }, []);
+
+  // Kiválasztott víztest kiemelése feature-state-tel.
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map || !map.getSource(SOURCE_ID)) return;
+    if (prevSelected.current) {
+      map.setFeatureState({ source: SOURCE_ID, id: prevSelected.current }, { selected: false });
+    }
+    if (selectedId) {
+      map.setFeatureState({ source: SOURCE_ID, id: selectedId }, { selected: true });
+    }
+    prevSelected.current = selectedId;
+  }, [selectedId]);
 
   return <div ref={containerRef} className="map-root" />;
 }

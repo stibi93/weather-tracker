@@ -10,128 +10,4144 @@
   },
   "series": [
     {
+      "date": "2016-06-01",
+      "value_cm": 728,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2016-07-01",
+      "value_cm": 728,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2016-08-01",
+      "value_cm": 729,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2016-09-01",
+      "value_cm": 728,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2016-10-01",
+      "value_cm": 728,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2016-11-01",
+      "value_cm": 638,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2016-12-01",
+      "value_cm": 617,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2017-01-01",
+      "value_cm": 618,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2017-02-01",
+      "value_cm": 622,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2017-03-01",
+      "value_cm": 640,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2017-04-01",
+      "value_cm": 727,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2017-05-01",
+      "value_cm": 729,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2017-06-01",
+      "value_cm": 730,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2017-07-01",
+      "value_cm": 738,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2017-08-01",
+      "value_cm": 739,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2017-09-01",
+      "value_cm": 737,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2017-10-01",
+      "value_cm": 731,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2017-11-01",
+      "value_cm": 661,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2017-12-01",
+      "value_cm": 625,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2018-01-01",
+      "value_cm": 630,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2018-02-01",
+      "value_cm": 619,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2018-03-01",
+      "value_cm": 620,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2018-04-01",
+      "value_cm": 672,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2018-05-01",
+      "value_cm": 729,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2018-06-01",
+      "value_cm": 730,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2018-07-01",
+      "value_cm": 738,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2018-08-01",
+      "value_cm": 739,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2018-09-01",
+      "value_cm": 739,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2018-10-01",
+      "value_cm": 738,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2018-11-01",
+      "value_cm": 678,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2018-12-01",
+      "value_cm": 597,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2019-01-01",
+      "value_cm": 615,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2019-02-01",
+      "value_cm": 619,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2019-03-01",
+      "value_cm": 622,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2019-04-01",
+      "value_cm": 718,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2019-05-01",
+      "value_cm": 735,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2019-06-01",
+      "value_cm": 735,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2019-07-01",
+      "value_cm": 738,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2019-08-01",
+      "value_cm": 740,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2019-09-01",
+      "value_cm": 733,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2019-10-01",
+      "value_cm": 726,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2019-11-01",
+      "value_cm": 685,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2019-12-01",
+      "value_cm": 606,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2020-01-01",
+      "value_cm": 615,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2020-02-01",
+      "value_cm": 618,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2020-03-01",
+      "value_cm": 628,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2020-04-01",
+      "value_cm": 713,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2020-05-01",
+      "value_cm": 739,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2020-06-01",
+      "value_cm": 734,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2020-07-01",
+      "value_cm": 734,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2020-08-01",
+      "value_cm": 738,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2020-09-01",
+      "value_cm": 733,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2020-10-01",
+      "value_cm": 729,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2020-11-01",
+      "value_cm": 634,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2020-12-01",
+      "value_cm": 608,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2021-01-01",
+      "value_cm": 620,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2021-02-01",
+      "value_cm": 680,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2021-03-01",
+      "value_cm": 697,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2021-04-01",
+      "value_cm": 715,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2021-05-01",
+      "value_cm": 733,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2021-06-01",
+      "value_cm": 735,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2021-07-01",
+      "value_cm": 740,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2021-08-01",
+      "value_cm": 738,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2021-09-01",
+      "value_cm": 737,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2021-10-01",
+      "value_cm": 730,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2021-11-01",
+      "value_cm": 640,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2021-12-01",
+      "value_cm": 616,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2022-01-01",
+      "value_cm": 617,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2022-02-01",
+      "value_cm": 620,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2022-03-01",
+      "value_cm": 624,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2022-04-01",
+      "value_cm": 689,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2022-05-01",
+      "value_cm": 738,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2022-06-01",
+      "value_cm": 736,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2022-07-01",
+      "value_cm": 717,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2022-08-01",
+      "value_cm": 669,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2022-09-01",
+      "value_cm": 711,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2022-10-01",
+      "value_cm": 728,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2022-11-01",
+      "value_cm": 681,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2022-12-01",
+      "value_cm": 619,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2023-01-01",
+      "value_cm": 630,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2023-02-01",
+      "value_cm": 647,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2023-03-01",
+      "value_cm": 666,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2023-04-01",
+      "value_cm": 738,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2023-05-01",
+      "value_cm": 741,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2023-06-01",
+      "value_cm": 739,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2023-07-01",
+      "value_cm": 738,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2023-08-01",
+      "value_cm": 738,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2023-09-01",
+      "value_cm": 738,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2023-10-01",
+      "value_cm": 728,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2023-11-01",
+      "value_cm": 696,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2023-12-01",
+      "value_cm": 647,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2024-01-01",
+      "value_cm": 662,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2024-02-01",
+      "value_cm": 683,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2024-03-01",
+      "value_cm": 728,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2024-04-01",
+      "value_cm": 739,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2024-05-01",
+      "value_cm": 737,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2024-06-01",
+      "value_cm": 738,
+      "resolution": "monthly"
+    },
+    {
+      "date": "2024-06-10",
+      "value_cm": 741,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-06-11",
+      "value_cm": 741,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-06-12",
+      "value_cm": 744,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-06-13",
+      "value_cm": 742,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-06-14",
+      "value_cm": 740,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-06-15",
+      "value_cm": 740,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-06-16",
+      "value_cm": 740,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-06-17",
+      "value_cm": 740,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-06-18",
+      "value_cm": 740,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-06-19",
+      "value_cm": 740,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-06-20",
+      "value_cm": 741,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-06-21",
+      "value_cm": 739,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-06-22",
+      "value_cm": 737,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-06-23",
+      "value_cm": 741,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-06-24",
+      "value_cm": 739,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-06-25",
+      "value_cm": 740,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-06-26",
+      "value_cm": 739,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-06-27",
+      "value_cm": 739,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-06-28",
+      "value_cm": 736,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-06-29",
+      "value_cm": 737,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-06-30",
+      "value_cm": 739,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-07-01",
+      "value_cm": 735,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-07-02",
+      "value_cm": 739,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-07-03",
+      "value_cm": 735,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-07-04",
+      "value_cm": 731,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-07-05",
+      "value_cm": 739,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-07-06",
+      "value_cm": 741,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-07-07",
+      "value_cm": 741,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-07-08",
+      "value_cm": 741,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-07-09",
+      "value_cm": 741,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-07-10",
+      "value_cm": 737,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-07-11",
+      "value_cm": 734,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-07-12",
+      "value_cm": 735,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-07-13",
+      "value_cm": 735,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-07-14",
+      "value_cm": 739,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-07-15",
+      "value_cm": 740,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-07-16",
+      "value_cm": 738,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-07-17",
+      "value_cm": 740,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-07-18",
+      "value_cm": 742,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-07-19",
+      "value_cm": 737,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-07-20",
+      "value_cm": 736,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-07-21",
+      "value_cm": 738,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-07-22",
+      "value_cm": 741,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-07-23",
+      "value_cm": 741,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-07-24",
+      "value_cm": 741,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-07-25",
+      "value_cm": 740,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-07-26",
+      "value_cm": 738,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-07-27",
+      "value_cm": 738,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-07-28",
+      "value_cm": 739,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-07-29",
+      "value_cm": 740,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-07-30",
+      "value_cm": 739,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-07-31",
+      "value_cm": 739,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-08-01",
+      "value_cm": 739,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-08-02",
+      "value_cm": 739,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-08-03",
+      "value_cm": 739,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-08-04",
+      "value_cm": 739,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-08-05",
+      "value_cm": 739,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-08-06",
+      "value_cm": 740,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-08-07",
+      "value_cm": 742,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-08-08",
+      "value_cm": 742,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-08-09",
+      "value_cm": 744,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-08-10",
+      "value_cm": 746,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-08-11",
+      "value_cm": 746,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-08-12",
+      "value_cm": 745,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-08-13",
+      "value_cm": 742,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-08-14",
+      "value_cm": 739,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-08-15",
+      "value_cm": 737,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-08-16",
+      "value_cm": 737,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-08-17",
+      "value_cm": 737,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-08-18",
+      "value_cm": 740,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-08-19",
+      "value_cm": 741,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-08-20",
+      "value_cm": 742,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-08-21",
+      "value_cm": 743,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-08-22",
+      "value_cm": 743,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-08-23",
+      "value_cm": 740,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-08-24",
+      "value_cm": 739,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-08-25",
+      "value_cm": 739,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-08-26",
+      "value_cm": 740,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-08-27",
+      "value_cm": 740,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-08-28",
+      "value_cm": 739,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-08-29",
+      "value_cm": 736,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-08-30",
+      "value_cm": 735,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-08-31",
+      "value_cm": 734,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-09-01",
+      "value_cm": 733,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-09-02",
+      "value_cm": 731,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-09-03",
+      "value_cm": 730,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-09-04",
+      "value_cm": 730,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-09-05",
+      "value_cm": 729,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-09-06",
+      "value_cm": 727,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-09-07",
+      "value_cm": 726,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-09-08",
+      "value_cm": 725,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-09-09",
+      "value_cm": 724,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-09-10",
+      "value_cm": 724,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-09-11",
+      "value_cm": 725,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-09-12",
+      "value_cm": 725,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-09-13",
+      "value_cm": 727,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-09-14",
+      "value_cm": 729,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-09-15",
+      "value_cm": 731,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-09-16",
+      "value_cm": 728,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-09-17",
+      "value_cm": 728,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-09-18",
+      "value_cm": 728,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-09-19",
+      "value_cm": 729,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-09-20",
+      "value_cm": 726,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-09-21",
+      "value_cm": 725,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-09-22",
+      "value_cm": 725,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-09-23",
+      "value_cm": 727,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-09-24",
+      "value_cm": 728,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-09-25",
+      "value_cm": 727,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-09-26",
+      "value_cm": 725,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-09-27",
+      "value_cm": 724,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-09-28",
+      "value_cm": 726,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-09-29",
+      "value_cm": 729,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-09-30",
+      "value_cm": 728,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-10-01",
+      "value_cm": 724,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-10-02",
+      "value_cm": 724,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-10-03",
+      "value_cm": 727,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-10-04",
+      "value_cm": 731,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-10-05",
+      "value_cm": 723,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-10-06",
+      "value_cm": 723,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-10-07",
+      "value_cm": 725,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-10-08",
+      "value_cm": 727,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-10-09",
+      "value_cm": 729,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-10-10",
+      "value_cm": 727,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-10-11",
+      "value_cm": 726,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-10-12",
+      "value_cm": 727,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-10-13",
+      "value_cm": 728,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-10-14",
+      "value_cm": 727,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-10-15",
+      "value_cm": 727,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-10-16",
+      "value_cm": 728,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-10-17",
+      "value_cm": 724,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-10-18",
+      "value_cm": 722,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-10-19",
+      "value_cm": 724,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-10-20",
+      "value_cm": 726,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-10-21",
+      "value_cm": 728,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-10-22",
+      "value_cm": 725,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-10-23",
+      "value_cm": 723,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-10-24",
+      "value_cm": 725,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-10-25",
+      "value_cm": 725,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-10-26",
+      "value_cm": 724,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-10-27",
+      "value_cm": 725,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-10-28",
+      "value_cm": 726,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-10-29",
+      "value_cm": 724,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-10-30",
+      "value_cm": 722,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-10-31",
+      "value_cm": 719,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-11-01",
+      "value_cm": 718,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-11-02",
+      "value_cm": 717,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-11-03",
+      "value_cm": 720,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-11-04",
+      "value_cm": 717,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-11-05",
+      "value_cm": 706,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-11-06",
+      "value_cm": 698,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-11-07",
+      "value_cm": 690,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-11-08",
+      "value_cm": 684,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-11-09",
+      "value_cm": 677,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-11-10",
+      "value_cm": 669,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-11-11",
+      "value_cm": 661,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-11-12",
+      "value_cm": 653,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-11-13",
+      "value_cm": 646,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-11-14",
+      "value_cm": 638,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-11-15",
+      "value_cm": 629,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-11-16",
+      "value_cm": 622,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-11-17",
+      "value_cm": 615,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-11-18",
+      "value_cm": 607,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-11-19",
+      "value_cm": 601,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-11-20",
+      "value_cm": 592,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-11-21",
+      "value_cm": 585,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-11-22",
+      "value_cm": 577,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-11-23",
+      "value_cm": 568,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-11-24",
+      "value_cm": 558,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-11-25",
+      "value_cm": 553,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-11-26",
+      "value_cm": 557,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-11-27",
+      "value_cm": 558,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-11-28",
+      "value_cm": 558,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-11-29",
+      "value_cm": 558,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-11-30",
+      "value_cm": 557,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-12-01",
+      "value_cm": 558,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-12-02",
+      "value_cm": 560,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-12-03",
+      "value_cm": 566,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-12-04",
+      "value_cm": 571,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-12-05",
+      "value_cm": 576,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-12-06",
+      "value_cm": 581,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-12-07",
+      "value_cm": 587,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-12-08",
+      "value_cm": 592,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-12-09",
+      "value_cm": 596,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-12-10",
+      "value_cm": 601,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-12-11",
+      "value_cm": 606,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-12-12",
+      "value_cm": 614,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-12-13",
+      "value_cm": 616,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-12-14",
+      "value_cm": 616,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-12-15",
+      "value_cm": 615,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-12-16",
+      "value_cm": 615,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-12-17",
+      "value_cm": 615,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-12-18",
+      "value_cm": 615,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-12-19",
+      "value_cm": 617,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-12-20",
+      "value_cm": 615,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-12-21",
+      "value_cm": 614,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-12-22",
+      "value_cm": 618,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-12-23",
+      "value_cm": 615,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-12-24",
+      "value_cm": 623,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-12-25",
+      "value_cm": 619,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-12-26",
+      "value_cm": 612,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-12-27",
+      "value_cm": 614,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-12-28",
+      "value_cm": 616,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-12-29",
+      "value_cm": 618,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-12-30",
+      "value_cm": 615,
+      "resolution": "daily"
+    },
+    {
+      "date": "2024-12-31",
+      "value_cm": 613,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-01-01",
+      "value_cm": 616,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-01-02",
+      "value_cm": 617,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-01-03",
+      "value_cm": 616,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-01-04",
+      "value_cm": 615,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-01-05",
+      "value_cm": 618,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-01-06",
+      "value_cm": 616,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-01-07",
+      "value_cm": 615,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-01-08",
+      "value_cm": 615,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-01-09",
+      "value_cm": 615,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-01-10",
+      "value_cm": 610,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-01-11",
+      "value_cm": 611,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-01-12",
+      "value_cm": 623,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-01-13",
+      "value_cm": 623,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-01-14",
+      "value_cm": 622,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-01-15",
+      "value_cm": 622,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-01-16",
+      "value_cm": 622,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-01-17",
+      "value_cm": 622,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-01-18",
+      "value_cm": 621,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-01-19",
+      "value_cm": 622,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-01-20",
+      "value_cm": 615,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-01-21",
+      "value_cm": 617,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-01-22",
+      "value_cm": 616,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-01-23",
+      "value_cm": 616,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-01-24",
+      "value_cm": 615,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-01-25",
+      "value_cm": 616,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-01-26",
+      "value_cm": 617,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-01-27",
+      "value_cm": 613,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-01-28",
+      "value_cm": 617,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-01-29",
+      "value_cm": 615,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-01-30",
+      "value_cm": 616,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-01-31",
+      "value_cm": 617,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-02-01",
+      "value_cm": 620,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-02-02",
+      "value_cm": 621,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-02-03",
+      "value_cm": 620,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-02-04",
+      "value_cm": 619,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-02-05",
+      "value_cm": 614,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-02-06",
+      "value_cm": 615,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-02-07",
+      "value_cm": 615,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-02-08",
+      "value_cm": 616,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-02-09",
+      "value_cm": 618,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-02-10",
+      "value_cm": 617,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-02-11",
+      "value_cm": 616,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-02-12",
+      "value_cm": 615,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-02-13",
+      "value_cm": 615,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-02-14",
+      "value_cm": 614,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-02-15",
+      "value_cm": 615,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-02-16",
+      "value_cm": 616,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-02-17",
+      "value_cm": 619,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-02-18",
+      "value_cm": 615,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-02-19",
+      "value_cm": 613,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-02-20",
+      "value_cm": 612,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-02-21",
+      "value_cm": 613,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-02-22",
+      "value_cm": 614,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-02-23",
+      "value_cm": 615,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-02-24",
+      "value_cm": 616,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-02-25",
+      "value_cm": 617,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-02-26",
+      "value_cm": 617,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-02-27",
+      "value_cm": 616,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-02-28",
+      "value_cm": 617,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-03-01",
+      "value_cm": 621,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-03-02",
+      "value_cm": 626,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-03-03",
+      "value_cm": 631,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-03-04",
+      "value_cm": 635,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-03-05",
+      "value_cm": 640,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-03-06",
+      "value_cm": 646,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-03-07",
+      "value_cm": 651,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-03-08",
+      "value_cm": 656,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-03-09",
+      "value_cm": 660,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-03-10",
+      "value_cm": 663,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-03-11",
+      "value_cm": 668,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-03-12",
+      "value_cm": 675,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-03-13",
+      "value_cm": 680,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-03-14",
+      "value_cm": 689,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-03-15",
+      "value_cm": 700,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-03-16",
+      "value_cm": 708,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-03-17",
+      "value_cm": 715,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-03-18",
+      "value_cm": 722,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-03-19",
+      "value_cm": 727,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-03-20",
+      "value_cm": 732,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-03-21",
+      "value_cm": 738,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-03-22",
+      "value_cm": 741,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-03-23",
+      "value_cm": 740,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-03-24",
+      "value_cm": 740,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-03-25",
+      "value_cm": 740,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-03-26",
+      "value_cm": 740,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-03-27",
+      "value_cm": 741,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-03-28",
+      "value_cm": 742,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-03-29",
+      "value_cm": 741,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-03-30",
+      "value_cm": 741,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-03-31",
+      "value_cm": 741,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-04-01",
+      "value_cm": 744,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-04-02",
+      "value_cm": 742,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-04-03",
+      "value_cm": 742,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-04-04",
+      "value_cm": 741,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-04-05",
+      "value_cm": 744,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-04-06",
+      "value_cm": 742,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-04-07",
+      "value_cm": 741,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-04-08",
+      "value_cm": 745,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-04-09",
+      "value_cm": 744,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-04-10",
+      "value_cm": 748,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-04-11",
+      "value_cm": 741,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-04-12",
+      "value_cm": 740,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-04-13",
+      "value_cm": 736,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-04-14",
+      "value_cm": 738,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-04-15",
+      "value_cm": 742,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-04-16",
+      "value_cm": 743,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-04-17",
+      "value_cm": 742,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-04-18",
+      "value_cm": 740,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-04-19",
+      "value_cm": 739,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-04-20",
+      "value_cm": 738,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-04-21",
+      "value_cm": 735,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-04-22",
+      "value_cm": 740,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-04-23",
+      "value_cm": 743,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-04-24",
+      "value_cm": 744,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-04-25",
+      "value_cm": 745,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-04-26",
+      "value_cm": 752,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-04-27",
+      "value_cm": 743,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-04-28",
+      "value_cm": 736,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-04-29",
+      "value_cm": 736,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-04-30",
+      "value_cm": 738,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-05-01",
+      "value_cm": 738,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-05-02",
+      "value_cm": 737,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-05-03",
+      "value_cm": 737,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-05-04",
+      "value_cm": 740,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-05-05",
+      "value_cm": 741,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-05-06",
+      "value_cm": 736,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-05-07",
+      "value_cm": 734,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-05-08",
+      "value_cm": 734,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-05-09",
+      "value_cm": 734,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-05-10",
+      "value_cm": 734,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-05-11",
+      "value_cm": 740,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-05-12",
+      "value_cm": 742,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-05-13",
+      "value_cm": 737,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-05-14",
+      "value_cm": 737,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-05-15",
+      "value_cm": 735,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-05-16",
+      "value_cm": 735,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-05-17",
+      "value_cm": 735,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-05-18",
+      "value_cm": 732,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-05-19",
+      "value_cm": 734,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-05-20",
+      "value_cm": 737,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-05-21",
+      "value_cm": 740,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-05-22",
+      "value_cm": 740,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-05-23",
+      "value_cm": 741,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-05-24",
+      "value_cm": 741,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-05-25",
+      "value_cm": 742,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-05-26",
+      "value_cm": 741,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-05-27",
+      "value_cm": 741,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-05-28",
+      "value_cm": 741,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-05-29",
+      "value_cm": 741,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-05-30",
+      "value_cm": 740,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-05-31",
+      "value_cm": 741,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-06-01",
+      "value_cm": 742,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-06-02",
+      "value_cm": 743,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-06-03",
+      "value_cm": 747,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-06-04",
+      "value_cm": 750,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-06-05",
+      "value_cm": 751,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-06-06",
+      "value_cm": 749,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-06-07",
+      "value_cm": 743,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-06-08",
+      "value_cm": 739,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-06-09",
+      "value_cm": 739,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-06-10",
+      "value_cm": 739,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-06-11",
+      "value_cm": 737,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-06-12",
+      "value_cm": 736,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-06-13",
+      "value_cm": 735,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-06-14",
+      "value_cm": 734,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-06-15",
+      "value_cm": 735,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-06-16",
+      "value_cm": 736,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-06-17",
+      "value_cm": 741,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-06-18",
+      "value_cm": 740,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-06-19",
+      "value_cm": 741,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-06-20",
+      "value_cm": 742,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-06-21",
+      "value_cm": 740,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-06-22",
+      "value_cm": 739,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-06-23",
+      "value_cm": 740,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-06-24",
+      "value_cm": 740,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-06-25",
+      "value_cm": 739,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-06-26",
+      "value_cm": 739,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-06-27",
+      "value_cm": 738,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-06-28",
+      "value_cm": 738,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-06-29",
+      "value_cm": 737,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-06-30",
+      "value_cm": 738,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-07-01",
+      "value_cm": 738,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-07-02",
+      "value_cm": 737,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-07-03",
+      "value_cm": 736,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-07-04",
+      "value_cm": 737,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-07-05",
+      "value_cm": 733,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-07-06",
+      "value_cm": 731,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-07-07",
+      "value_cm": 730,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-07-08",
+      "value_cm": 731,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-07-09",
+      "value_cm": 730,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-07-10",
+      "value_cm": 732,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-07-11",
+      "value_cm": 734,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-07-12",
+      "value_cm": 740,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-07-13",
+      "value_cm": 740,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-07-14",
+      "value_cm": 741,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-07-15",
+      "value_cm": 740,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-07-16",
+      "value_cm": 740,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-07-17",
+      "value_cm": 740,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-07-18",
+      "value_cm": 740,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-07-19",
+      "value_cm": 740,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-07-20",
+      "value_cm": 739,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-07-21",
+      "value_cm": 742,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-07-22",
+      "value_cm": 741,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-07-23",
+      "value_cm": 742,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-07-24",
+      "value_cm": 742,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-07-25",
+      "value_cm": 740,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-07-26",
+      "value_cm": 740,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-07-27",
+      "value_cm": 738,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-07-28",
+      "value_cm": 740,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-07-29",
+      "value_cm": 742,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-07-30",
+      "value_cm": 741,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-07-31",
+      "value_cm": 741,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-08-01",
+      "value_cm": 740,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-08-02",
+      "value_cm": 740,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-08-03",
+      "value_cm": 739,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-08-04",
+      "value_cm": 742,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-08-05",
+      "value_cm": 740,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-08-06",
+      "value_cm": 740,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-08-07",
+      "value_cm": 738,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-08-08",
+      "value_cm": 736,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-08-09",
+      "value_cm": 737,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-08-10",
+      "value_cm": 738,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-08-11",
+      "value_cm": 740,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-08-12",
+      "value_cm": 737,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-08-13",
+      "value_cm": 736,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-08-14",
+      "value_cm": 735,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-08-15",
+      "value_cm": 733,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-08-16",
+      "value_cm": 732,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-08-17",
+      "value_cm": 732,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-08-18",
+      "value_cm": 731,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-08-19",
+      "value_cm": 727,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-08-20",
+      "value_cm": 723,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-08-21",
+      "value_cm": 722,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-08-22",
+      "value_cm": 722,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-08-23",
+      "value_cm": 723,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-08-24",
+      "value_cm": 726,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-08-25",
+      "value_cm": 733,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-08-26",
+      "value_cm": 738,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-08-27",
+      "value_cm": 742,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-08-28",
+      "value_cm": 741,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-08-29",
+      "value_cm": 738,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-08-30",
+      "value_cm": 738,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-08-31",
+      "value_cm": 739,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-09-01",
+      "value_cm": 739,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-09-02",
+      "value_cm": 739,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-09-03",
+      "value_cm": 738,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-09-04",
+      "value_cm": 738,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-09-05",
+      "value_cm": 738,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-09-06",
+      "value_cm": 737,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-09-07",
+      "value_cm": 737,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-09-08",
+      "value_cm": 738,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-09-09",
+      "value_cm": 738,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-09-10",
+      "value_cm": 737,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-09-11",
+      "value_cm": 734,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-09-12",
+      "value_cm": 735,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-09-13",
+      "value_cm": 737,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-09-14",
+      "value_cm": 740,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-09-15",
+      "value_cm": 748,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-09-16",
+      "value_cm": 748,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-09-17",
+      "value_cm": 741,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-09-18",
+      "value_cm": 739,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-09-19",
+      "value_cm": 737,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-09-20",
+      "value_cm": 739,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-09-21",
+      "value_cm": 741,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-09-22",
+      "value_cm": 739,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-09-23",
+      "value_cm": 736,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-09-24",
+      "value_cm": 739,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-09-25",
+      "value_cm": 739,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-09-26",
+      "value_cm": 739,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-09-27",
+      "value_cm": 738,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-09-28",
+      "value_cm": 737,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-09-29",
+      "value_cm": 736,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-09-30",
+      "value_cm": 734,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-10-01",
+      "value_cm": 736,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-10-02",
+      "value_cm": 738,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-10-03",
+      "value_cm": 737,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-10-04",
+      "value_cm": 731,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-10-05",
+      "value_cm": 731,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-10-06",
+      "value_cm": 732,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-10-07",
+      "value_cm": 734,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-10-08",
+      "value_cm": 736,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-10-09",
+      "value_cm": 736,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-10-10",
+      "value_cm": 738,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-10-11",
+      "value_cm": 740,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-10-12",
+      "value_cm": 743,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-10-13",
+      "value_cm": 746,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-10-14",
+      "value_cm": 746,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-10-15",
+      "value_cm": 746,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-10-16",
+      "value_cm": 746,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-10-17",
+      "value_cm": 747,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-10-18",
+      "value_cm": 747,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-10-19",
+      "value_cm": 745,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-10-20",
+      "value_cm": 744,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-10-21",
+      "value_cm": 741,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-10-22",
+      "value_cm": 738,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-10-23",
+      "value_cm": 734,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-10-24",
+      "value_cm": 731,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-10-25",
+      "value_cm": 732,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-10-26",
+      "value_cm": 734,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-10-27",
+      "value_cm": 736,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-10-28",
+      "value_cm": 733,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-10-29",
+      "value_cm": 732,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-10-30",
+      "value_cm": 730,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-10-31",
+      "value_cm": 731,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-11-01",
+      "value_cm": 733,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-11-02",
+      "value_cm": 726,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-11-03",
+      "value_cm": 718,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-11-04",
+      "value_cm": 719,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-11-05",
+      "value_cm": 722,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-11-06",
+      "value_cm": 720,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-11-07",
+      "value_cm": 714,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-11-08",
+      "value_cm": 706,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-11-09",
+      "value_cm": 699,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-11-10",
+      "value_cm": 691,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-11-11",
+      "value_cm": 683,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-11-12",
+      "value_cm": 674,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-11-13",
+      "value_cm": 667,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-11-14",
+      "value_cm": 662,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-11-15",
+      "value_cm": 654,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-11-16",
+      "value_cm": 646,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-11-17",
+      "value_cm": 634,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-11-18",
+      "value_cm": 630,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-11-19",
+      "value_cm": 624,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-11-20",
+      "value_cm": 616,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-11-21",
+      "value_cm": 617,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-11-22",
+      "value_cm": 615,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-11-23",
+      "value_cm": 613,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-11-24",
+      "value_cm": 614,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-11-25",
+      "value_cm": 618,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-11-26",
+      "value_cm": 619,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-11-27",
+      "value_cm": 621,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-11-28",
+      "value_cm": 621,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-11-29",
+      "value_cm": 620,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-11-30",
+      "value_cm": 621,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-12-01",
+      "value_cm": 621,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-12-02",
+      "value_cm": 621,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-12-03",
+      "value_cm": 621,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-12-04",
+      "value_cm": 620,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-12-05",
+      "value_cm": 620,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-12-06",
+      "value_cm": 620,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-12-07",
+      "value_cm": 616,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-12-08",
+      "value_cm": 617,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-12-09",
+      "value_cm": 619,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-12-10",
+      "value_cm": 616,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-12-11",
+      "value_cm": 616,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-12-12",
+      "value_cm": 617,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-12-13",
+      "value_cm": 616,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-12-14",
+      "value_cm": 616,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-12-15",
+      "value_cm": 616,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-12-16",
+      "value_cm": 618,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-12-17",
+      "value_cm": 615,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-12-18",
+      "value_cm": 613,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-12-19",
+      "value_cm": 616,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-12-20",
+      "value_cm": 619,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-12-21",
+      "value_cm": 617,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-12-22",
+      "value_cm": 614,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-12-23",
+      "value_cm": 614,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-12-24",
+      "value_cm": 622,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-12-25",
+      "value_cm": 616,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-12-26",
+      "value_cm": 609,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-12-27",
+      "value_cm": 610,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-12-28",
+      "value_cm": 614,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-12-29",
+      "value_cm": 616,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-12-30",
+      "value_cm": 615,
+      "resolution": "daily"
+    },
+    {
+      "date": "2025-12-31",
+      "value_cm": 615,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-01-01",
+      "value_cm": 614,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-01-02",
+      "value_cm": 614,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-01-03",
+      "value_cm": 616,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-01-04",
+      "value_cm": 617,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-01-05",
+      "value_cm": 618,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-01-06",
+      "value_cm": 618,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-01-07",
+      "value_cm": 619,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-01-08",
+      "value_cm": 616,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-01-09",
+      "value_cm": 618,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-01-10",
+      "value_cm": 617,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-01-11",
+      "value_cm": 615,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-01-12",
+      "value_cm": 616,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-01-13",
+      "value_cm": 613,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-01-14",
+      "value_cm": 616,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-01-15",
+      "value_cm": 617,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-01-16",
+      "value_cm": 618,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-01-17",
+      "value_cm": 619,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-01-18",
+      "value_cm": 619,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-01-19",
+      "value_cm": 619,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-01-20",
+      "value_cm": 619,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-01-21",
+      "value_cm": 618,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-01-22",
+      "value_cm": 618,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-01-23",
+      "value_cm": 619,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-01-24",
+      "value_cm": 620,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-01-25",
+      "value_cm": 619,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-01-26",
+      "value_cm": 619,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-01-27",
+      "value_cm": 617,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-01-28",
+      "value_cm": 617,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-01-29",
+      "value_cm": 617,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-01-30",
+      "value_cm": 620,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-01-31",
+      "value_cm": 619,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-02-01",
+      "value_cm": 620,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-02-02",
+      "value_cm": 619,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-02-03",
+      "value_cm": 620,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-02-04",
+      "value_cm": 619,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-02-05",
+      "value_cm": 619,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-02-06",
+      "value_cm": 620,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-02-07",
+      "value_cm": 620,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-02-08",
+      "value_cm": 620,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-02-09",
+      "value_cm": 620,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-02-10",
+      "value_cm": 620,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-02-11",
+      "value_cm": 620,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-02-12",
+      "value_cm": 620,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-02-13",
+      "value_cm": 620,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-02-14",
+      "value_cm": 620,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-02-15",
+      "value_cm": 620,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-02-16",
+      "value_cm": 620,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-02-17",
+      "value_cm": 620,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-02-18",
+      "value_cm": 620,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-02-19",
+      "value_cm": 620,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-02-20",
+      "value_cm": 622,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-02-21",
+      "value_cm": 620,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-02-22",
+      "value_cm": 620,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-02-23",
+      "value_cm": 617,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-02-24",
+      "value_cm": 620,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-02-25",
+      "value_cm": 622,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-02-26",
+      "value_cm": 621,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-02-27",
+      "value_cm": 621,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-02-28",
+      "value_cm": 620,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-03-01",
+      "value_cm": 620,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-03-02",
+      "value_cm": 622,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-03-03",
+      "value_cm": 625,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-03-04",
+      "value_cm": 632,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-03-05",
+      "value_cm": 639,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-03-06",
+      "value_cm": 647,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-03-07",
+      "value_cm": 655,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-03-08",
+      "value_cm": 664,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-03-09",
+      "value_cm": 673,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-03-10",
+      "value_cm": 679,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-03-11",
+      "value_cm": 686,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-03-12",
+      "value_cm": 692,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-03-13",
+      "value_cm": 698,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-03-14",
+      "value_cm": 704,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-03-15",
+      "value_cm": 711,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-03-16",
+      "value_cm": 716,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-03-17",
+      "value_cm": 725,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-03-18",
+      "value_cm": 733,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-03-19",
+      "value_cm": 732,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-03-20",
+      "value_cm": 734,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-03-21",
+      "value_cm": 737,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-03-22",
+      "value_cm": 739,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-03-23",
+      "value_cm": 739,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-03-24",
+      "value_cm": 738,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-03-25",
+      "value_cm": 737,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-03-26",
+      "value_cm": 738,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-03-27",
+      "value_cm": 749,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-03-28",
+      "value_cm": 734,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-03-29",
+      "value_cm": 735,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-03-30",
+      "value_cm": 736,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-03-31",
+      "value_cm": 740,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-04-01",
+      "value_cm": 742,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-04-02",
+      "value_cm": 740,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-04-03",
+      "value_cm": 740,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-04-04",
+      "value_cm": 735,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-04-05",
+      "value_cm": 739,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-04-06",
+      "value_cm": 738,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-04-07",
+      "value_cm": 738,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-04-08",
+      "value_cm": 739,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-04-09",
+      "value_cm": 737,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-04-10",
+      "value_cm": 734,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-04-11",
+      "value_cm": 734,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-04-12",
+      "value_cm": 736,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-04-13",
+      "value_cm": 739,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-04-14",
+      "value_cm": 738,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-04-15",
+      "value_cm": 736,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-04-16",
+      "value_cm": 736,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-04-17",
+      "value_cm": 736,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-04-18",
+      "value_cm": 738,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-04-19",
+      "value_cm": 736,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-04-20",
+      "value_cm": 737,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-04-21",
+      "value_cm": 740,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-04-22",
+      "value_cm": 738,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-04-23",
+      "value_cm": 737,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-04-24",
+      "value_cm": 738,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-04-25",
+      "value_cm": 737,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-04-26",
+      "value_cm": 738,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-04-27",
+      "value_cm": 738,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-04-28",
+      "value_cm": 739,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-04-29",
+      "value_cm": 741,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-04-30",
+      "value_cm": 739,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-05-01",
+      "value_cm": 734,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-05-02",
+      "value_cm": 735,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-05-03",
+      "value_cm": 735,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-05-04",
+      "value_cm": 735,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-05-05",
+      "value_cm": 734,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-05-06",
+      "value_cm": 734,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-05-07",
+      "value_cm": 737,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-05-08",
+      "value_cm": 740,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-05-09",
+      "value_cm": 742,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-05-10",
+      "value_cm": 743,
+      "resolution": "daily"
+    },
+    {
       "date": "2026-05-11",
-      "value_cm": 742
+      "value_cm": 743,
+      "resolution": "daily"
     },
     {
       "date": "2026-05-12",
-      "value_cm": 742
+      "value_cm": 742,
+      "resolution": "daily"
     },
     {
       "date": "2026-05-13",
-      "value_cm": 742
+      "value_cm": 742,
+      "resolution": "daily"
     },
     {
       "date": "2026-05-14",
-      "value_cm": 741
+      "value_cm": 741,
+      "resolution": "daily"
     },
     {
       "date": "2026-05-15",
-      "value_cm": 740
+      "value_cm": 740,
+      "resolution": "daily"
     },
     {
       "date": "2026-05-16",
-      "value_cm": 741
+      "value_cm": 741,
+      "resolution": "daily"
     },
     {
       "date": "2026-05-17",
-      "value_cm": 742
+      "value_cm": 742,
+      "resolution": "daily"
     },
     {
       "date": "2026-05-18",
-      "value_cm": 736
+      "value_cm": 736,
+      "resolution": "daily"
     },
     {
       "date": "2026-05-19",
-      "value_cm": 737
+      "value_cm": 737,
+      "resolution": "daily"
     },
     {
       "date": "2026-05-20",
-      "value_cm": 739
+      "value_cm": 739,
+      "resolution": "daily"
     },
     {
       "date": "2026-05-21",
-      "value_cm": 741
+      "value_cm": 741,
+      "resolution": "daily"
     },
     {
       "date": "2026-05-22",
-      "value_cm": 743
+      "value_cm": 743,
+      "resolution": "daily"
     },
     {
       "date": "2026-05-23",
-      "value_cm": 741
+      "value_cm": 741,
+      "resolution": "daily"
     },
     {
       "date": "2026-05-24",
-      "value_cm": 740
+      "value_cm": 740,
+      "resolution": "daily"
     },
     {
       "date": "2026-05-25",
-      "value_cm": 739
+      "value_cm": 739,
+      "resolution": "daily"
     },
     {
       "date": "2026-05-26",
-      "value_cm": 738
+      "value_cm": 738,
+      "resolution": "daily"
     },
     {
       "date": "2026-05-27",
-      "value_cm": 737
+      "value_cm": 737,
+      "resolution": "daily"
     },
     {
       "date": "2026-05-28",
-      "value_cm": 739
+      "value_cm": 739,
+      "resolution": "daily"
     },
     {
       "date": "2026-05-29",
-      "value_cm": 737
+      "value_cm": 737,
+      "resolution": "daily"
     },
     {
       "date": "2026-05-30",
-      "value_cm": 736
+      "value_cm": 736,
+      "resolution": "daily"
     },
     {
       "date": "2026-05-31",
-      "value_cm": 735
+      "value_cm": 735,
+      "resolution": "daily"
     },
     {
       "date": "2026-06-01",
-      "value_cm": 736
+      "value_cm": 736,
+      "resolution": "daily"
     },
     {
       "date": "2026-06-02",
-      "value_cm": 736
+      "value_cm": 736,
+      "resolution": "daily"
     },
     {
       "date": "2026-06-03",
-      "value_cm": 735
+      "value_cm": 735,
+      "resolution": "daily"
     },
     {
       "date": "2026-06-04",
-      "value_cm": 737
+      "value_cm": 737,
+      "resolution": "daily"
     },
     {
       "date": "2026-06-05",
-      "value_cm": 739
+      "value_cm": 739,
+      "resolution": "daily"
     },
     {
       "date": "2026-06-06",
-      "value_cm": 743
+      "value_cm": 743,
+      "resolution": "daily"
     },
     {
       "date": "2026-06-07",
-      "value_cm": 747
+      "value_cm": 747,
+      "resolution": "daily"
     },
     {
       "date": "2026-06-08",
-      "value_cm": 750
+      "value_cm": 750,
+      "resolution": "daily"
     },
     {
       "date": "2026-06-09",
-      "value_cm": 748
+      "value_cm": 748,
+      "resolution": "daily"
     },
     {
       "date": "2026-06-10",
-      "value_cm": 748
+      "value_cm": 748,
+      "resolution": "daily"
     }
   ]
 }

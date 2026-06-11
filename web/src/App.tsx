@@ -1,14 +1,18 @@
+import { useState } from "react";
 import { MapView } from "./MapView";
+import { DetailPanel } from "./DetailPanel";
 import { theme } from "./theme";
 
 export function App() {
+  const [selectedId, setSelectedId] = useState<string | null>(null);
+
   return (
     <div className="app">
-      <MapView />
+      <MapView onSelect={setSelectedId} selectedId={selectedId} />
 
       <header className="panel header">
         <h1>Magyar vízállás-térkép</h1>
-        <p>Nagy tavak és folyók aktuális vízállása · vidd a kurzort egy víztest fölé</p>
+        <p>Nagy tavak és folyók vízállása · kattints egy víztestre a többéves grafikonért</p>
       </header>
 
       <div className="panel legend">
@@ -20,9 +24,9 @@ export function App() {
         </span>
       </div>
 
-      <footer className="attribution">
-        Forrás: Országos Vízügyi Főigazgatóság
-      </footer>
+      {selectedId && <DetailPanel id={selectedId} onClose={() => setSelectedId(null)} />}
+
+      <footer className="attribution">Forrás: Országos Vízügyi Főigazgatóság</footer>
     </div>
   );
 }

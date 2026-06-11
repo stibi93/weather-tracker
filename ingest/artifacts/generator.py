@@ -12,12 +12,47 @@ A kimenet kizárólag a tárból készül; változatlan táron kétszer futtatva
 from __future__ import annotations
 
 import json
+from collections import defaultdict
+from datetime import date as Date
+from datetime import timedelta
 from pathlib import Path
 
 from ingest.storage import CanonicalStore
 
 SOURCE_ATTRIBUTION = "Országos Vízügyi Főigazgatóság"
 UNIT = "cm"
+DAILY_WINDOW_YEARS = 2
+
+
+def mixed_resolution_series(
+    series: list[tuple[Date, float]], daily_window_years: int = DAILY_WINDOW_YEARS
+) -> list[dict]:
+    """Vegyes felbontású sorozat: a friss ablakra napi pont, azelőtt havi átlag.
+
+    Minden pont: ``{"date", "value_cm", "resolution"}`` (``daily`` vagy ``monthly``),
+    időrendben. Üres bemenetre üres lista.
+    """
+    if not series:
+        return []
+    cutoff = series[-1][0] - timedelta(days=365 * daily_window_years)
+
+    monthly_buckets: dict[tuple[int, int], list[float]] = defaultdict(list)
+    daily: list[dict] = []
+    for day, value in series:
+        if day >= cutoff:
+            daily.append({"date": day.isoformat(), "value_cm": int(value), "resolution": "daily"})
+        else:
+            monthly_buckets[(day.year, day.month)].append(value)
+
+    monthly = [
+        {
+            "date": Date(year, month, 1).isoformat(),
+            "value_cm": round(sum(vals) / len(vals)),
+            "resolution": "monthly",
+        }
+        for (year, month), vals in sorted(monthly_buckets.items())
+    ]
+    return monthly + daily
 
 
 def _write_json(path: Path, payload: object) -> None:
@@ -68,7 +103,7 @@ def generate_artifacts(store: CanonicalStore, out_dir: str | Path) -> None:
                     if latest
                     else None
                 ),
-                "series": [{"date": d.isoformat(), "value_cm": int(v)} for d, v in series],
+                "series": mixed_resolution_series(series),
             },
         )
 

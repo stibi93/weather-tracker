@@ -30,16 +30,18 @@ def run(
     db_path: str | Path = DEFAULT_DB,
     out_dir: str | Path = DEFAULT_OUT,
     days: int = DEFAULT_DAYS,
+    years: int | None = None,
     source: WaterLevelSource | None = None,
     today: date | None = None,
 ) -> int:
     """Lefuttatja a teljes láncot. Visszaadja a tárolt leolvasások számát.
 
-    A `source` és `today` injektálható teszthez; alapból éles vizugy adapter és
-    a mai nap.
+    Ha `years` meg van adva, az határozza meg a visszamenő tartományt (historikus
+    backfill); különben `days`. A `source` és `today` injektálható teszthez.
     """
     today = today or date.today()
     source = source or VizugyApiAdapter([s.id for s in STATIONS])
+    span = timedelta(days=years * 365) if years else timedelta(days=days)
 
     Path(db_path).parent.mkdir(parents=True, exist_ok=True)
     store = CanonicalStore(db_path)
@@ -47,7 +49,7 @@ def run(
         store.upsert_water_bodies(WATER_BODIES)
         store.upsert_stations(STATIONS)
 
-        date_range = DateRange(today - timedelta(days=days), today)
+        date_range = DateRange(today - span, today)
         readings = source.fetch(date_range)
         store.upsert_readings(readings)
         logger.info("%d leolvasás tárolva (%s..%s)", len(readings), date_range.start, date_range.end)
@@ -64,10 +66,11 @@ def main() -> None:
     parser.add_argument("--db", default=DEFAULT_DB, help="kanonikus SQLite útvonal")
     parser.add_argument("--out", default=DEFAULT_OUT, help="artifact kimeneti mappa")
     parser.add_argument("--days", type=int, default=DEFAULT_DAYS, help="hány napra visszamenőleg")
+    parser.add_argument("--years", type=int, default=None, help="historikus backfill évszáma (felülírja a --days-t)")
     args = parser.parse_args()
 
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
-    count = run(db_path=args.db, out_dir=args.out, days=args.days)
+    count = run(db_path=args.db, out_dir=args.out, days=args.days, years=args.years)
     print(f"Kész: {count} leolvasás, artifactok itt: {args.out}")
 
 

@@ -53,10 +53,11 @@ class VizugyApiAdapter:
         for item in items:
             try:
                 station_id = str(item["ItemId"])
-                for day, value in _aggregate_daily(item.get("TsItemList", [])).items():
-                    readings.append(WaterLevelReading(station_id, day, value))
-            except (KeyError, TypeError, ValueError) as exc:
-                logger.warning("hibás állomás-adat kihagyva (%r): %s", item, exc)
+            except (KeyError, TypeError) as exc:
+                logger.warning("hibás állomás-elem kihagyva: %s", exc)
+                continue
+            for day, value in _aggregate_daily(item.get("TsItemList", [])).items():
+                readings.append(WaterLevelReading(station_id, day, value))
         return readings
 
     def _get_token(self) -> str:
@@ -84,13 +85,18 @@ class VizugyApiAdapter:
 
 
 def _aggregate_daily(ts_item_list: list[dict]) -> dict:
-    """Órás/napi pontokból naponként egy érték (átlag, cm-re kerekítve)."""
+    """Órás/napi pontokból naponként egy érték (átlag, cm-re kerekítve).
+
+    Pontonként hibatűrő: egy rossz pont nem ejti el a többit.
+    """
     buckets: dict = defaultdict(list)
     for point in ts_item_list:
-        utc = point["UTCTime"]
-        value = point["Adat"]
-        if value is None or value == "":
-            continue
-        day = datetime.fromisoformat(utc).date()
-        buckets[day].append(float(value))
+        try:
+            value = point["Adat"]
+            if value is None or value == "":
+                continue
+            day = datetime.fromisoformat(point["UTCTime"]).date()
+            buckets[day].append(float(value))
+        except (KeyError, TypeError, ValueError):
+            continue  # hibás pont kihagyva
     return {day: round(sum(vals) / len(vals)) for day, vals in sorted(buckets.items())}

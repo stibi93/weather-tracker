@@ -4,8 +4,31 @@ import json
 from datetime import date
 
 from ingest.artifacts import generate_artifacts
+from ingest.artifacts.generator import mixed_resolution_series
 from ingest.domain.models import Station, WaterBody, WaterBodyKind, WaterLevelReading
 from ingest.storage import CanonicalStore
+
+
+def test_mixed_resolution_daily_recent_monthly_old():
+    # 'régi' (>2 év a legutóbbihoz képest) havi átlag, 'friss' napi
+    series = [
+        (date(2020, 1, 10), 100.0),
+        (date(2020, 1, 20), 110.0),  # 2020-01 átlag = 105
+        (date(2020, 2, 5), 50.0),  # 2020-02 átlag = 50
+        (date(2026, 6, 1), 84.0),  # friss -> napi
+        (date(2026, 6, 2), 83.0),  # friss -> napi
+    ]
+    out = mixed_resolution_series(series, daily_window_years=2)
+    assert out == [
+        {"date": "2020-01-01", "value_cm": 105, "resolution": "monthly"},
+        {"date": "2020-02-01", "value_cm": 50, "resolution": "monthly"},
+        {"date": "2026-06-01", "value_cm": 84, "resolution": "daily"},
+        {"date": "2026-06-02", "value_cm": 83, "resolution": "daily"},
+    ]
+
+
+def test_mixed_resolution_empty():
+    assert mixed_resolution_series([]) == []
 
 
 def _seed(path):
@@ -59,8 +82,8 @@ def test_per_body_series_shape(tmp_path):
     assert doc["unit"] == "cm"
     assert doc["latest"] == {"date": "2026-06-02", "value_cm": 83}
     assert doc["series"] == [
-        {"date": "2026-06-01", "value_cm": 84},
-        {"date": "2026-06-02", "value_cm": 83},
+        {"date": "2026-06-01", "value_cm": 84, "resolution": "daily"},
+        {"date": "2026-06-02", "value_cm": 83, "resolution": "daily"},
     ]
 
 

@@ -48,3 +48,17 @@ def test_run_chains_fetch_store_artifacts(tmp_path):
         (tmp_path / "out" / "water-levels" / "balaton.json").read_text(encoding="utf-8")
     )
     assert balaton["latest"] == {"date": "2026-06-11", "value_cm": 83}
+
+
+def test_years_overrides_range_for_backfill(tmp_path):
+    from datetime import timedelta
+
+    fake = FakeSource([])
+    run(
+        db_path=tmp_path / "c.sqlite",
+        out_dir=tmp_path / "out",
+        years=10,
+        source=fake,
+        today=date(2026, 6, 11),
+    )
+    assert fake.received_range == DateRange(date(2026, 6, 11) - timedelta(days=3650), date(2026, 6, 11))

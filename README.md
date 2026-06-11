@@ -29,9 +29,13 @@ uv pip install -e ".[dev]"
 Teljes lánc futtatása (lehúzás → tárolás → artifact-generálás):
 
 ```bash
-./.venv/bin/python -m ingest.pipeline.run --days 30
+./.venv/bin/python -m ingest.pipeline.run --days 30        # napi friss
+./.venv/bin/python -m ingest.pipeline.run --years 10       # historikus backfill (~10 év)
 # kimenet: web/public/data/{water-bodies.geojson, water-levels/*.json, manifest.json}
 ```
+
+A `water-levels/{id}.json` többéves, vegyes felbontású idősort tartalmaz: napi a friss
+~2 évre, havi átlag a régebbi évekre. A frontend kattintásra grafikonon jeleníti meg.
 
 Tesztek (élő hálózat nélkül, fixture-alapú):
 
