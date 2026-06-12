@@ -6,8 +6,12 @@ from pathlib import Path
 
 import httpx
 
-from ingest.adapters.openmeteo import OpenMeteoPrecipAdapter, _average_daily
-from ingest.domain.models import PrecipReading
+from ingest.adapters.openmeteo import (
+    OpenMeteoPrecipAdapter,
+    OpenMeteoTempAdapter,
+    _average_daily,
+)
+from ingest.domain.models import PrecipReading, TempReading
 from ingest.domain.ports import DateRange
 
 FIXTURES = Path(__file__).parent / "fixtures"
@@ -48,9 +52,34 @@ def test_fetch_empty_on_source_error():
     assert adapter.fetch(RANGE) == []
 
 
+def test_temp_adapter_uses_temperature_variable():
+    captured = {}
+
+    def handler(request: httpx.Request) -> httpx.Response:
+        captured["url"] = str(request.url)
+        return httpx.Response(
+            200,
+            json=[
+                {"daily": {"time": ["2026-06-08", "2026-06-09"], "temperature_2m_mean": [18.0, 20.0]}},
+                {"daily": {"time": ["2026-06-08", "2026-06-09"], "temperature_2m_mean": [16.0, 22.0]}},
+            ],
+        )
+
+    adapter = OpenMeteoTempAdapter(AREAS, client=_client(handler))
+    readings = adapter.fetch(RANGE)
+
+    assert "daily=temperature_2m_mean" in captured["url"]
+    assert all(isinstance(r, TempReading) for r in readings)
+    by_day = {r.date: r.temp_c for r in readings}
+    assert by_day[date(2026, 6, 8)] == 17.0  # (18+16)/2
+
+
 def test_average_daily_skips_nulls():
     locations = [
         {"daily": {"time": ["2026-06-01", "2026-06-02"], "precipitation_sum": [10.0, None]}},
         {"daily": {"time": ["2026-06-01", "2026-06-02"], "precipitation_sum": [20.0, 4.0]}},
     ]
-    assert _average_daily(locations) == {date(2026, 6, 1): 15.0, date(2026, 6, 2): 4.0}
+    assert _average_daily(locations, "precipitation_sum", 1) == {
+        date(2026, 6, 1): 15.0,
+        date(2026, 6, 2): 4.0,
+    }

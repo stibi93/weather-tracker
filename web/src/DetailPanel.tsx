@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Chart, type Metric, type Point } from "./Chart";
+import { Chart, type Metric, type Point, type Secondary } from "./Chart";
 
 type Doc = {
   id: string;
@@ -28,6 +28,7 @@ export function DetailPanel({ id, onClose }: { id: string; onClose: () => void }
   const [doc, setDoc] = useState<Doc | null>(null);
   const [rangeYears, setRangeYears] = useState<number | null>(5);
   const [metric, setMetric] = useState<Metric>("level");
+  const [secondary, setSecondary] = useState<Secondary>("precip");
   const [expanded, setExpanded] = useState(false);
   const [big, setBig] = useState(bigSize);
 
@@ -110,6 +111,21 @@ export function DetailPanel({ id, onClose }: { id: string; onClose: () => void }
             </div>
           )}
 
+          <div className="metric-switch">
+            <button
+              className={secondary === "precip" ? "active" : ""}
+              onClick={() => setSecondary("precip")}
+            >
+              Csapadék
+            </button>
+            <button
+              className={secondary === "temp" ? "active" : ""}
+              onClick={() => setSecondary("temp")}
+            >
+              Hőmérséklet
+            </button>
+          </div>
+
           <div className="ranges">
             {RANGES.map((r) => (
               <button
@@ -122,11 +138,19 @@ export function DetailPanel({ id, onClose }: { id: string; onClose: () => void }
             ))}
           </div>
 
-          <Chart points={points} width={size.w} height={size.h} metric={metric} />
+          <Chart points={points} width={size.w} height={size.h} metric={metric} secondary={secondary} />
 
           <div className="chart-legend">
             <span className="cl-line" /> {mainLabel}
-            <span className="cl-bar" /> Csapadék (mm)
+            {secondary === "temp" ? (
+              <>
+                <span className="cl-line cl-temp" /> Hőmérséklet (°C)
+              </>
+            ) : (
+              <>
+                <span className="cl-bar" /> Csapadék (mm)
+              </>
+            )}
           </div>
 
           <p className="detail-src">

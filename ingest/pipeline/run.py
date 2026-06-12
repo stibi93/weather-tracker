@@ -13,7 +13,7 @@ import logging
 from datetime import date, timedelta
 from pathlib import Path
 
-from ingest.adapters.openmeteo import OpenMeteoPrecipAdapter
+from ingest.adapters.openmeteo import OpenMeteoPrecipAdapter, OpenMeteoTempAdapter
 from ingest.adapters.vizugy import VizugyApiAdapter, VizugyDischargeAdapter
 from ingest.artifacts import generate_artifacts
 from ingest.config import PRECIP_AREAS, STATIONS, WATER_BODIES
@@ -22,6 +22,7 @@ from ingest.domain.ports import (
     DateRange,
     DischargeSource,
     PrecipitationSource,
+    TemperatureSource,
     WaterLevelSource,
 )
 from ingest.storage import CanonicalStore
@@ -44,6 +45,7 @@ def run(
     source: WaterLevelSource | None = None,
     precip_source: PrecipitationSource | None = None,
     discharge_source: DischargeSource | None = None,
+    temp_source: TemperatureSource | None = None,
     today: date | None = None,
 ) -> int:
     """Lefuttatja a teljes láncot. Visszaadja a tárolt vízállás-leolvasások számát.
@@ -55,6 +57,7 @@ def run(
     source = source or VizugyApiAdapter([s.id for s in STATIONS])
     precip_source = precip_source or OpenMeteoPrecipAdapter(PRECIP_AREAS)
     discharge_source = discharge_source or VizugyDischargeAdapter(_RIVER_STATION_IDS)
+    temp_source = temp_source or OpenMeteoTempAdapter(PRECIP_AREAS)
     span = timedelta(days=years * 365) if years else timedelta(days=days)
 
     Path(db_path).parent.mkdir(parents=True, exist_ok=True)
@@ -75,6 +78,10 @@ def run(
         discharge = discharge_source.fetch(date_range)
         store.upsert_discharge(discharge)
         logger.info("%d vízhozam-leolvasás tárolva", len(discharge))
+
+        temps = temp_source.fetch(date_range)
+        store.upsert_temp(temps)
+        logger.info("%d hőmérséklet-leolvasás tárolva", len(temps))
 
         generate_artifacts(store, out_dir)
         logger.info("artifactok legenerálva: %s", out_dir)
