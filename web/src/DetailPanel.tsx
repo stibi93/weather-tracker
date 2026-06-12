@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Chart, type Point } from "./Chart";
+import { Chart, type Metric, type Point } from "./Chart";
 
 type Doc = {
   id: string;
@@ -27,22 +27,14 @@ function bigSize() {
 export function DetailPanel({ id, onClose }: { id: string; onClose: () => void }) {
   const [doc, setDoc] = useState<Doc | null>(null);
   const [rangeYears, setRangeYears] = useState<number | null>(5);
+  const [metric, setMetric] = useState<Metric>("level");
   const [expanded, setExpanded] = useState(false);
   const [big, setBig] = useState(bigSize);
 
   useEffect(() => {
-    if (!expanded) return;
-    setBig(bigSize());
-    const onResize = () => setBig(bigSize());
-    window.addEventListener("resize", onResize);
-    return () => window.removeEventListener("resize", onResize);
-  }, [expanded]);
-
-  const size = expanded ? big : NORMAL_SIZE;
-
-  useEffect(() => {
     let cancelled = false;
     setDoc(null);
+    setMetric("level");
     fetch(`${import.meta.env.BASE_URL}data/water-levels/${id}.json`)
       .then((r) => r.json())
       .then((d) => {
@@ -53,8 +45,29 @@ export function DetailPanel({ id, onClose }: { id: string; onClose: () => void }
     };
   }, [id]);
 
+  useEffect(() => {
+    if (!expanded) return;
+    setBig(bigSize());
+    const onResize = () => setBig(bigSize());
+    window.addEventListener("resize", onResize);
+    return () => window.removeEventListener("resize", onResize);
+  }, [expanded]);
+
+  const size = expanded ? big : NORMAL_SIZE;
   const cutoff = rangeYears ? Date.now() - rangeYears * 365 * 864e5 : 0;
   const points = doc ? doc.series.filter((p) => Date.parse(p.date) >= cutoff) : [];
+  const hasDischarge = doc?.series.some((p) => p.discharge_m3s != null) ?? false;
+
+  const lastPoint = doc?.series[doc.series.length - 1];
+  const headline =
+    metric === "discharge"
+      ? lastPoint?.discharge_m3s != null
+        ? `${lastPoint.discharge_m3s} m³/s`
+        : "—"
+      : doc?.latest
+        ? `${doc.latest.value_cm} cm`
+        : "—";
+  const mainLabel = metric === "discharge" ? "Vízhozam (m³/s)" : "Vízállás (cm)";
 
   return (
     <aside className={`panel detail${expanded ? " detail--expanded" : ""}`}>
@@ -76,9 +89,26 @@ export function DetailPanel({ id, onClose }: { id: string; onClose: () => void }
         <>
           <h2>{doc.name}</h2>
           <div className="detail-latest">
-            <span className="value">{doc.latest ? `${doc.latest.value_cm} cm` : "—"}</span>
+            <span className="value">{headline}</span>
             <span className="date">{doc.latest?.date ?? ""}</span>
           </div>
+
+          {hasDischarge && (
+            <div className="metric-switch">
+              <button
+                className={metric === "level" ? "active" : ""}
+                onClick={() => setMetric("level")}
+              >
+                Vízállás
+              </button>
+              <button
+                className={metric === "discharge" ? "active" : ""}
+                onClick={() => setMetric("discharge")}
+              >
+                Vízhozam
+              </button>
+            </div>
+          )}
 
           <div className="ranges">
             {RANGES.map((r) => (
@@ -92,10 +122,10 @@ export function DetailPanel({ id, onClose }: { id: string; onClose: () => void }
             ))}
           </div>
 
-          <Chart points={points} width={size.w} height={size.h} />
+          <Chart points={points} width={size.w} height={size.h} metric={metric} />
 
           <div className="chart-legend">
-            <span className="cl-line" /> Vízállás (cm)
+            <span className="cl-line" /> {mainLabel}
             <span className="cl-bar" /> Csapadék (mm)
           </div>
 

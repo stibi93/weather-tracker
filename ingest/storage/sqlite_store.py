@@ -13,6 +13,7 @@ from datetime import date as Date
 from pathlib import Path
 
 from ingest.domain.models import (
+    DischargeReading,
     PrecipReading,
     Station,
     WaterBody,
@@ -44,6 +45,12 @@ CREATE TABLE IF NOT EXISTS precip_reading (
     date          TEXT NOT NULL,
     precip_mm     REAL NOT NULL,
     PRIMARY KEY (water_body_id, date)
+);
+CREATE TABLE IF NOT EXISTS discharge_reading (
+    station_id TEXT NOT NULL REFERENCES station(id),
+    date       TEXT NOT NULL,
+    value_m3s  REAL NOT NULL,
+    PRIMARY KEY (station_id, date)
 );
 """
 
@@ -94,6 +101,14 @@ class CanonicalStore:
         )
         self._conn.commit()
 
+    def upsert_discharge(self, readings: Iterable[DischargeReading]) -> None:
+        self._conn.executemany(
+            "INSERT INTO discharge_reading (station_id, date, value_m3s) VALUES (?, ?, ?) "
+            "ON CONFLICT(station_id, date) DO UPDATE SET value_m3s=excluded.value_m3s",
+            [(r.station_id, r.date.isoformat(), float(r.value_m3s)) for r in readings],
+        )
+        self._conn.commit()
+
     # -- olvasás -----------------------------------------------------------
 
     def water_bodies(self) -> list[WaterBody]:
@@ -120,11 +135,21 @@ class CanonicalStore:
         ).fetchall()
         return {Date.fromisoformat(r["date"]): r["precip_mm"] for r in rows}
 
+    def discharge_for_station(self, station_id: str) -> dict[Date, float]:
+        rows = self._conn.execute(
+            "SELECT date, value_m3s FROM discharge_reading WHERE station_id = ? ORDER BY date",
+            (station_id,),
+        ).fetchall()
+        return {Date.fromisoformat(r["date"]): r["value_m3s"] for r in rows}
+
     def count_readings(self) -> int:
         return self._conn.execute("SELECT COUNT(*) FROM water_level_reading").fetchone()[0]
 
     def count_precip(self) -> int:
         return self._conn.execute("SELECT COUNT(*) FROM precip_reading").fetchone()[0]
+
+    def count_discharge(self) -> int:
+        return self._conn.execute("SELECT COUNT(*) FROM discharge_reading").fetchone()[0]
 
     # -- élettartam --------------------------------------------------------
 

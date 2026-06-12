@@ -20,26 +20,27 @@ def test_mixed_resolution_daily_recent_monthly_old():
     ]
     out = mixed_resolution_series(series, daily_window_years=2)
     assert out == [
-        {"date": "2020-01-01", "value_cm": 105, "precip_mm": None, "resolution": "monthly"},
-        {"date": "2020-02-01", "value_cm": 50, "precip_mm": None, "resolution": "monthly"},
-        {"date": "2026-06-01", "value_cm": 84, "precip_mm": None, "resolution": "daily"},
-        {"date": "2026-06-02", "value_cm": 83, "precip_mm": None, "resolution": "daily"},
+        {"date": "2020-01-01", "value_cm": 105, "precip_mm": None, "discharge_m3s": None, "resolution": "monthly"},
+        {"date": "2020-02-01", "value_cm": 50, "precip_mm": None, "discharge_m3s": None, "resolution": "monthly"},
+        {"date": "2026-06-01", "value_cm": 84, "precip_mm": None, "discharge_m3s": None, "resolution": "daily"},
+        {"date": "2026-06-02", "value_cm": 83, "precip_mm": None, "discharge_m3s": None, "resolution": "daily"},
     ]
 
 
-def test_mixed_resolution_aligns_precip():
+def test_mixed_resolution_aligns_precip_and_discharge():
     series = [
         (date(2020, 1, 10), 100.0),
         (date(2020, 1, 20), 110.0),  # havi bucket
         (date(2026, 6, 1), 84.0),  # napi
-        (date(2026, 6, 2), 83.0),  # napi, csapadék nélkül -> None
+        (date(2026, 6, 2), 83.0),  # napi, csapadék/vízhozam nélkül -> None
     ]
     precip = {date(2020, 1, 10): 5.0, date(2020, 1, 20): 15.0, date(2026, 6, 1): 2.0}
-    out = mixed_resolution_series(series, precip, daily_window_years=2)
+    discharge = {date(2020, 1, 10): 60.0, date(2020, 1, 20): 80.0, date(2026, 6, 1): 72.3}
+    out = mixed_resolution_series(series, precip, discharge, daily_window_years=2)
     assert out == [
-        {"date": "2020-01-01", "value_cm": 105, "precip_mm": 10.0, "resolution": "monthly"},
-        {"date": "2026-06-01", "value_cm": 84, "precip_mm": 2.0, "resolution": "daily"},
-        {"date": "2026-06-02", "value_cm": 83, "precip_mm": None, "resolution": "daily"},
+        {"date": "2020-01-01", "value_cm": 105, "precip_mm": 10.0, "discharge_m3s": 70.0, "resolution": "monthly"},
+        {"date": "2026-06-01", "value_cm": 84, "precip_mm": 2.0, "discharge_m3s": 72.3, "resolution": "daily"},
+        {"date": "2026-06-02", "value_cm": 83, "precip_mm": None, "discharge_m3s": None, "resolution": "daily"},
     ]
 
 
@@ -98,8 +99,8 @@ def test_per_body_series_shape(tmp_path):
     assert doc["unit"] == "cm"
     assert doc["latest"] == {"date": "2026-06-02", "value_cm": 83}
     assert doc["series"] == [
-        {"date": "2026-06-01", "value_cm": 84, "precip_mm": None, "resolution": "daily"},
-        {"date": "2026-06-02", "value_cm": 83, "precip_mm": None, "resolution": "daily"},
+        {"date": "2026-06-01", "value_cm": 84, "precip_mm": None, "discharge_m3s": None, "resolution": "daily"},
+        {"date": "2026-06-02", "value_cm": 83, "precip_mm": None, "discharge_m3s": None, "resolution": "daily"},
     ]
 
 

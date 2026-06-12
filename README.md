@@ -58,7 +58,8 @@ stílushoz (lásd `web/.env.example`).
 
 ## Adatforrások
 
-- **Vízállás:** data.vizugy.hu nyílt API — forrás: *Országos Vízügyi Főigazgatóság*.
+- **Vízállás + vízhozam:** data.vizugy.hu nyílt API — forrás: *Országos Vízügyi Főigazgatóság*.
+  A vízhozam (m³/s) csak a folyókra elérhető; a grafikonon metrika-váltóval (vízállás ↔ vízhozam).
 - **Csapadék:** Open-Meteo archív (ERA5) API — víztestenként vízgyűjtő-közeli pont-felhő napi
-  átlaga (közelítés); a részletpanel grafikonján a vízállás mellett oszlopként.
+  átlaga (közelítés); a részletpanel grafikonján a vízállás/vízhozam mellett oszlopként.
 - **Térkép:** OpenFreeMap vektor csempék, © OpenMapTiles, © OpenStreetMap közreműködők.

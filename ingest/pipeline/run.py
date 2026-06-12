@@ -14,11 +14,20 @@ from datetime import date, timedelta
 from pathlib import Path
 
 from ingest.adapters.openmeteo import OpenMeteoPrecipAdapter
-from ingest.adapters.vizugy import VizugyApiAdapter
+from ingest.adapters.vizugy import VizugyApiAdapter, VizugyDischargeAdapter
 from ingest.artifacts import generate_artifacts
 from ingest.config import PRECIP_AREAS, STATIONS, WATER_BODIES
-from ingest.domain.ports import DateRange, PrecipitationSource, WaterLevelSource
+from ingest.domain.models import WaterBodyKind
+from ingest.domain.ports import (
+    DateRange,
+    DischargeSource,
+    PrecipitationSource,
+    WaterLevelSource,
+)
 from ingest.storage import CanonicalStore
+
+_RIVER_BODY_IDS = {b.id for b in WATER_BODIES if b.kind == WaterBodyKind.RIVER}
+_RIVER_STATION_IDS = [s.id for s in STATIONS if s.water_body_id in _RIVER_BODY_IDS]
 
 logger = logging.getLogger("ingest.pipeline")
 
@@ -34,6 +43,7 @@ def run(
     years: int | None = None,
     source: WaterLevelSource | None = None,
     precip_source: PrecipitationSource | None = None,
+    discharge_source: DischargeSource | None = None,
     today: date | None = None,
 ) -> int:
     """Lefuttatja a teljes láncot. Visszaadja a tárolt vízállás-leolvasások számát.
@@ -44,6 +54,7 @@ def run(
     today = today or date.today()
     source = source or VizugyApiAdapter([s.id for s in STATIONS])
     precip_source = precip_source or OpenMeteoPrecipAdapter(PRECIP_AREAS)
+    discharge_source = discharge_source or VizugyDischargeAdapter(_RIVER_STATION_IDS)
     span = timedelta(days=years * 365) if years else timedelta(days=days)
 
     Path(db_path).parent.mkdir(parents=True, exist_ok=True)
@@ -60,6 +71,10 @@ def run(
         precip = precip_source.fetch(date_range)
         store.upsert_precip(precip)
         logger.info("%d csapadék-leolvasás tárolva", len(precip))
+
+        discharge = discharge_source.fetch(date_range)
+        store.upsert_discharge(discharge)
+        logger.info("%d vízhozam-leolvasás tárolva", len(discharge))
 
         generate_artifacts(store, out_dir)
         logger.info("artifactok legenerálva: %s", out_dir)
