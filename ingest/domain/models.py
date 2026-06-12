@@ -52,3 +52,15 @@ class WaterLevelReading:
     station_id: str
     date: Date
     value_cm: float
+
+
+@dataclass(frozen=True, slots=True)
+class PrecipReading:
+    """Egy víztest területi napi csapadéka (mm), egy napon.
+
+    A `precip_mm` a víztesthez rendelt pont-felhő napi csapadékának átlaga.
+    """
+
+    water_body_id: str
+    date: Date
+    precip_mm: float

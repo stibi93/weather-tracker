@@ -1,0 +1,57 @@
+[
+  {
+    "latitude": 46.85413,
+    "longitude": 18.058254,
+    "generationtime_ms": 1.917123794555664,
+    "utc_offset_seconds": 7200,
+    "timezone": "Europe/Budapest",
+    "timezone_abbreviation": "GMT+2",
+    "elevation": 113.0,
+    "daily_units": {
+      "time": "iso8601",
+      "precipitation_sum": "mm"
+    },
+    "daily": {
+      "time": [
+        "2026-06-08",
+        "2026-06-09",
+        "2026-06-10",
+        "2026-06-11"
+      ],
+      "precipitation_sum": [
+        0.0,
+        1.2,
+        4.5,
+        9.8
+      ]
+    }
+  },
+  {
+    "latitude": 46.78383,
+    "longitude": 17.738287,
+    "generationtime_ms": 1.4733076095581055,
+    "utc_offset_seconds": 7200,
+    "timezone": "Europe/Budapest",
+    "timezone_abbreviation": "GMT+2",
+    "elevation": 104.0,
+    "location_id": 1,
+    "daily_units": {
+      "time": "iso8601",
+      "precipitation_sum": "mm"
+    },
+    "daily": {
+      "time": [
+        "2026-06-08",
+        "2026-06-09",
+        "2026-06-10",
+        "2026-06-11"
+      ],
+      "precipitation_sum": [
+        0.0,
+        1.6,
+        2.4,
+        9.5
+      ]
+    }
+  }
+]

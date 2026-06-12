@@ -67,6 +67,11 @@ export function DetailPanel({ id, onClose }: { id: string; onClose: () => void }
 
           <Chart points={points} width={400} height={260} />
 
+          <div className="chart-legend">
+            <span className="cl-line" /> Vízállás (cm)
+            <span className="cl-bar" /> Csapadék (mm)
+          </div>
+
           <p className="detail-src">
             {doc.station} · {doc.source}
           </p>

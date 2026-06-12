@@ -9,7 +9,7 @@ from dataclasses import dataclass
 from datetime import date as Date
 from typing import Protocol, runtime_checkable
 
-from ingest.domain.models import WaterLevelReading
+from ingest.domain.models import PrecipReading, WaterLevelReading
 
 
 @dataclass(frozen=True, slots=True)
@@ -36,4 +36,13 @@ class WaterLevelSource(Protocol):
     def fetch(self, date_range: DateRange) -> list[WaterLevelReading]:
         """Leolvasások a megadott időtartamra. Forráshiba nem dobhat — a hibás
         állomásokat az adapter kihagyja és naplózza."""
+        ...
+
+
+@runtime_checkable
+class PrecipitationSource(Protocol):
+    """Forrásfüggetlen csapadék-port: víztestenkénti napi területi csapadék."""
+
+    def fetch(self, date_range: DateRange) -> list[PrecipReading]:
+        """Csapadék-leolvasások a megadott időtartamra. Forráshiba nem dobhat."""
         ...
