@@ -24,34 +24,56 @@ UNIT = "cm"
 DAILY_WINDOW_YEARS = 2
 
 
+def _opt_round1(value: float | None) -> float | None:
+    return round(value, 1) if value is not None else None
+
+
 def mixed_resolution_series(
-    series: list[tuple[Date, float]], daily_window_years: int = DAILY_WINDOW_YEARS
+    series: list[tuple[Date, float]],
+    precip: dict[Date, float] | None = None,
+    daily_window_years: int = DAILY_WINDOW_YEARS,
 ) -> list[dict]:
     """Vegyes felbontású sorozat: a friss ablakra napi pont, azelőtt havi átlag.
 
-    Minden pont: ``{"date", "value_cm", "resolution"}`` (``daily`` vagy ``monthly``),
-    időrendben. Üres bemenetre üres lista.
+    Minden pont: ``{"date", "value_cm", "precip_mm", "resolution"}`` (``daily`` vagy
+    ``monthly``), időrendben. A `precip_mm` az adott bucket napi csapadékának átlaga
+    (mm), vagy ``null``. Üres bemenetre üres lista.
     """
     if not series:
         return []
+    precip = precip or {}
     cutoff = series[-1][0] - timedelta(days=365 * daily_window_years)
 
-    monthly_buckets: dict[tuple[int, int], list[float]] = defaultdict(list)
+    monthly_wl: dict[tuple[int, int], list[float]] = defaultdict(list)
+    monthly_precip: dict[tuple[int, int], list[float]] = defaultdict(list)
     daily: list[dict] = []
     for day, value in series:
         if day >= cutoff:
-            daily.append({"date": day.isoformat(), "value_cm": int(value), "resolution": "daily"})
+            daily.append(
+                {
+                    "date": day.isoformat(),
+                    "value_cm": int(value),
+                    "precip_mm": _opt_round1(precip.get(day)),
+                    "resolution": "daily",
+                }
+            )
         else:
-            monthly_buckets[(day.year, day.month)].append(value)
+            monthly_wl[(day.year, day.month)].append(value)
+    for day, mm in precip.items():
+        if day < cutoff:
+            monthly_precip[(day.year, day.month)].append(mm)
 
-    monthly = [
-        {
-            "date": Date(year, month, 1).isoformat(),
-            "value_cm": round(sum(vals) / len(vals)),
-            "resolution": "monthly",
-        }
-        for (year, month), vals in sorted(monthly_buckets.items())
-    ]
+    monthly = []
+    for (year, month), vals in sorted(monthly_wl.items()):
+        pvals = monthly_precip.get((year, month))
+        monthly.append(
+            {
+                "date": Date(year, month, 1).isoformat(),
+                "value_cm": round(sum(vals) / len(vals)),
+                "precip_mm": round(sum(pvals) / len(pvals), 1) if pvals else None,
+                "resolution": "monthly",
+            }
+        )
     return monthly + daily
 
 
@@ -73,6 +95,7 @@ def generate_artifacts(store: CanonicalStore, out_dir: str | Path) -> None:
         if station is None:
             continue
         series = store.readings_for_station(station.id)
+        precip = store.precip_for_water_body(body.id)
         latest = series[-1] if series else None
 
         features.append(
@@ -103,7 +126,7 @@ def generate_artifacts(store: CanonicalStore, out_dir: str | Path) -> None:
                     if latest
                     else None
                 ),
-                "series": mixed_resolution_series(series),
+                "series": mixed_resolution_series(series, precip),
             },
         )
 

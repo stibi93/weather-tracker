@@ -24,3 +24,18 @@ STATIONS: list[Station] = [
     Station("1026", "Budapest", "duna", 47.4949, 19.0484),
     Station("2046", "Szolnok", "tisza", 47.1696, 20.1886),
 ]
+
+# Víztestenkénti vízgyűjtő-közeli pont-felhő a területi napi csapadék átlagolásához
+# (Open-Meteo). Közelítés, nem valódi vízgyűjtő-poligon; a tavaknál beszédesebb, mint a folyóknál.
+PRECIP_AREAS: dict[str, list[tuple[float, float]]] = {
+    # Balaton + Zala-vízgyűjtő (DNy)
+    "balaton": [(46.90, 18.04), (46.84, 17.73), (46.77, 17.25), (46.84, 16.84)],
+    "velencei-to": [(47.19, 18.58), (47.22, 18.66), (47.24, 18.50)],
+    "ferto-to": [(47.66, 16.75), (47.70, 16.83), (47.62, 16.90)],
+    # Tisza-tó + helyi Tisza-szakasz
+    "tisza-to": [(47.49, 20.52), (47.62, 20.75), (47.55, 20.40)],
+    # Duna helyi szakasz (a helyi csapadék gyenge proxy a felvízi vízgyűjtőhöz képest)
+    "duna": [(47.49, 19.05), (47.79, 18.96), (47.69, 19.07)],
+    # Tisza helyi szakasz
+    "tisza": [(47.17, 20.19), (47.34, 20.27), (46.92, 20.13)],
+}

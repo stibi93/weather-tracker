@@ -2,7 +2,13 @@
 
 from datetime import date
 
-from ingest.domain.models import Station, WaterBody, WaterBodyKind, WaterLevelReading
+from ingest.domain.models import (
+    PrecipReading,
+    Station,
+    WaterBody,
+    WaterBodyKind,
+    WaterLevelReading,
+)
 from ingest.storage import CanonicalStore
 
 BODY = WaterBody("balaton", "Balaton", WaterBodyKind.LAKE)
@@ -37,6 +43,17 @@ def test_readings_idempotent_upsert(tmp_path):
         assert store.count_readings() == 2
         series = store.readings_for_station("142300")
         assert series == [(date(2026, 6, 1), 84.0), (date(2026, 6, 2), 90.0)]
+
+
+def test_precip_idempotent_upsert(tmp_path):
+    rows = [PrecipReading("balaton", date(2026, 6, 1), 4.0), PrecipReading("balaton", date(2026, 6, 2), 0.0)]
+    with _store(tmp_path) as store:
+        store.upsert_precip(rows)
+        store.upsert_precip(rows)
+        assert store.count_precip() == 2
+        store.upsert_precip([PrecipReading("balaton", date(2026, 6, 2), 9.5)])
+        assert store.count_precip() == 2
+        assert store.precip_for_water_body("balaton") == {date(2026, 6, 1): 4.0, date(2026, 6, 2): 9.5}
 
 
 def test_persists_across_reopen(tmp_path):

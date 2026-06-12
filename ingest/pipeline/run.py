@@ -13,10 +13,11 @@ import logging
 from datetime import date, timedelta
 from pathlib import Path
 
+from ingest.adapters.openmeteo import OpenMeteoPrecipAdapter
 from ingest.adapters.vizugy import VizugyApiAdapter
 from ingest.artifacts import generate_artifacts
-from ingest.config import STATIONS, WATER_BODIES
-from ingest.domain.ports import DateRange, WaterLevelSource
+from ingest.config import PRECIP_AREAS, STATIONS, WATER_BODIES
+from ingest.domain.ports import DateRange, PrecipitationSource, WaterLevelSource
 from ingest.storage import CanonicalStore
 
 logger = logging.getLogger("ingest.pipeline")
@@ -32,15 +33,17 @@ def run(
     days: int = DEFAULT_DAYS,
     years: int | None = None,
     source: WaterLevelSource | None = None,
+    precip_source: PrecipitationSource | None = None,
     today: date | None = None,
 ) -> int:
-    """Lefuttatja a teljes láncot. Visszaadja a tárolt leolvasások számát.
+    """Lefuttatja a teljes láncot. Visszaadja a tárolt vízállás-leolvasások számát.
 
     Ha `years` meg van adva, az határozza meg a visszamenő tartományt (historikus
-    backfill); különben `days`. A `source` és `today` injektálható teszthez.
+    backfill); különben `days`. A `source`/`precip_source`/`today` injektálható teszthez.
     """
     today = today or date.today()
     source = source or VizugyApiAdapter([s.id for s in STATIONS])
+    precip_source = precip_source or OpenMeteoPrecipAdapter(PRECIP_AREAS)
     span = timedelta(days=years * 365) if years else timedelta(days=days)
 
     Path(db_path).parent.mkdir(parents=True, exist_ok=True)
@@ -52,7 +55,11 @@ def run(
         date_range = DateRange(today - span, today)
         readings = source.fetch(date_range)
         store.upsert_readings(readings)
-        logger.info("%d leolvasás tárolva (%s..%s)", len(readings), date_range.start, date_range.end)
+        logger.info("%d vízállás-leolvasás tárolva (%s..%s)", len(readings), date_range.start, date_range.end)
+
+        precip = precip_source.fetch(date_range)
+        store.upsert_precip(precip)
+        logger.info("%d csapadék-leolvasás tárolva", len(precip))
 
         generate_artifacts(store, out_dir)
         logger.info("artifactok legenerálva: %s", out_dir)

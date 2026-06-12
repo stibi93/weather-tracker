@@ -12,7 +12,13 @@ from collections.abc import Iterable
 from datetime import date as Date
 from pathlib import Path
 
-from ingest.domain.models import Station, WaterBody, WaterBodyKind, WaterLevelReading
+from ingest.domain.models import (
+    PrecipReading,
+    Station,
+    WaterBody,
+    WaterBodyKind,
+    WaterLevelReading,
+)
 
 _SCHEMA = """
 CREATE TABLE IF NOT EXISTS water_body (
@@ -32,6 +38,12 @@ CREATE TABLE IF NOT EXISTS water_level_reading (
     date       TEXT NOT NULL,
     value_cm   REAL NOT NULL,
     PRIMARY KEY (station_id, date)
+);
+CREATE TABLE IF NOT EXISTS precip_reading (
+    water_body_id TEXT NOT NULL REFERENCES water_body(id),
+    date          TEXT NOT NULL,
+    precip_mm     REAL NOT NULL,
+    PRIMARY KEY (water_body_id, date)
 );
 """
 
@@ -74,6 +86,14 @@ class CanonicalStore:
         )
         self._conn.commit()
 
+    def upsert_precip(self, readings: Iterable[PrecipReading]) -> None:
+        self._conn.executemany(
+            "INSERT INTO precip_reading (water_body_id, date, precip_mm) VALUES (?, ?, ?) "
+            "ON CONFLICT(water_body_id, date) DO UPDATE SET precip_mm=excluded.precip_mm",
+            [(r.water_body_id, r.date.isoformat(), float(r.precip_mm)) for r in readings],
+        )
+        self._conn.commit()
+
     # -- olvasás -----------------------------------------------------------
 
     def water_bodies(self) -> list[WaterBody]:
@@ -93,8 +113,18 @@ class CanonicalStore:
         ).fetchall()
         return [(Date.fromisoformat(r["date"]), r["value_cm"]) for r in rows]
 
+    def precip_for_water_body(self, water_body_id: str) -> dict[Date, float]:
+        rows = self._conn.execute(
+            "SELECT date, precip_mm FROM precip_reading WHERE water_body_id = ? ORDER BY date",
+            (water_body_id,),
+        ).fetchall()
+        return {Date.fromisoformat(r["date"]): r["precip_mm"] for r in rows}
+
     def count_readings(self) -> int:
         return self._conn.execute("SELECT COUNT(*) FROM water_level_reading").fetchone()[0]
+
+    def count_precip(self) -> int:
+        return self._conn.execute("SELECT COUNT(*) FROM precip_reading").fetchone()[0]
 
     # -- élettartam --------------------------------------------------------
 
