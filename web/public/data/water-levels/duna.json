@@ -5,8 +5,8 @@
   "unit": "cm",
   "source": "Országos Vízügyi Főigazgatóság",
   "latest": {
-    "date": "2026-06-10",
-    "value_cm": 134
+    "date": "2026-06-11",
+    "value_cm": 116
   },
   "series": [
     {
@@ -491,13 +491,8 @@
     },
     {
       "date": "2024-06-01",
-      "value_cm": 530,
+      "value_cm": 539,
       "resolution": "monthly"
-    },
-    {
-      "date": "2024-06-10",
-      "value_cm": 619,
-      "resolution": "daily"
     },
     {
       "date": "2024-06-11",
@@ -4001,7 +3996,7 @@
     },
     {
       "date": "2026-05-12",
-      "value_cm": 87,
+      "value_cm": 86,
       "resolution": "daily"
     },
     {
@@ -4147,6 +4142,11 @@
     {
       "date": "2026-06-10",
       "value_cm": 134,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-06-11",
+      "value_cm": 116,
       "resolution": "daily"
     }
   ]

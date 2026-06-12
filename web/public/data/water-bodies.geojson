@@ -15,8 +15,8 @@
         "name": "Balaton",
         "kind": "lake",
         "station": "Balaton átlag",
-        "latest_value_cm": 80,
-        "latest_date": "2026-06-10"
+        "latest_value_cm": 79,
+        "latest_date": "2026-06-11"
       }
     },
     {
@@ -33,8 +33,8 @@
         "name": "Duna",
         "kind": "river",
         "station": "Budapest",
-        "latest_value_cm": 134,
-        "latest_date": "2026-06-10"
+        "latest_value_cm": 116,
+        "latest_date": "2026-06-11"
       }
     },
     {
@@ -51,8 +51,8 @@
         "name": "Fertő tó",
         "kind": "lake",
         "station": "Fertőrákos",
-        "latest_value_cm": 39,
-        "latest_date": "2026-06-10"
+        "latest_value_cm": 41,
+        "latest_date": "2026-06-11"
       }
     },
     {
@@ -69,8 +69,8 @@
         "name": "Tisza",
         "kind": "river",
         "station": "Szolnok",
-        "latest_value_cm": -269,
-        "latest_date": "2026-06-10"
+        "latest_value_cm": -287,
+        "latest_date": "2026-06-11"
       }
     },
     {
@@ -88,7 +88,7 @@
         "kind": "lake",
         "station": "Kisköre felső",
         "latest_value_cm": 748,
-        "latest_date": "2026-06-10"
+        "latest_date": "2026-06-11"
       }
     },
     {
@@ -106,7 +106,7 @@
         "kind": "lake",
         "station": "Agárd",
         "latest_value_cm": 56,
-        "latest_date": "2026-06-10"
+        "latest_date": "2026-06-11"
       }
     }
   ]

@@ -5,7 +5,7 @@
   "unit": "cm",
   "source": "Országos Vízügyi Főigazgatóság",
   "latest": {
-    "date": "2026-06-10",
+    "date": "2026-06-11",
     "value_cm": 56
   },
   "series": [
@@ -493,11 +493,6 @@
       "date": "2024-06-01",
       "value_cm": 143,
       "resolution": "monthly"
-    },
-    {
-      "date": "2024-06-10",
-      "value_cm": 146,
-      "resolution": "daily"
     },
     {
       "date": "2024-06-11",
@@ -4146,6 +4141,11 @@
     },
     {
       "date": "2026-06-10",
+      "value_cm": 56,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-06-11",
       "value_cm": 56,
       "resolution": "daily"
     }
