@@ -124,6 +124,12 @@ export function DetailPanel({ id, onClose }: { id: string; onClose: () => void }
             >
               Hőmérséklet
             </button>
+            <button
+              className={secondary === "et0" ? "active" : ""}
+              onClick={() => setSecondary("et0")}
+            >
+              Párolgás
+            </button>
           </div>
 
           <div className="ranges">
@@ -142,13 +148,19 @@ export function DetailPanel({ id, onClose }: { id: string; onClose: () => void }
 
           <div className="chart-legend">
             <span className="cl-line" /> {mainLabel}
-            {secondary === "temp" ? (
+            {secondary === "precip" && (
+              <>
+                <span className="cl-bar" /> Csapadék (mm)
+              </>
+            )}
+            {secondary === "temp" && (
               <>
                 <span className="cl-line cl-temp" /> Hőmérséklet (°C)
               </>
-            ) : (
+            )}
+            {secondary === "et0" && (
               <>
-                <span className="cl-bar" /> Csapadék (mm)
+                <span className="cl-line cl-et0" /> Párolgás (mm)
               </>
             )}
           </div>

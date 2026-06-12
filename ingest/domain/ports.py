@@ -11,9 +11,8 @@ from typing import Protocol, runtime_checkable
 
 from ingest.domain.models import (
     DischargeReading,
-    PrecipReading,
-    TempReading,
     WaterLevelReading,
+    WeatherReading,
 )
 
 
@@ -45,15 +44,6 @@ class WaterLevelSource(Protocol):
 
 
 @runtime_checkable
-class PrecipitationSource(Protocol):
-    """Forrásfüggetlen csapadék-port: víztestenkénti napi területi csapadék."""
-
-    def fetch(self, date_range: DateRange) -> list[PrecipReading]:
-        """Csapadék-leolvasások a megadott időtartamra. Forráshiba nem dobhat."""
-        ...
-
-
-@runtime_checkable
 class DischargeSource(Protocol):
     """Forrásfüggetlen vízhozam-port: állomásonkénti napi vízhozam (m³/s)."""
 
@@ -63,9 +53,9 @@ class DischargeSource(Protocol):
 
 
 @runtime_checkable
-class TemperatureSource(Protocol):
-    """Forrásfüggetlen hőmérséklet-port: víztestenkénti napi területi átlaghőmérséklet."""
+class AreaWeatherSource(Protocol):
+    """Forrásfüggetlen területi időjárás-port: víztestenkénti napi csapadék + hőmérséklet + ET₀."""
 
-    def fetch(self, date_range: DateRange) -> list[TempReading]:
-        """Hőmérséklet-leolvasások a megadott időtartamra. Forráshiba nem dobhat."""
+    def fetch(self, date_range: DateRange) -> list[WeatherReading]:
+        """Időjárás-leolvasások a megadott időtartamra. Forráshiba nem dobhat."""
         ...

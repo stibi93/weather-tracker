@@ -20,10 +20,10 @@ def test_mixed_resolution_daily_recent_monthly_old():
     ]
     out = mixed_resolution_series(series, daily_window_years=2)
     assert out == [
-        {"date": "2020-01-01", "value_cm": 105, "precip_mm": None, "discharge_m3s": None, "temp_c": None, "resolution": "monthly"},
-        {"date": "2020-02-01", "value_cm": 50, "precip_mm": None, "discharge_m3s": None, "temp_c": None, "resolution": "monthly"},
-        {"date": "2026-06-01", "value_cm": 84, "precip_mm": None, "discharge_m3s": None, "temp_c": None, "resolution": "daily"},
-        {"date": "2026-06-02", "value_cm": 83, "precip_mm": None, "discharge_m3s": None, "temp_c": None, "resolution": "daily"},
+        {"date": "2020-01-01", "value_cm": 105, "precip_mm": None, "discharge_m3s": None, "temp_c": None, "et0_mm": None, "resolution": "monthly"},
+        {"date": "2020-02-01", "value_cm": 50, "precip_mm": None, "discharge_m3s": None, "temp_c": None, "et0_mm": None, "resolution": "monthly"},
+        {"date": "2026-06-01", "value_cm": 84, "precip_mm": None, "discharge_m3s": None, "temp_c": None, "et0_mm": None, "resolution": "daily"},
+        {"date": "2026-06-02", "value_cm": 83, "precip_mm": None, "discharge_m3s": None, "temp_c": None, "et0_mm": None, "resolution": "daily"},
     ]
 
 
@@ -37,11 +37,12 @@ def test_mixed_resolution_aligns_secondary_metrics():
     precip = {date(2020, 1, 10): 5.0, date(2020, 1, 20): 15.0, date(2026, 6, 1): 2.0}
     discharge = {date(2020, 1, 10): 60.0, date(2020, 1, 20): 80.0, date(2026, 6, 1): 72.3}
     temp = {date(2020, 1, 10): 0.0, date(2020, 1, 20): 4.0, date(2026, 6, 1): 21.5}
-    out = mixed_resolution_series(series, precip, discharge, temp, daily_window_years=2)
+    et0 = {date(2020, 1, 10): 0.5, date(2020, 1, 20): 1.5, date(2026, 6, 1): 4.8}
+    out = mixed_resolution_series(series, precip, discharge, temp, et0, daily_window_years=2)
     assert out == [
-        {"date": "2020-01-01", "value_cm": 105, "precip_mm": 10.0, "discharge_m3s": 70.0, "temp_c": 2.0, "resolution": "monthly"},
-        {"date": "2026-06-01", "value_cm": 84, "precip_mm": 2.0, "discharge_m3s": 72.3, "temp_c": 21.5, "resolution": "daily"},
-        {"date": "2026-06-02", "value_cm": 83, "precip_mm": None, "discharge_m3s": None, "temp_c": None, "resolution": "daily"},
+        {"date": "2020-01-01", "value_cm": 105, "precip_mm": 10.0, "discharge_m3s": 70.0, "temp_c": 2.0, "et0_mm": 1.0, "resolution": "monthly"},
+        {"date": "2026-06-01", "value_cm": 84, "precip_mm": 2.0, "discharge_m3s": 72.3, "temp_c": 21.5, "et0_mm": 4.8, "resolution": "daily"},
+        {"date": "2026-06-02", "value_cm": 83, "precip_mm": None, "discharge_m3s": None, "temp_c": None, "et0_mm": None, "resolution": "daily"},
     ]
 
 
@@ -100,8 +101,8 @@ def test_per_body_series_shape(tmp_path):
     assert doc["unit"] == "cm"
     assert doc["latest"] == {"date": "2026-06-02", "value_cm": 83}
     assert doc["series"] == [
-        {"date": "2026-06-01", "value_cm": 84, "precip_mm": None, "discharge_m3s": None, "temp_c": None, "resolution": "daily"},
-        {"date": "2026-06-02", "value_cm": 83, "precip_mm": None, "discharge_m3s": None, "temp_c": None, "resolution": "daily"},
+        {"date": "2026-06-01", "value_cm": 84, "precip_mm": None, "discharge_m3s": None, "temp_c": None, "et0_mm": None, "resolution": "daily"},
+        {"date": "2026-06-02", "value_cm": 83, "precip_mm": None, "discharge_m3s": None, "temp_c": None, "et0_mm": None, "resolution": "daily"},
     ]
 
 
