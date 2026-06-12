@@ -13,4968 +13,5796 @@
       "date": "2016-06-01",
       "value_cm": 85,
       "precip_mm": 1.9,
+      "discharge_m3s": 408.5,
       "resolution": "monthly"
     },
     {
       "date": "2016-07-01",
       "value_cm": -65,
       "precip_mm": 4.0,
+      "discharge_m3s": 269.1,
       "resolution": "monthly"
     },
     {
       "date": "2016-08-01",
       "value_cm": -152,
       "precip_mm": 1.8,
+      "discharge_m3s": 183.4,
       "resolution": "monthly"
     },
     {
       "date": "2016-09-01",
       "value_cm": -226,
       "precip_mm": 0.9,
+      "discharge_m3s": 117.8,
       "resolution": "monthly"
     },
     {
       "date": "2016-10-01",
       "value_cm": -131,
       "precip_mm": 2.1,
+      "discharge_m3s": 210.7,
       "resolution": "monthly"
     },
     {
       "date": "2016-11-01",
       "value_cm": 160,
       "precip_mm": 1.6,
+      "discharge_m3s": 544.6,
       "resolution": "monthly"
     },
     {
       "date": "2016-12-01",
       "value_cm": -52,
       "precip_mm": 0.0,
+      "discharge_m3s": 281.5,
       "resolution": "monthly"
     },
     {
       "date": "2017-01-01",
       "value_cm": -118,
       "precip_mm": 1.1,
+      "discharge_m3s": 221.2,
       "resolution": "monthly"
     },
     {
       "date": "2017-02-01",
       "value_cm": 353,
       "precip_mm": 1.3,
+      "discharge_m3s": 887.3,
       "resolution": "monthly"
     },
     {
       "date": "2017-03-01",
       "value_cm": 424,
       "precip_mm": 1.2,
+      "discharge_m3s": 928.4,
       "resolution": "monthly"
     },
     {
       "date": "2017-04-01",
       "value_cm": 84,
       "precip_mm": 2.1,
+      "discharge_m3s": 428.6,
       "resolution": "monthly"
     },
     {
       "date": "2017-05-01",
       "value_cm": 148,
       "precip_mm": 1.4,
+      "discharge_m3s": 505.5,
       "resolution": "monthly"
     },
     {
       "date": "2017-06-01",
       "value_cm": -41,
       "precip_mm": 1.6,
+      "discharge_m3s": 294.0,
       "resolution": "monthly"
     },
     {
       "date": "2017-07-01",
       "value_cm": -122,
       "precip_mm": 1.7,
+      "discharge_m3s": 214.6,
       "resolution": "monthly"
     },
     {
       "date": "2017-08-01",
       "value_cm": -221,
       "precip_mm": 0.9,
+      "discharge_m3s": 119.1,
       "resolution": "monthly"
     },
     {
       "date": "2017-09-01",
       "value_cm": -163,
       "precip_mm": 3.0,
+      "discharge_m3s": 179.6,
       "resolution": "monthly"
     },
     {
       "date": "2017-10-01",
       "value_cm": -165,
       "precip_mm": 2.0,
+      "discharge_m3s": 172.9,
       "resolution": "monthly"
     },
     {
       "date": "2017-11-01",
       "value_cm": 124,
       "precip_mm": 1.5,
+      "discharge_m3s": 498.8,
       "resolution": "monthly"
     },
     {
       "date": "2017-12-01",
       "value_cm": 416,
       "precip_mm": 2.5,
+      "discharge_m3s": 969.2,
       "resolution": "monthly"
     },
     {
       "date": "2018-01-01",
       "value_cm": 313,
       "precip_mm": 1.1,
+      "discharge_m3s": 760.8,
       "resolution": "monthly"
     },
     {
       "date": "2018-02-01",
       "value_cm": 263,
       "precip_mm": 2.6,
+      "discharge_m3s": 674.6,
       "resolution": "monthly"
     },
     {
       "date": "2018-03-01",
       "value_cm": 361,
       "precip_mm": 2.8,
+      "discharge_m3s": 835.5,
       "resolution": "monthly"
     },
     {
       "date": "2018-04-01",
       "value_cm": 543,
       "precip_mm": 0.8,
+      "discharge_m3s": 1094.3,
       "resolution": "monthly"
     },
     {
       "date": "2018-05-01",
       "value_cm": 12,
       "precip_mm": 1.2,
+      "discharge_m3s": 348.1,
       "resolution": "monthly"
     },
     {
       "date": "2018-06-01",
       "value_cm": -53,
       "precip_mm": 2.6,
+      "discharge_m3s": 281.7,
       "resolution": "monthly"
     },
     {
       "date": "2018-07-01",
       "value_cm": -56,
       "precip_mm": 1.5,
+      "discharge_m3s": 275.5,
       "resolution": "monthly"
     },
     {
       "date": "2018-08-01",
       "value_cm": -208,
       "precip_mm": 0.5,
+      "discharge_m3s": 130.8,
       "resolution": "monthly"
     },
     {
       "date": "2018-09-01",
       "value_cm": -240,
       "precip_mm": 1.3,
+      "discharge_m3s": 106.2,
       "resolution": "monthly"
     },
     {
       "date": "2018-10-01",
       "value_cm": -228,
       "precip_mm": 0.7,
+      "discharge_m3s": 119.9,
       "resolution": "monthly"
     },
     {
       "date": "2018-11-01",
       "value_cm": -161,
       "precip_mm": 1.6,
+      "discharge_m3s": 185.6,
       "resolution": "monthly"
     },
     {
       "date": "2018-12-01",
       "value_cm": -173,
       "precip_mm": 1.6,
+      "discharge_m3s": 169.4,
       "resolution": "monthly"
     },
     {
       "date": "2019-01-01",
       "value_cm": -131,
       "precip_mm": 1.5,
+      "discharge_m3s": 200.1,
       "resolution": "monthly"
     },
     {
       "date": "2019-02-01",
       "value_cm": 138,
       "precip_mm": 0.5,
+      "discharge_m3s": 514.1,
       "resolution": "monthly"
     },
     {
       "date": "2019-03-01",
       "value_cm": 185,
       "precip_mm": 0.4,
+      "discharge_m3s": 597.9,
       "resolution": "monthly"
     },
     {
       "date": "2019-04-01",
       "value_cm": 55,
       "precip_mm": 2.1,
+      "discharge_m3s": 387.9,
       "resolution": "monthly"
     },
     {
       "date": "2019-05-01",
       "value_cm": 378,
       "precip_mm": 4.9,
+      "discharge_m3s": 878.3,
       "resolution": "monthly"
     },
     {
       "date": "2019-06-01",
       "value_cm": 306,
       "precip_mm": 1.8,
+      "discharge_m3s": 711.0,
       "resolution": "monthly"
     },
     {
       "date": "2019-07-01",
       "value_cm": -152,
       "precip_mm": 1.5,
+      "discharge_m3s": 179.8,
       "resolution": "monthly"
     },
     {
       "date": "2019-08-01",
       "value_cm": -183,
       "precip_mm": 1.2,
+      "discharge_m3s": 154.5,
       "resolution": "monthly"
     },
     {
       "date": "2019-09-01",
       "value_cm": -252,
       "precip_mm": 1.7,
+      "discharge_m3s": 95.0,
       "resolution": "monthly"
     },
     {
       "date": "2019-10-01",
       "value_cm": -250,
       "precip_mm": 0.7,
+      "discharge_m3s": 97.5,
       "resolution": "monthly"
     },
     {
       "date": "2019-11-01",
       "value_cm": -54,
       "precip_mm": 2.5,
+      "discharge_m3s": 293.6,
       "resolution": "monthly"
     },
     {
       "date": "2019-12-01",
       "value_cm": 19,
       "precip_mm": 1.8,
+      "discharge_m3s": 378.3,
       "resolution": "monthly"
     },
     {
       "date": "2020-01-01",
       "value_cm": -104,
       "precip_mm": 0.8,
+      "discharge_m3s": 237.4,
       "resolution": "monthly"
     },
     {
       "date": "2020-02-01",
       "value_cm": 160,
       "precip_mm": 1.8,
+      "discharge_m3s": 573.8,
       "resolution": "monthly"
     },
     {
       "date": "2020-03-01",
       "value_cm": 309,
       "precip_mm": 1.6,
+      "discharge_m3s": 758.0,
       "resolution": "monthly"
     },
     {
       "date": "2020-04-01",
       "value_cm": -87,
       "precip_mm": 0.6,
+      "discharge_m3s": 243.2,
       "resolution": "monthly"
     },
     {
       "date": "2020-05-01",
       "value_cm": -38,
       "precip_mm": 1.1,
+      "discharge_m3s": 301.3,
       "resolution": "monthly"
     },
     {
       "date": "2020-06-01",
       "value_cm": 255,
       "precip_mm": 4.6,
+      "discharge_m3s": 708.9,
       "resolution": "monthly"
     },
     {
       "date": "2020-07-01",
       "value_cm": 213,
       "precip_mm": 3.4,
+      "discharge_m3s": 591.6,
       "resolution": "monthly"
     },
     {
       "date": "2020-08-01",
       "value_cm": -116,
       "precip_mm": 0.9,
+      "discharge_m3s": 217.6,
       "resolution": "monthly"
     },
     {
       "date": "2020-09-01",
       "value_cm": -223,
       "precip_mm": 1.1,
+      "discharge_m3s": 122.6,
       "resolution": "monthly"
     },
     {
       "date": "2020-10-01",
       "value_cm": 61,
       "precip_mm": 2.9,
+      "discharge_m3s": 432.4,
       "resolution": "monthly"
     },
     {
       "date": "2020-11-01",
       "value_cm": -23,
       "precip_mm": 1.0,
+      "discharge_m3s": 319.9,
       "resolution": "monthly"
     },
     {
       "date": "2020-12-01",
       "value_cm": -106,
       "precip_mm": 1.7,
+      "discharge_m3s": 243.1,
       "resolution": "monthly"
     },
     {
       "date": "2021-01-01",
       "value_cm": 320,
       "precip_mm": 1.9,
+      "discharge_m3s": 796.1,
       "resolution": "monthly"
     },
     {
       "date": "2021-02-01",
       "value_cm": 629,
       "precip_mm": 1.9,
+      "discharge_m3s": 1303.6,
       "resolution": "monthly"
     },
     {
       "date": "2021-03-01",
       "value_cm": 396,
       "precip_mm": 0.3,
+      "discharge_m3s": 847.7,
       "resolution": "monthly"
     },
     {
       "date": "2021-04-01",
       "value_cm": 264,
       "precip_mm": 1.9,
+      "discharge_m3s": 691.6,
       "resolution": "monthly"
     },
     {
       "date": "2021-05-01",
       "value_cm": 432,
       "precip_mm": 3.8,
+      "discharge_m3s": 946.7,
       "resolution": "monthly"
     },
     {
       "date": "2021-06-01",
       "value_cm": 40,
       "precip_mm": 0.2,
+      "discharge_m3s": 386.8,
       "resolution": "monthly"
     },
     {
       "date": "2021-07-01",
       "value_cm": -34,
       "precip_mm": 1.6,
+      "discharge_m3s": 313.2,
       "resolution": "monthly"
     },
     {
       "date": "2021-08-01",
       "value_cm": -180,
       "precip_mm": 1.2,
+      "discharge_m3s": 164.5,
       "resolution": "monthly"
     },
     {
       "date": "2021-09-01",
       "value_cm": -130,
       "precip_mm": 0.9,
+      "discharge_m3s": 213.5,
       "resolution": "monthly"
     },
     {
       "date": "2021-10-01",
       "value_cm": -211,
       "precip_mm": 0.7,
+      "discharge_m3s": 133.5,
       "resolution": "monthly"
     },
     {
       "date": "2021-11-01",
       "value_cm": -144,
       "precip_mm": 2.0,
+      "discharge_m3s": 201.8,
       "resolution": "monthly"
     },
     {
       "date": "2021-12-01",
       "value_cm": 47,
       "precip_mm": 1.9,
+      "discharge_m3s": 417.9,
       "resolution": "monthly"
     },
     {
       "date": "2022-01-01",
       "value_cm": 252,
       "precip_mm": 0.3,
+      "discharge_m3s": 718.2,
       "resolution": "monthly"
     },
     {
       "date": "2022-02-01",
       "value_cm": 152,
       "precip_mm": 0.7,
+      "discharge_m3s": 567.5,
       "resolution": "monthly"
     },
     {
       "date": "2022-03-01",
       "value_cm": 15,
       "precip_mm": 0.6,
+      "discharge_m3s": 370.0,
       "resolution": "monthly"
     },
     {
       "date": "2022-04-01",
       "value_cm": 355,
       "precip_mm": 2.5,
+      "discharge_m3s": 853.0,
       "resolution": "monthly"
     },
     {
       "date": "2022-05-01",
       "value_cm": 121,
       "precip_mm": 0.8,
+      "discharge_m3s": 493.9,
       "resolution": "monthly"
     },
     {
       "date": "2022-06-01",
       "value_cm": -191,
       "precip_mm": 1.0,
+      "discharge_m3s": 147.7,
       "resolution": "monthly"
     },
     {
       "date": "2022-07-01",
       "value_cm": -280,
       "precip_mm": 0.8,
+      "discharge_m3s": 72.4,
       "resolution": "monthly"
     },
     {
       "date": "2022-08-01",
       "value_cm": -289,
       "precip_mm": 1.5,
+      "discharge_m3s": 65.1,
       "resolution": "monthly"
     },
     {
       "date": "2022-09-01",
       "value_cm": -143,
       "precip_mm": 2.7,
+      "discharge_m3s": 215.4,
       "resolution": "monthly"
     },
     {
       "date": "2022-10-01",
       "value_cm": -32,
       "precip_mm": 0.4,
+      "discharge_m3s": 317.9,
       "resolution": "monthly"
     },
     {
       "date": "2022-11-01",
       "value_cm": -54,
       "precip_mm": 1.8,
+      "discharge_m3s": 289.4,
       "resolution": "monthly"
     },
     {
       "date": "2022-12-01",
       "value_cm": 271,
       "precip_mm": 2.7,
+      "discharge_m3s": 762.9,
       "resolution": "monthly"
     },
     {
       "date": "2023-01-01",
       "value_cm": 440,
       "precip_mm": 2.8,
+      "discharge_m3s": 983.9,
       "resolution": "monthly"
     },
     {
       "date": "2023-02-01",
       "value_cm": 366,
       "precip_mm": 0.7,
+      "discharge_m3s": 822.3,
       "resolution": "monthly"
     },
     {
       "date": "2023-03-01",
       "value_cm": 449,
       "precip_mm": 1.5,
+      "discharge_m3s": 903.9,
       "resolution": "monthly"
     },
     {
       "date": "2023-04-01",
       "value_cm": 354,
       "precip_mm": 1.8,
+      "discharge_m3s": 802.5,
       "resolution": "monthly"
     },
     {
       "date": "2023-05-01",
       "value_cm": 139,
       "precip_mm": 2.6,
+      "discharge_m3s": 500.0,
       "resolution": "monthly"
     },
     {
       "date": "2023-06-01",
       "value_cm": 20,
       "precip_mm": 2.4,
+      "discharge_m3s": 343.1,
       "resolution": "monthly"
     },
     {
       "date": "2023-07-01",
       "value_cm": -102,
       "precip_mm": 1.4,
+      "discharge_m3s": 226.8,
       "resolution": "monthly"
     },
     {
       "date": "2023-08-01",
       "value_cm": -111,
       "precip_mm": 1.3,
+      "discharge_m3s": 234.3,
       "resolution": "monthly"
     },
     {
       "date": "2023-09-01",
       "value_cm": -205,
       "precip_mm": 1.3,
+      "discharge_m3s": 134.6,
       "resolution": "monthly"
     },
     {
       "date": "2023-10-01",
       "value_cm": -184,
       "precip_mm": 1.8,
+      "discharge_m3s": 180.2,
       "resolution": "monthly"
     },
     {
       "date": "2023-11-01",
       "value_cm": 319,
       "precip_mm": 4.0,
+      "discharge_m3s": 791.7,
       "resolution": "monthly"
     },
     {
       "date": "2023-12-01",
       "value_cm": 590,
       "precip_mm": 3.2,
+      "discharge_m3s": 1226.4,
       "resolution": "monthly"
     },
     {
       "date": "2024-01-01",
       "value_cm": 646,
       "precip_mm": 1.3,
+      "discharge_m3s": 1249.5,
       "resolution": "monthly"
     },
     {
       "date": "2024-02-01",
       "value_cm": 603,
       "precip_mm": 1.0,
+      "discharge_m3s": 1233.4,
       "resolution": "monthly"
     },
     {
       "date": "2024-03-01",
       "value_cm": 361,
       "precip_mm": 0.8,
+      "discharge_m3s": 793.6,
       "resolution": "monthly"
     },
     {
       "date": "2024-04-01",
       "value_cm": 275,
       "precip_mm": 1.1,
+      "discharge_m3s": 701.2,
       "resolution": "monthly"
     },
     {
       "date": "2024-05-01",
       "value_cm": -12,
       "precip_mm": 2.3,
+      "discharge_m3s": 330.3,
       "resolution": "monthly"
     },
     {
       "date": "2024-06-01",
       "value_cm": -82,
       "precip_mm": 4.2,
+      "discharge_m3s": 262.9,
       "resolution": "monthly"
     },
     {
       "date": "2024-06-11",
       "value_cm": -23,
       "precip_mm": 0.6,
+      "discharge_m3s": 335.4,
       "resolution": "daily"
     },
     {
       "date": "2024-06-12",
       "value_cm": -2,
       "precip_mm": 2.7,
+      "discharge_m3s": 374.2,
       "resolution": "daily"
     },
     {
       "date": "2024-06-13",
       "value_cm": 55,
       "precip_mm": 2.0,
+      "discharge_m3s": 467.6,
       "resolution": "daily"
     },
     {
       "date": "2024-06-14",
       "value_cm": 126,
       "precip_mm": 0.2,
+      "discharge_m3s": 566.0,
       "resolution": "daily"
     },
     {
       "date": "2024-06-15",
       "value_cm": 181,
       "precip_mm": 0.0,
+      "discharge_m3s": 633.1,
       "resolution": "daily"
     },
     {
       "date": "2024-06-16",
       "value_cm": 207,
       "precip_mm": 0.6,
+      "discharge_m3s": 628.2,
       "resolution": "daily"
     },
     {
       "date": "2024-06-17",
       "value_cm": 188,
       "precip_mm": 0.0,
+      "discharge_m3s": 580.6,
       "resolution": "daily"
     },
     {
       "date": "2024-06-18",
       "value_cm": 161,
       "precip_mm": 0.1,
+      "discharge_m3s": 534.8,
       "resolution": "daily"
     },
     {
       "date": "2024-06-19",
       "value_cm": 118,
       "precip_mm": 0.0,
+      "discharge_m3s": 460.3,
       "resolution": "daily"
     },
     {
       "date": "2024-06-20",
       "value_cm": 64,
       "precip_mm": 0.0,
+      "discharge_m3s": 388.7,
       "resolution": "daily"
     },
     {
       "date": "2024-06-21",
       "value_cm": 24,
       "precip_mm": 0.0,
+      "discharge_m3s": 366.7,
       "resolution": "daily"
     },
     {
       "date": "2024-06-22",
       "value_cm": -5,
       "precip_mm": 4.3,
+      "discharge_m3s": 320.4,
       "resolution": "daily"
     },
     {
       "date": "2024-06-23",
       "value_cm": -40,
       "precip_mm": 0.4,
+      "discharge_m3s": 304.7,
       "resolution": "daily"
     },
     {
       "date": "2024-06-24",
       "value_cm": -30,
       "precip_mm": 0.0,
+      "discharge_m3s": 335.4,
       "resolution": "daily"
     },
     {
       "date": "2024-06-25",
       "value_cm": -27,
       "precip_mm": 0.1,
+      "discharge_m3s": 325.3,
       "resolution": "daily"
     },
     {
       "date": "2024-06-26",
       "value_cm": -24,
       "precip_mm": 8.4,
+      "discharge_m3s": 332.3,
       "resolution": "daily"
     },
     {
       "date": "2024-06-27",
       "value_cm": -21,
       "precip_mm": 2.7,
+      "discharge_m3s": 331.6,
       "resolution": "daily"
     },
     {
       "date": "2024-06-28",
       "value_cm": -24,
       "precip_mm": 0.1,
+      "discharge_m3s": 324.7,
       "resolution": "daily"
     },
     {
       "date": "2024-06-29",
       "value_cm": -52,
       "precip_mm": 0.2,
+      "discharge_m3s": 271.1,
       "resolution": "daily"
     },
     {
       "date": "2024-06-30",
       "value_cm": -73,
       "precip_mm": 0.0,
+      "discharge_m3s": 278.7,
       "resolution": "daily"
     },
     {
       "date": "2024-07-01",
       "value_cm": -43,
       "precip_mm": 9.9,
+      "discharge_m3s": 333.7,
       "resolution": "daily"
     },
     {
       "date": "2024-07-02",
       "value_cm": -41,
       "precip_mm": 6.8,
+      "discharge_m3s": 294.7,
       "resolution": "daily"
     },
     {
       "date": "2024-07-03",
       "value_cm": -26,
       "precip_mm": 0.1,
+      "discharge_m3s": 351.0,
       "resolution": "daily"
     },
     {
       "date": "2024-07-04",
       "value_cm": 13,
       "precip_mm": 0.5,
+      "discharge_m3s": 396.1,
       "resolution": "daily"
     },
     {
       "date": "2024-07-05",
       "value_cm": 13,
       "precip_mm": 0.0,
+      "discharge_m3s": 371.0,
       "resolution": "daily"
     },
     {
       "date": "2024-07-06",
       "value_cm": 78,
       "precip_mm": 0.0,
+      "discharge_m3s": 522.4,
       "resolution": "daily"
     },
     {
       "date": "2024-07-07",
       "value_cm": 145,
       "precip_mm": 0.0,
+      "discharge_m3s": 581.1,
       "resolution": "daily"
     },
     {
       "date": "2024-07-08",
       "value_cm": 146,
       "precip_mm": 0.5,
+      "discharge_m3s": 526.5,
       "resolution": "daily"
     },
     {
       "date": "2024-07-09",
       "value_cm": 102,
       "precip_mm": 0.0,
+      "discharge_m3s": 449.6,
       "resolution": "daily"
     },
     {
       "date": "2024-07-10",
       "value_cm": 66,
       "precip_mm": 0.1,
+      "discharge_m3s": 412.3,
       "resolution": "daily"
     },
     {
       "date": "2024-07-11",
       "value_cm": 25,
       "precip_mm": 0.1,
+      "discharge_m3s": 349.6,
       "resolution": "daily"
     },
     {
       "date": "2024-07-12",
       "value_cm": -32,
       "precip_mm": 0.0,
+      "discharge_m3s": 278.7,
       "resolution": "daily"
     },
     {
       "date": "2024-07-13",
       "value_cm": -69,
       "precip_mm": 0.0,
+      "discharge_m3s": 252.3,
       "resolution": "daily"
     },
     {
       "date": "2024-07-14",
       "value_cm": -119,
       "precip_mm": 6.7,
+      "discharge_m3s": 202.2,
       "resolution": "daily"
     },
     {
       "date": "2024-07-15",
       "value_cm": -152,
       "precip_mm": 0.2,
+      "discharge_m3s": 188.2,
       "resolution": "daily"
     },
     {
       "date": "2024-07-16",
       "value_cm": -142,
       "precip_mm": 0.1,
+      "discharge_m3s": 209.4,
       "resolution": "daily"
     },
     {
       "date": "2024-07-17",
       "value_cm": -144,
       "precip_mm": 2.6,
+      "discharge_m3s": 193.1,
       "resolution": "daily"
     },
     {
       "date": "2024-07-18",
       "value_cm": -155,
       "precip_mm": 0.2,
+      "discharge_m3s": 185.2,
       "resolution": "daily"
     },
     {
       "date": "2024-07-19",
       "value_cm": -148,
       "precip_mm": 0.0,
+      "discharge_m3s": 211.7,
       "resolution": "daily"
     },
     {
       "date": "2024-07-20",
       "value_cm": -135,
       "precip_mm": 0.7,
+      "discharge_m3s": 200.4,
       "resolution": "daily"
     },
     {
       "date": "2024-07-21",
       "value_cm": -161,
       "precip_mm": 0.3,
+      "discharge_m3s": 170.9,
       "resolution": "daily"
     },
     {
       "date": "2024-07-22",
       "value_cm": -178,
       "precip_mm": 0.7,
+      "discharge_m3s": 165.4,
       "resolution": "daily"
     },
     {
       "date": "2024-07-23",
       "value_cm": -173,
       "precip_mm": 2.8,
+      "discharge_m3s": 173.8,
       "resolution": "daily"
     },
     {
       "date": "2024-07-24",
       "value_cm": -168,
       "precip_mm": 1.1,
+      "discharge_m3s": 179.9,
       "resolution": "daily"
     },
     {
       "date": "2024-07-25",
       "value_cm": -158,
       "precip_mm": 0.7,
+      "discharge_m3s": 189.6,
       "resolution": "daily"
     },
     {
       "date": "2024-07-26",
       "value_cm": -157,
       "precip_mm": 0.0,
+      "discharge_m3s": 185.3,
       "resolution": "daily"
     },
     {
       "date": "2024-07-27",
       "value_cm": -163,
       "precip_mm": 0.0,
+      "discharge_m3s": 169.9,
       "resolution": "daily"
     },
     {
       "date": "2024-07-28",
       "value_cm": -190,
       "precip_mm": 0.0,
+      "discharge_m3s": 148.3,
       "resolution": "daily"
     },
     {
       "date": "2024-07-29",
       "value_cm": -199,
       "precip_mm": 0.0,
+      "discharge_m3s": 146.3,
       "resolution": "daily"
     },
     {
       "date": "2024-07-30",
       "value_cm": -204,
       "precip_mm": 0.0,
+      "discharge_m3s": 137.3,
       "resolution": "daily"
     },
     {
       "date": "2024-07-31",
       "value_cm": -221,
       "precip_mm": 0.0,
+      "discharge_m3s": 122.5,
       "resolution": "daily"
     },
     {
       "date": "2024-08-01",
       "value_cm": -238,
       "precip_mm": 0.0,
+      "discharge_m3s": 109.4,
       "resolution": "daily"
     },
     {
       "date": "2024-08-02",
       "value_cm": -250,
       "precip_mm": 0.6,
+      "discharge_m3s": 100.5,
       "resolution": "daily"
     },
     {
       "date": "2024-08-03",
       "value_cm": -256,
       "precip_mm": 1.3,
+      "discharge_m3s": 96.6,
       "resolution": "daily"
     },
     {
       "date": "2024-08-04",
       "value_cm": -260,
       "precip_mm": 0.0,
+      "discharge_m3s": 93.8,
       "resolution": "daily"
     },
     {
       "date": "2024-08-05",
       "value_cm": -263,
       "precip_mm": 2.8,
+      "discharge_m3s": 91.8,
       "resolution": "daily"
     },
     {
       "date": "2024-08-06",
       "value_cm": -260,
       "precip_mm": 0.0,
+      "discharge_m3s": 97.9,
       "resolution": "daily"
     },
     {
       "date": "2024-08-07",
       "value_cm": -227,
       "precip_mm": 0.0,
+      "discharge_m3s": 131.3,
       "resolution": "daily"
     },
     {
       "date": "2024-08-08",
       "value_cm": -197,
       "precip_mm": 0.0,
+      "discharge_m3s": 156.4,
       "resolution": "daily"
     },
     {
       "date": "2024-08-09",
       "value_cm": -180,
       "precip_mm": 0.1,
+      "discharge_m3s": 167.9,
       "resolution": "daily"
     },
     {
       "date": "2024-08-10",
       "value_cm": -174,
       "precip_mm": 0.0,
+      "discharge_m3s": 170.6,
       "resolution": "daily"
     },
     {
       "date": "2024-08-11",
       "value_cm": -172,
       "precip_mm": 0.0,
+      "discharge_m3s": 171.8,
       "resolution": "daily"
     },
     {
       "date": "2024-08-12",
       "value_cm": -171,
       "precip_mm": 0.0,
+      "discharge_m3s": 172.4,
       "resolution": "daily"
     },
     {
       "date": "2024-08-13",
       "value_cm": -170,
       "precip_mm": 0.0,
+      "discharge_m3s": 172.4,
       "resolution": "daily"
     },
     {
       "date": "2024-08-14",
       "value_cm": -177,
       "precip_mm": 0.1,
+      "discharge_m3s": 156.9,
       "resolution": "daily"
     },
     {
       "date": "2024-08-15",
       "value_cm": -214,
       "precip_mm": 0.4,
+      "discharge_m3s": 119.0,
       "resolution": "daily"
     },
     {
       "date": "2024-08-16",
       "value_cm": -249,
       "precip_mm": 0.0,
+      "discharge_m3s": 95.5,
       "resolution": "daily"
     },
     {
       "date": "2024-08-17",
       "value_cm": -271,
       "precip_mm": 2.6,
+      "discharge_m3s": 83.1,
       "resolution": "daily"
     },
     {
       "date": "2024-08-18",
       "value_cm": -279,
       "precip_mm": 3.4,
+      "discharge_m3s": 77.5,
       "resolution": "daily"
     },
     {
       "date": "2024-08-19",
       "value_cm": -282,
       "precip_mm": 0.0,
+      "discharge_m3s": 75.7,
       "resolution": "daily"
     },
     {
       "date": "2024-08-20",
       "value_cm": -282,
       "precip_mm": 0.1,
+      "discharge_m3s": 75.7,
       "resolution": "daily"
     },
     {
       "date": "2024-08-21",
       "value_cm": -280,
       "precip_mm": 1.6,
+      "discharge_m3s": 80.8,
       "resolution": "daily"
     },
     {
       "date": "2024-08-22",
       "value_cm": -265,
       "precip_mm": 0.0,
+      "discharge_m3s": 91.9,
       "resolution": "daily"
     },
     {
       "date": "2024-08-23",
       "value_cm": -233,
       "precip_mm": 0.0,
+      "discharge_m3s": 120.7,
       "resolution": "daily"
     },
     {
       "date": "2024-08-24",
       "value_cm": -240,
       "precip_mm": 0.0,
+      "discharge_m3s": 101.2,
       "resolution": "daily"
     },
     {
       "date": "2024-08-25",
       "value_cm": -264,
       "precip_mm": 0.0,
+      "discharge_m3s": 86.2,
       "resolution": "daily"
     },
     {
       "date": "2024-08-26",
       "value_cm": -275,
       "precip_mm": 0.0,
+      "discharge_m3s": 79.5,
       "resolution": "daily"
     },
     {
       "date": "2024-08-27",
       "value_cm": -276,
       "precip_mm": 0.3,
+      "discharge_m3s": 80.5,
       "resolution": "daily"
     },
     {
       "date": "2024-08-28",
       "value_cm": -275,
       "precip_mm": 0.0,
+      "discharge_m3s": 79.6,
       "resolution": "daily"
     },
     {
       "date": "2024-08-29",
       "value_cm": -279,
       "precip_mm": 0.0,
+      "discharge_m3s": 77.2,
       "resolution": "daily"
     },
     {
       "date": "2024-08-30",
       "value_cm": -281,
       "precip_mm": 0.0,
+      "discharge_m3s": 75.7,
       "resolution": "daily"
     },
     {
       "date": "2024-08-31",
       "value_cm": -281,
       "precip_mm": 0.0,
+      "discharge_m3s": 75.2,
       "resolution": "daily"
     },
     {
       "date": "2024-09-01",
       "value_cm": -282,
       "precip_mm": 0.0,
+      "discharge_m3s": 75.0,
       "resolution": "daily"
     },
     {
       "date": "2024-09-02",
       "value_cm": -281,
       "precip_mm": 0.0,
+      "discharge_m3s": 75.3,
       "resolution": "daily"
     },
     {
       "date": "2024-09-03",
       "value_cm": -281,
       "precip_mm": 0.0,
+      "discharge_m3s": 75.2,
       "resolution": "daily"
     },
     {
       "date": "2024-09-04",
       "value_cm": -282,
       "precip_mm": 0.0,
+      "discharge_m3s": 74.8,
       "resolution": "daily"
     },
     {
       "date": "2024-09-05",
       "value_cm": -282,
       "precip_mm": 0.0,
+      "discharge_m3s": 74.7,
       "resolution": "daily"
     },
     {
       "date": "2024-09-06",
       "value_cm": -283,
       "precip_mm": 0.2,
+      "discharge_m3s": 73.1,
       "resolution": "daily"
     },
     {
       "date": "2024-09-07",
       "value_cm": -285,
       "precip_mm": 0.2,
+      "discharge_m3s": 72.0,
       "resolution": "daily"
     },
     {
       "date": "2024-09-08",
       "value_cm": -285,
       "precip_mm": 0.0,
+      "discharge_m3s": 71.7,
       "resolution": "daily"
     },
     {
       "date": "2024-09-09",
       "value_cm": -288,
       "precip_mm": 8.5,
+      "discharge_m3s": 69.3,
       "resolution": "daily"
     },
     {
       "date": "2024-09-10",
       "value_cm": -289,
       "precip_mm": 2.1,
+      "discharge_m3s": 68.7,
       "resolution": "daily"
     },
     {
       "date": "2024-09-11",
       "value_cm": -289,
       "precip_mm": 0.8,
+      "discharge_m3s": 68.6,
       "resolution": "daily"
     },
     {
       "date": "2024-09-12",
       "value_cm": -289,
       "precip_mm": 0.1,
+      "discharge_m3s": 68.5,
       "resolution": "daily"
     },
     {
       "date": "2024-09-13",
       "value_cm": -288,
       "precip_mm": 8.2,
+      "discharge_m3s": 69.1,
       "resolution": "daily"
     },
     {
       "date": "2024-09-14",
       "value_cm": -286,
       "precip_mm": 12.9,
+      "discharge_m3s": 70.4,
       "resolution": "daily"
     },
     {
       "date": "2024-09-15",
       "value_cm": -264,
       "precip_mm": 16.1,
+      "discharge_m3s": 99.6,
       "resolution": "daily"
     },
     {
       "date": "2024-09-16",
       "value_cm": -200,
       "precip_mm": 11.2,
+      "discharge_m3s": 154.3,
       "resolution": "daily"
     },
     {
       "date": "2024-09-17",
       "value_cm": -174,
       "precip_mm": 0.1,
+      "discharge_m3s": 172.7,
       "resolution": "daily"
     },
     {
       "date": "2024-09-18",
       "value_cm": -164,
       "precip_mm": 0.2,
+      "discharge_m3s": 178.8,
       "resolution": "daily"
     },
     {
       "date": "2024-09-19",
       "value_cm": -160,
       "precip_mm": 0.0,
+      "discharge_m3s": 181.2,
       "resolution": "daily"
     },
     {
       "date": "2024-09-20",
       "value_cm": -159,
       "precip_mm": 0.0,
+      "discharge_m3s": 182.1,
       "resolution": "daily"
     },
     {
       "date": "2024-09-21",
       "value_cm": -168,
       "precip_mm": 0.0,
+      "discharge_m3s": 166.4,
       "resolution": "daily"
     },
     {
       "date": "2024-09-22",
       "value_cm": -196,
       "precip_mm": 0.0,
+      "discharge_m3s": 136.1,
       "resolution": "daily"
     },
     {
       "date": "2024-09-23",
       "value_cm": -229,
       "precip_mm": 0.0,
+      "discharge_m3s": 109.5,
       "resolution": "daily"
     },
     {
       "date": "2024-09-24",
       "value_cm": -249,
       "precip_mm": 0.0,
+      "discharge_m3s": 101.8,
       "resolution": "daily"
     },
     {
       "date": "2024-09-25",
       "value_cm": -237,
       "precip_mm": 0.1,
+      "discharge_m3s": 113.8,
       "resolution": "daily"
     },
     {
       "date": "2024-09-26",
       "value_cm": -228,
       "precip_mm": 0.0,
+      "discharge_m3s": 120.1,
       "resolution": "daily"
     },
     {
       "date": "2024-09-27",
       "value_cm": -236,
       "precip_mm": 0.1,
+      "discharge_m3s": 107.3,
       "resolution": "daily"
     },
     {
       "date": "2024-09-28",
       "value_cm": -250,
       "precip_mm": 13.2,
+      "discharge_m3s": 98.1,
       "resolution": "daily"
     },
     {
       "date": "2024-09-29",
       "value_cm": -255,
       "precip_mm": 0.8,
+      "discharge_m3s": 96.7,
       "resolution": "daily"
     },
     {
       "date": "2024-09-30",
       "value_cm": -234,
       "precip_mm": 0.0,
+      "discharge_m3s": 124.0,
       "resolution": "daily"
     },
     {
       "date": "2024-10-01",
       "value_cm": -212,
       "precip_mm": 0.0,
+      "discharge_m3s": 129.4,
       "resolution": "daily"
     },
     {
       "date": "2024-10-02",
       "value_cm": -226,
       "precip_mm": 2.6,
+      "discharge_m3s": 118.7,
       "resolution": "daily"
     },
     {
       "date": "2024-10-03",
       "value_cm": -231,
       "precip_mm": 15.7,
+      "discharge_m3s": 114.2,
       "resolution": "daily"
     },
     {
       "date": "2024-10-04",
       "value_cm": -203,
       "precip_mm": 21.0,
+      "discharge_m3s": 165.1,
       "resolution": "daily"
     },
     {
       "date": "2024-10-05",
       "value_cm": -121,
       "precip_mm": 0.1,
+      "discharge_m3s": 215.3,
       "resolution": "daily"
     },
     {
       "date": "2024-10-06",
       "value_cm": -156,
       "precip_mm": 4.3,
+      "discharge_m3s": 175.6,
       "resolution": "daily"
     },
     {
       "date": "2024-10-07",
       "value_cm": -154,
       "precip_mm": 0.0,
+      "discharge_m3s": 195.8,
       "resolution": "daily"
     },
     {
       "date": "2024-10-08",
       "value_cm": -117,
       "precip_mm": 0.0,
+      "discharge_m3s": 246.7,
       "resolution": "daily"
     },
     {
       "date": "2024-10-09",
       "value_cm": -82,
       "precip_mm": 3.0,
+      "discharge_m3s": 274.3,
       "resolution": "daily"
     },
     {
       "date": "2024-10-10",
       "value_cm": -64,
       "precip_mm": 0.0,
+      "discharge_m3s": 299.9,
       "resolution": "daily"
     },
     {
       "date": "2024-10-11",
       "value_cm": -72,
       "precip_mm": 3.9,
+      "discharge_m3s": 264.5,
       "resolution": "daily"
     },
     {
       "date": "2024-10-12",
       "value_cm": -96,
       "precip_mm": 0.0,
+      "discharge_m3s": 234.6,
       "resolution": "daily"
     },
     {
       "date": "2024-10-13",
       "value_cm": -127,
       "precip_mm": 0.0,
+      "discharge_m3s": 210.5,
       "resolution": "daily"
     },
     {
       "date": "2024-10-14",
       "value_cm": -120,
       "precip_mm": 0.0,
+      "discharge_m3s": 240.5,
       "resolution": "daily"
     },
     {
       "date": "2024-10-15",
       "value_cm": -98,
       "precip_mm": 0.1,
+      "discharge_m3s": 248.4,
       "resolution": "daily"
     },
     {
       "date": "2024-10-16",
       "value_cm": -100,
       "precip_mm": 0.0,
+      "discharge_m3s": 255.5,
       "resolution": "daily"
     },
     {
       "date": "2024-10-17",
       "value_cm": -93,
       "precip_mm": 0.0,
+      "discharge_m3s": 257.5,
       "resolution": "daily"
     },
     {
       "date": "2024-10-18",
       "value_cm": -114,
       "precip_mm": 0.0,
+      "discharge_m3s": 212.1,
       "resolution": "daily"
     },
     {
       "date": "2024-10-19",
       "value_cm": -154,
       "precip_mm": 0.0,
+      "discharge_m3s": 173.2,
       "resolution": "daily"
     },
     {
       "date": "2024-10-20",
       "value_cm": -185,
       "precip_mm": 0.0,
+      "discharge_m3s": 152.8,
       "resolution": "daily"
     },
     {
       "date": "2024-10-21",
       "value_cm": -183,
       "precip_mm": 0.0,
+      "discharge_m3s": 172.9,
       "resolution": "daily"
     },
     {
       "date": "2024-10-22",
       "value_cm": -153,
       "precip_mm": 0.0,
+      "discharge_m3s": 193.4,
       "resolution": "daily"
     },
     {
       "date": "2024-10-23",
       "value_cm": -165,
       "precip_mm": 0.0,
+      "discharge_m3s": 160.9,
       "resolution": "daily"
     },
     {
       "date": "2024-10-24",
       "value_cm": -204,
       "precip_mm": 0.0,
+      "discharge_m3s": 139.5,
       "resolution": "daily"
     },
     {
       "date": "2024-10-25",
       "value_cm": -198,
       "precip_mm": 0.0,
+      "discharge_m3s": 147.3,
       "resolution": "daily"
     },
     {
       "date": "2024-10-26",
       "value_cm": -200,
       "precip_mm": 0.0,
+      "discharge_m3s": 135.8,
       "resolution": "daily"
     },
     {
       "date": "2024-10-27",
       "value_cm": -223,
       "precip_mm": 0.0,
+      "discharge_m3s": 119.2,
       "resolution": "daily"
     },
     {
       "date": "2024-10-28",
       "value_cm": -230,
       "precip_mm": 0.0,
+      "discharge_m3s": 122.9,
       "resolution": "daily"
     },
     {
       "date": "2024-10-29",
       "value_cm": -202,
       "precip_mm": 0.0,
+      "discharge_m3s": 150.3,
       "resolution": "daily"
     },
     {
       "date": "2024-10-30",
       "value_cm": -190,
       "precip_mm": 0.0,
+      "discharge_m3s": 153.3,
       "resolution": "daily"
     },
     {
       "date": "2024-10-31",
       "value_cm": -195,
       "precip_mm": 0.0,
+      "discharge_m3s": 145.9,
       "resolution": "daily"
     },
     {
       "date": "2024-11-01",
       "value_cm": -206,
       "precip_mm": 0.0,
+      "discharge_m3s": 133.3,
       "resolution": "daily"
     },
     {
       "date": "2024-11-02",
       "value_cm": -230,
       "precip_mm": 0.7,
+      "discharge_m3s": 112.2,
       "resolution": "daily"
     },
     {
       "date": "2024-11-03",
       "value_cm": -248,
       "precip_mm": 0.0,
+      "discharge_m3s": 101.3,
       "resolution": "daily"
     },
     {
       "date": "2024-11-04",
       "value_cm": -233,
       "precip_mm": 0.0,
+      "discharge_m3s": 129.8,
       "resolution": "daily"
     },
     {
       "date": "2024-11-05",
       "value_cm": -164,
       "precip_mm": 0.0,
+      "discharge_m3s": 193.1,
       "resolution": "daily"
     },
     {
       "date": "2024-11-06",
       "value_cm": -154,
       "precip_mm": 0.0,
+      "discharge_m3s": 187.2,
       "resolution": "daily"
     },
     {
       "date": "2024-11-07",
       "value_cm": -158,
       "precip_mm": 0.0,
+      "discharge_m3s": 185.0,
       "resolution": "daily"
     },
     {
       "date": "2024-11-08",
       "value_cm": -166,
       "precip_mm": 0.0,
+      "discharge_m3s": 173.0,
       "resolution": "daily"
     },
     {
       "date": "2024-11-09",
       "value_cm": -171,
       "precip_mm": 0.0,
+      "discharge_m3s": 173.6,
       "resolution": "daily"
     },
     {
       "date": "2024-11-10",
       "value_cm": -167,
       "precip_mm": 0.0,
+      "discharge_m3s": 178.4,
       "resolution": "daily"
     },
     {
       "date": "2024-11-11",
       "value_cm": -166,
       "precip_mm": 0.0,
+      "discharge_m3s": 177.3,
       "resolution": "daily"
     },
     {
       "date": "2024-11-12",
       "value_cm": -169,
       "precip_mm": 0.0,
+      "discharge_m3s": 174.0,
       "resolution": "daily"
     },
     {
       "date": "2024-11-13",
       "value_cm": -169,
       "precip_mm": 0.1,
+      "discharge_m3s": 175.4,
       "resolution": "daily"
     },
     {
       "date": "2024-11-14",
       "value_cm": -168,
       "precip_mm": 0.1,
+      "discharge_m3s": 176.6,
       "resolution": "daily"
     },
     {
       "date": "2024-11-15",
       "value_cm": -165,
       "precip_mm": 0.0,
+      "discharge_m3s": 178.0,
       "resolution": "daily"
     },
     {
       "date": "2024-11-16",
       "value_cm": -170,
       "precip_mm": 0.0,
+      "discharge_m3s": 172.3,
       "resolution": "daily"
     },
     {
       "date": "2024-11-17",
       "value_cm": -175,
       "precip_mm": 0.0,
+      "discharge_m3s": 167.4,
       "resolution": "daily"
     },
     {
       "date": "2024-11-18",
       "value_cm": -184,
       "precip_mm": 0.6,
+      "discharge_m3s": 158.0,
       "resolution": "daily"
     },
     {
       "date": "2024-11-19",
       "value_cm": -190,
       "precip_mm": 0.8,
+      "discharge_m3s": 153.9,
       "resolution": "daily"
     },
     {
       "date": "2024-11-20",
       "value_cm": -188,
       "precip_mm": 11.1,
+      "discharge_m3s": 155.8,
       "resolution": "daily"
     },
     {
       "date": "2024-11-21",
       "value_cm": -191,
       "precip_mm": 0.0,
+      "discharge_m3s": 154.2,
       "resolution": "daily"
     },
     {
       "date": "2024-11-22",
       "value_cm": -168,
       "precip_mm": 17.1,
+      "discharge_m3s": 194.4,
       "resolution": "daily"
     },
     {
       "date": "2024-11-23",
       "value_cm": -111,
       "precip_mm": 0.0,
+      "discharge_m3s": 258.5,
       "resolution": "daily"
     },
     {
       "date": "2024-11-24",
       "value_cm": -58,
       "precip_mm": 0.0,
+      "discharge_m3s": 316.5,
       "resolution": "daily"
     },
     {
       "date": "2024-11-25",
       "value_cm": -47,
       "precip_mm": 0.0,
+      "discharge_m3s": 302.8,
       "resolution": "daily"
     },
     {
       "date": "2024-11-26",
       "value_cm": -75,
       "precip_mm": 0.0,
+      "discharge_m3s": 262.9,
       "resolution": "daily"
     },
     {
       "date": "2024-11-27",
       "value_cm": -101,
       "precip_mm": 0.0,
+      "discharge_m3s": 236.3,
       "resolution": "daily"
     },
     {
       "date": "2024-11-28",
       "value_cm": -122,
       "precip_mm": 3.5,
+      "discharge_m3s": 217.1,
       "resolution": "daily"
     },
     {
       "date": "2024-11-29",
       "value_cm": -137,
       "precip_mm": 0.9,
+      "discharge_m3s": 204.1,
       "resolution": "daily"
     },
     {
       "date": "2024-11-30",
       "value_cm": -140,
       "precip_mm": 0.0,
+      "discharge_m3s": 206.8,
       "resolution": "daily"
     },
     {
       "date": "2024-12-01",
       "value_cm": -125,
       "precip_mm": 0.0,
+      "discharge_m3s": 233.3,
       "resolution": "daily"
     },
     {
       "date": "2024-12-02",
       "value_cm": -98,
       "precip_mm": 0.0,
+      "discharge_m3s": 264.9,
       "resolution": "daily"
     },
     {
       "date": "2024-12-03",
       "value_cm": -79,
       "precip_mm": 0.3,
+      "discharge_m3s": 277.9,
       "resolution": "daily"
     },
     {
       "date": "2024-12-04",
       "value_cm": -84,
       "precip_mm": 0.4,
+      "discharge_m3s": 264.2,
       "resolution": "daily"
     },
     {
       "date": "2024-12-05",
       "value_cm": -98,
       "precip_mm": 0.0,
+      "discharge_m3s": 245.8,
       "resolution": "daily"
     },
     {
       "date": "2024-12-06",
       "value_cm": -115,
       "precip_mm": 4.4,
+      "discharge_m3s": 226.8,
       "resolution": "daily"
     },
     {
       "date": "2024-12-07",
       "value_cm": -131,
       "precip_mm": 0.5,
+      "discharge_m3s": 209.1,
       "resolution": "daily"
     },
     {
       "date": "2024-12-08",
       "value_cm": -146,
       "precip_mm": 0.2,
+      "discharge_m3s": 195.0,
       "resolution": "daily"
     },
     {
       "date": "2024-12-09",
       "value_cm": -159,
       "precip_mm": 4.3,
+      "discharge_m3s": 180.4,
       "resolution": "daily"
     },
     {
       "date": "2024-12-10",
       "value_cm": -173,
       "precip_mm": 1.8,
+      "discharge_m3s": 168.3,
       "resolution": "daily"
     },
     {
       "date": "2024-12-11",
       "value_cm": -184,
       "precip_mm": 1.2,
+      "discharge_m3s": 158.9,
       "resolution": "daily"
     },
     {
       "date": "2024-12-12",
       "value_cm": -198,
       "precip_mm": 0.0,
+      "discharge_m3s": 141.6,
       "resolution": "daily"
     },
     {
       "date": "2024-12-13",
       "value_cm": -209,
       "precip_mm": 0.0,
+      "discharge_m3s": 143.4,
       "resolution": "daily"
     },
     {
       "date": "2024-12-14",
       "value_cm": -189,
       "precip_mm": 4.0,
+      "discharge_m3s": 161.3,
       "resolution": "daily"
     },
     {
       "date": "2024-12-15",
       "value_cm": -178,
       "precip_mm": 0.0,
+      "discharge_m3s": 166.3,
       "resolution": "daily"
     },
     {
       "date": "2024-12-16",
       "value_cm": -186,
       "precip_mm": 0.3,
+      "discharge_m3s": 162.3,
       "resolution": "daily"
     },
     {
       "date": "2024-12-17",
       "value_cm": -178,
       "precip_mm": 0.0,
+      "discharge_m3s": 168.8,
       "resolution": "daily"
     },
     {
       "date": "2024-12-18",
       "value_cm": -177,
       "precip_mm": 0.0,
+      "discharge_m3s": 167.6,
       "resolution": "daily"
     },
     {
       "date": "2024-12-19",
       "value_cm": -180,
       "precip_mm": 0.0,
+      "discharge_m3s": 164.5,
       "resolution": "daily"
     },
     {
       "date": "2024-12-20",
       "value_cm": -166,
       "precip_mm": 7.4,
+      "discharge_m3s": 189.5,
       "resolution": "daily"
     },
     {
       "date": "2024-12-21",
       "value_cm": -125,
       "precip_mm": 0.1,
+      "discharge_m3s": 232.7,
       "resolution": "daily"
     },
     {
       "date": "2024-12-22",
       "value_cm": -115,
       "precip_mm": 0.4,
+      "discharge_m3s": 235.8,
       "resolution": "daily"
     },
     {
       "date": "2024-12-23",
       "value_cm": -102,
       "precip_mm": 4.5,
+      "discharge_m3s": 262.8,
       "resolution": "daily"
     },
     {
       "date": "2024-12-24",
       "value_cm": -74,
       "precip_mm": 1.2,
+      "discharge_m3s": 281.8,
       "resolution": "daily"
     },
     {
       "date": "2024-12-25",
       "value_cm": -73,
       "precip_mm": 0.0,
+      "discharge_m3s": 283.6,
       "resolution": "daily"
     },
     {
       "date": "2024-12-26",
       "value_cm": -82,
       "precip_mm": 0.0,
+      "discharge_m3s": 260.6,
       "resolution": "daily"
     },
     {
       "date": "2024-12-27",
       "value_cm": -115,
       "precip_mm": 0.0,
+      "discharge_m3s": 215.8,
       "resolution": "daily"
     },
     {
       "date": "2024-12-28",
       "value_cm": -146,
       "precip_mm": 0.0,
+      "discharge_m3s": 189.7,
       "resolution": "daily"
     },
     {
       "date": "2024-12-29",
       "value_cm": -166,
       "precip_mm": 0.0,
+      "discharge_m3s": 170.5,
       "resolution": "daily"
     },
     {
       "date": "2024-12-30",
       "value_cm": -178,
       "precip_mm": 0.0,
+      "discharge_m3s": 170.4,
       "resolution": "daily"
     },
     {
       "date": "2024-12-31",
       "value_cm": -174,
       "precip_mm": 0.0,
+      "discharge_m3s": 169.5,
       "resolution": "daily"
     },
     {
       "date": "2025-01-01",
       "value_cm": -187,
       "precip_mm": 0.0,
+      "discharge_m3s": 151.8,
       "resolution": "daily"
     },
     {
       "date": "2025-01-02",
       "value_cm": -204,
       "precip_mm": 0.3,
+      "discharge_m3s": 143.7,
       "resolution": "daily"
     },
     {
       "date": "2025-01-03",
       "value_cm": -195,
       "precip_mm": 4.3,
+      "discharge_m3s": 153.4,
       "resolution": "daily"
     },
     {
       "date": "2025-01-04",
       "value_cm": -192,
       "precip_mm": 0.0,
+      "discharge_m3s": 151.2,
       "resolution": "daily"
     },
     {
       "date": "2025-01-05",
       "value_cm": -204,
       "precip_mm": 0.6,
+      "discharge_m3s": 139.8,
       "resolution": "daily"
     },
     {
       "date": "2025-01-06",
       "value_cm": -201,
       "precip_mm": 0.0,
+      "discharge_m3s": 145.6,
       "resolution": "daily"
     },
     {
       "date": "2025-01-07",
       "value_cm": -187,
       "precip_mm": 0.0,
+      "discharge_m3s": 156.4,
       "resolution": "daily"
     },
     {
       "date": "2025-01-08",
       "value_cm": -187,
       "precip_mm": 0.4,
+      "discharge_m3s": 155.6,
       "resolution": "daily"
     },
     {
       "date": "2025-01-09",
       "value_cm": -176,
       "precip_mm": 2.2,
+      "discharge_m3s": 175.6,
       "resolution": "daily"
     },
     {
       "date": "2025-01-10",
       "value_cm": -123,
       "precip_mm": 6.1,
+      "discharge_m3s": 240.6,
       "resolution": "daily"
     },
     {
       "date": "2025-01-11",
       "value_cm": -29,
       "precip_mm": 0.1,
+      "discharge_m3s": 369.8,
       "resolution": "daily"
     },
     {
       "date": "2025-01-12",
       "value_cm": 58,
       "precip_mm": 0.0,
+      "discharge_m3s": 465.5,
       "resolution": "daily"
     },
     {
       "date": "2025-01-13",
       "value_cm": 141,
       "precip_mm": 0.1,
+      "discharge_m3s": 589.2,
       "resolution": "daily"
     },
     {
       "date": "2025-01-14",
       "value_cm": 177,
       "precip_mm": 0.0,
+      "discharge_m3s": 600.1,
       "resolution": "daily"
     },
     {
       "date": "2025-01-15",
       "value_cm": 151,
       "precip_mm": 1.7,
+      "discharge_m3s": 544.4,
       "resolution": "daily"
     },
     {
       "date": "2025-01-16",
       "value_cm": 117,
       "precip_mm": 0.0,
+      "discharge_m3s": 490.5,
       "resolution": "daily"
     },
     {
       "date": "2025-01-17",
       "value_cm": 75,
       "precip_mm": 0.0,
+      "discharge_m3s": 431.3,
       "resolution": "daily"
     },
     {
       "date": "2025-01-18",
       "value_cm": 36,
       "precip_mm": 0.0,
+      "discharge_m3s": 390.3,
       "resolution": "daily"
     },
     {
       "date": "2025-01-19",
       "value_cm": 2,
       "precip_mm": 0.0,
+      "discharge_m3s": 351.3,
       "resolution": "daily"
     },
     {
       "date": "2025-01-20",
       "value_cm": -18,
       "precip_mm": 0.0,
+      "discharge_m3s": 340.6,
       "resolution": "daily"
     },
     {
       "date": "2025-01-21",
       "value_cm": -49,
       "precip_mm": 1.5,
+      "discharge_m3s": 294.7,
       "resolution": "daily"
     },
     {
       "date": "2025-01-22",
       "value_cm": -65,
       "precip_mm": 0.4,
+      "discharge_m3s": 284.8,
       "resolution": "daily"
     },
     {
       "date": "2025-01-23",
       "value_cm": -81,
       "precip_mm": 2.1,
+      "discharge_m3s": 267.1,
       "resolution": "daily"
     },
     {
       "date": "2025-01-24",
       "value_cm": -92,
       "precip_mm": 0.4,
+      "discharge_m3s": 260.2,
       "resolution": "daily"
     },
     {
       "date": "2025-01-25",
       "value_cm": -97,
       "precip_mm": 0.0,
+      "discharge_m3s": 251.0,
       "resolution": "daily"
     },
     {
       "date": "2025-01-26",
       "value_cm": -100,
       "precip_mm": 0.0,
+      "discharge_m3s": 260.2,
       "resolution": "daily"
     },
     {
       "date": "2025-01-27",
       "value_cm": -78,
       "precip_mm": 0.0,
+      "discharge_m3s": 295.3,
       "resolution": "daily"
     },
     {
       "date": "2025-01-28",
       "value_cm": -53,
       "precip_mm": 2.0,
+      "discharge_m3s": 317.3,
       "resolution": "daily"
     },
     {
       "date": "2025-01-29",
       "value_cm": -28,
       "precip_mm": 0.7,
+      "discharge_m3s": 342.7,
       "resolution": "daily"
     },
     {
       "date": "2025-01-30",
       "value_cm": -12,
       "precip_mm": 0.0,
+      "discharge_m3s": 365.9,
       "resolution": "daily"
     },
     {
       "date": "2025-01-31",
       "value_cm": 6,
       "precip_mm": 0.0,
+      "discharge_m3s": 377.8,
       "resolution": "daily"
     },
     {
       "date": "2025-02-01",
       "value_cm": 10,
       "precip_mm": 0.0,
+      "discharge_m3s": 390.7,
       "resolution": "daily"
     },
     {
       "date": "2025-02-02",
       "value_cm": 28,
       "precip_mm": 0.5,
+      "discharge_m3s": 413.6,
       "resolution": "daily"
     },
     {
       "date": "2025-02-03",
       "value_cm": 34,
       "precip_mm": 0.0,
+      "discharge_m3s": 405.9,
       "resolution": "daily"
     },
     {
       "date": "2025-02-04",
       "value_cm": 29,
       "precip_mm": 0.0,
+      "discharge_m3s": 399.5,
       "resolution": "daily"
     },
     {
       "date": "2025-02-05",
       "value_cm": 23,
       "precip_mm": 0.0,
+      "discharge_m3s": 398.4,
       "resolution": "daily"
     },
     {
       "date": "2025-02-06",
       "value_cm": 7,
       "precip_mm": 0.0,
+      "discharge_m3s": 366.0,
       "resolution": "daily"
     },
     {
       "date": "2025-02-07",
       "value_cm": -12,
       "precip_mm": 0.0,
+      "discharge_m3s": 341.2,
       "resolution": "daily"
     },
     {
       "date": "2025-02-08",
       "value_cm": -40,
       "precip_mm": 0.0,
+      "discharge_m3s": 298.2,
       "resolution": "daily"
     },
     {
       "date": "2025-02-09",
       "value_cm": -73,
       "precip_mm": 0.0,
+      "discharge_m3s": 269.5,
       "resolution": "daily"
     },
     {
       "date": "2025-02-10",
       "value_cm": -94,
       "precip_mm": 0.0,
+      "discharge_m3s": 257.9,
       "resolution": "daily"
     },
     {
       "date": "2025-02-11",
       "value_cm": -101,
       "precip_mm": 0.0,
+      "discharge_m3s": 248.6,
       "resolution": "daily"
     },
     {
       "date": "2025-02-12",
       "value_cm": -112,
       "precip_mm": 0.1,
+      "discharge_m3s": 235.8,
       "resolution": "daily"
     },
     {
       "date": "2025-02-13",
       "value_cm": -124,
       "precip_mm": 5.0,
+      "discharge_m3s": 220.8,
       "resolution": "daily"
     },
     {
       "date": "2025-02-14",
       "value_cm": -136,
       "precip_mm": 10.1,
+      "discharge_m3s": 207.8,
       "resolution": "daily"
     },
     {
       "date": "2025-02-15",
       "value_cm": -150,
       "precip_mm": 0.0,
+      "discharge_m3s": 189.4,
       "resolution": "daily"
     },
     {
       "date": "2025-02-16",
       "value_cm": -169,
       "precip_mm": 0.0,
+      "discharge_m3s": 170.5,
       "resolution": "daily"
     },
     {
       "date": "2025-02-17",
       "value_cm": -186,
       "precip_mm": 0.0,
+      "discharge_m3s": 163.4,
       "resolution": "daily"
     },
     {
       "date": "2025-02-18",
       "value_cm": -175,
       "precip_mm": 0.0,
+      "discharge_m3s": 176.7,
       "resolution": "daily"
     },
     {
       "date": "2025-02-19",
       "value_cm": -172,
       "precip_mm": 0.0,
+      "discharge_m3s": 175.3,
       "resolution": "daily"
     },
     {
       "date": "2025-02-20",
       "value_cm": -178,
       "precip_mm": 0.0,
+      "discharge_m3s": 166.3,
       "resolution": "daily"
     },
     {
       "date": "2025-02-21",
       "value_cm": -189,
       "precip_mm": 0.0,
+      "discharge_m3s": 155.9,
       "resolution": "daily"
     },
     {
       "date": "2025-02-22",
       "value_cm": -199,
       "precip_mm": 0.0,
+      "discharge_m3s": 144.5,
       "resolution": "daily"
     },
     {
       "date": "2025-02-23",
       "value_cm": -215,
       "precip_mm": 0.0,
+      "discharge_m3s": 131.4,
       "resolution": "daily"
     },
     {
       "date": "2025-02-24",
       "value_cm": -223,
       "precip_mm": 0.1,
+      "discharge_m3s": 127.9,
       "resolution": "daily"
     },
     {
       "date": "2025-02-25",
       "value_cm": -217,
       "precip_mm": 0.0,
+      "discharge_m3s": 136.2,
       "resolution": "daily"
     },
     {
       "date": "2025-02-26",
       "value_cm": -207,
       "precip_mm": 1.1,
+      "discharge_m3s": 143.2,
       "resolution": "daily"
     },
     {
       "date": "2025-02-27",
       "value_cm": -204,
       "precip_mm": 3.9,
+      "discharge_m3s": 144.4,
       "resolution": "daily"
     },
     {
       "date": "2025-02-28",
       "value_cm": -208,
       "precip_mm": 2.8,
+      "discharge_m3s": 137.6,
       "resolution": "daily"
     },
     {
       "date": "2025-03-01",
       "value_cm": -221,
       "precip_mm": 0.0,
+      "discharge_m3s": 124.3,
       "resolution": "daily"
     },
     {
       "date": "2025-03-02",
       "value_cm": -228,
       "precip_mm": 0.0,
+      "discharge_m3s": 125.6,
       "resolution": "daily"
     },
     {
       "date": "2025-03-03",
       "value_cm": -214,
       "precip_mm": 0.0,
+      "discharge_m3s": 137.2,
       "resolution": "daily"
     },
     {
       "date": "2025-03-04",
       "value_cm": -211,
       "precip_mm": 0.0,
+      "discharge_m3s": 137.9,
       "resolution": "daily"
     },
     {
       "date": "2025-03-05",
       "value_cm": -216,
       "precip_mm": 0.0,
+      "discharge_m3s": 129.4,
       "resolution": "daily"
     },
     {
       "date": "2025-03-06",
       "value_cm": -225,
       "precip_mm": 0.0,
+      "discharge_m3s": 122.1,
       "resolution": "daily"
     },
     {
       "date": "2025-03-07",
       "value_cm": -232,
       "precip_mm": 0.0,
+      "discharge_m3s": 115.7,
       "resolution": "daily"
     },
     {
       "date": "2025-03-08",
       "value_cm": -241,
       "precip_mm": 0.0,
+      "discharge_m3s": 108.3,
       "resolution": "daily"
     },
     {
       "date": "2025-03-09",
       "value_cm": -245,
       "precip_mm": 0.0,
+      "discharge_m3s": 105.2,
       "resolution": "daily"
     },
     {
       "date": "2025-03-10",
       "value_cm": -247,
       "precip_mm": 0.3,
+      "discharge_m3s": 103.9,
       "resolution": "daily"
     },
     {
       "date": "2025-03-11",
       "value_cm": -247,
       "precip_mm": 7.8,
+      "discharge_m3s": 103.3,
       "resolution": "daily"
     },
     {
       "date": "2025-03-12",
       "value_cm": -251,
       "precip_mm": 1.2,
+      "discharge_m3s": 98.1,
       "resolution": "daily"
     },
     {
       "date": "2025-03-13",
       "value_cm": -256,
       "precip_mm": 8.1,
+      "discharge_m3s": 95.5,
       "resolution": "daily"
     },
     {
       "date": "2025-03-14",
       "value_cm": -242,
       "precip_mm": 5.7,
+      "discharge_m3s": 116.7,
       "resolution": "daily"
     },
     {
       "date": "2025-03-15",
       "value_cm": -156,
       "precip_mm": 12.8,
+      "discharge_m3s": 225.3,
       "resolution": "daily"
     },
     {
       "date": "2025-03-16",
       "value_cm": -37,
       "precip_mm": 2.9,
+      "discharge_m3s": 371.5,
       "resolution": "daily"
     },
     {
       "date": "2025-03-17",
       "value_cm": 92,
       "precip_mm": 7.3,
+      "discharge_m3s": 573.0,
       "resolution": "daily"
     },
     {
       "date": "2025-03-18",
       "value_cm": 215,
       "precip_mm": 0.0,
+      "discharge_m3s": 738.1,
       "resolution": "daily"
     },
     {
       "date": "2025-03-19",
       "value_cm": 293,
       "precip_mm": 0.0,
+      "discharge_m3s": 846.8,
       "resolution": "daily"
     },
     {
       "date": "2025-03-20",
       "value_cm": 332,
       "precip_mm": 0.0,
+      "discharge_m3s": 843.3,
       "resolution": "daily"
     },
     {
       "date": "2025-03-21",
       "value_cm": 309,
       "precip_mm": 0.0,
+      "discharge_m3s": 764.3,
       "resolution": "daily"
     },
     {
       "date": "2025-03-22",
       "value_cm": 270,
       "precip_mm": 4.5,
+      "discharge_m3s": 691.4,
       "resolution": "daily"
     },
     {
       "date": "2025-03-23",
       "value_cm": 243,
       "precip_mm": 4.1,
+      "discharge_m3s": 662.6,
       "resolution": "daily"
     },
     {
       "date": "2025-03-24",
       "value_cm": 207,
       "precip_mm": 9.1,
+      "discharge_m3s": 605.6,
       "resolution": "daily"
     },
     {
       "date": "2025-03-25",
       "value_cm": 176,
       "precip_mm": 2.1,
+      "discharge_m3s": 561.0,
       "resolution": "daily"
     },
     {
       "date": "2025-03-26",
       "value_cm": 141,
       "precip_mm": 0.7,
+      "discharge_m3s": 512.1,
       "resolution": "daily"
     },
     {
       "date": "2025-03-27",
       "value_cm": 142,
       "precip_mm": 1.7,
+      "discharge_m3s": 564.7,
       "resolution": "daily"
     },
     {
       "date": "2025-03-28",
       "value_cm": 181,
       "precip_mm": 3.0,
+      "discharge_m3s": 618.8,
       "resolution": "daily"
     },
     {
       "date": "2025-03-29",
       "value_cm": 198,
       "precip_mm": 10.1,
+      "discharge_m3s": 638.9,
       "resolution": "daily"
     },
     {
       "date": "2025-03-30",
       "value_cm": 193,
       "precip_mm": 0.1,
+      "discharge_m3s": 603.5,
       "resolution": "daily"
     },
     {
       "date": "2025-03-31",
       "value_cm": 182,
       "precip_mm": 1.5,
+      "discharge_m3s": 598.9,
       "resolution": "daily"
     },
     {
       "date": "2025-04-01",
       "value_cm": 180,
       "precip_mm": 0.0,
+      "discharge_m3s": 595.2,
       "resolution": "daily"
     },
     {
       "date": "2025-04-02",
       "value_cm": 175,
       "precip_mm": 0.0,
+      "discharge_m3s": 583.4,
       "resolution": "daily"
     },
     {
       "date": "2025-04-03",
       "value_cm": 164,
       "precip_mm": 0.0,
+      "discharge_m3s": 570.8,
       "resolution": "daily"
     },
     {
       "date": "2025-04-04",
       "value_cm": 164,
       "precip_mm": 0.0,
+      "discharge_m3s": 577.9,
       "resolution": "daily"
     },
     {
       "date": "2025-04-05",
       "value_cm": 158,
       "precip_mm": 2.8,
+      "discharge_m3s": 545.6,
       "resolution": "daily"
     },
     {
       "date": "2025-04-06",
       "value_cm": 137,
       "precip_mm": 2.0,
+      "discharge_m3s": 536.9,
       "resolution": "daily"
     },
     {
       "date": "2025-04-07",
       "value_cm": 121,
       "precip_mm": 0.0,
+      "discharge_m3s": 488.6,
       "resolution": "daily"
     },
     {
       "date": "2025-04-08",
       "value_cm": 79,
       "precip_mm": 0.3,
+      "discharge_m3s": 428.5,
       "resolution": "daily"
     },
     {
       "date": "2025-04-09",
       "value_cm": 83,
       "precip_mm": 0.0,
+      "discharge_m3s": 485.3,
       "resolution": "daily"
     },
     {
       "date": "2025-04-10",
       "value_cm": 92,
       "precip_mm": 0.4,
+      "discharge_m3s": 476.1,
       "resolution": "daily"
     },
     {
       "date": "2025-04-11",
       "value_cm": 85,
       "precip_mm": 0.1,
+      "discharge_m3s": 459.2,
       "resolution": "daily"
     },
     {
       "date": "2025-04-12",
       "value_cm": 66,
       "precip_mm": 0.0,
+      "discharge_m3s": 439.7,
       "resolution": "daily"
     },
     {
       "date": "2025-04-13",
       "value_cm": 67,
       "precip_mm": 0.1,
+      "discharge_m3s": 448.4,
       "resolution": "daily"
     },
     {
       "date": "2025-04-14",
       "value_cm": 41,
       "precip_mm": 1.8,
+      "discharge_m3s": 378.1,
       "resolution": "daily"
     },
     {
       "date": "2025-04-15",
       "value_cm": 9,
       "precip_mm": 6.0,
+      "discharge_m3s": 371.4,
       "resolution": "daily"
     },
     {
       "date": "2025-04-16",
       "value_cm": 19,
       "precip_mm": 0.0,
+      "discharge_m3s": 387.4,
       "resolution": "daily"
     },
     {
       "date": "2025-04-17",
       "value_cm": 39,
       "precip_mm": 5.0,
+      "discharge_m3s": 436.6,
       "resolution": "daily"
     },
     {
       "date": "2025-04-18",
       "value_cm": 77,
       "precip_mm": 10.4,
+      "discharge_m3s": 477.4,
       "resolution": "daily"
     },
     {
       "date": "2025-04-19",
       "value_cm": 92,
       "precip_mm": 0.1,
+      "discharge_m3s": 485.8,
       "resolution": "daily"
     },
     {
       "date": "2025-04-20",
       "value_cm": 91,
       "precip_mm": 0.0,
+      "discharge_m3s": 477.6,
       "resolution": "daily"
     },
     {
       "date": "2025-04-21",
       "value_cm": 90,
       "precip_mm": 0.0,
+      "discharge_m3s": 473.8,
       "resolution": "daily"
     },
     {
       "date": "2025-04-22",
       "value_cm": 47,
       "precip_mm": 0.4,
+      "discharge_m3s": 370.9,
       "resolution": "daily"
     },
     {
       "date": "2025-04-23",
       "value_cm": 24,
       "precip_mm": 0.6,
+      "discharge_m3s": 376.4,
       "resolution": "daily"
     },
     {
       "date": "2025-04-24",
       "value_cm": 14,
       "precip_mm": 5.6,
+      "discharge_m3s": 369.5,
       "resolution": "daily"
     },
     {
       "date": "2025-04-25",
       "value_cm": 20,
       "precip_mm": 4.3,
+      "discharge_m3s": 392.5,
       "resolution": "daily"
     },
     {
       "date": "2025-04-26",
       "value_cm": 33,
       "precip_mm": 0.2,
+      "discharge_m3s": 389.2,
       "resolution": "daily"
     },
     {
       "date": "2025-04-27",
       "value_cm": 47,
       "precip_mm": 0.0,
+      "discharge_m3s": 378.9,
       "resolution": "daily"
     },
     {
       "date": "2025-04-28",
       "value_cm": 47,
       "precip_mm": 0.0,
+      "discharge_m3s": 415.6,
       "resolution": "daily"
     },
     {
       "date": "2025-04-29",
       "value_cm": 25,
       "precip_mm": 0.0,
+      "discharge_m3s": 360.1,
       "resolution": "daily"
     },
     {
       "date": "2025-04-30",
       "value_cm": -15,
       "precip_mm": 0.0,
+      "discharge_m3s": 328.4,
       "resolution": "daily"
     },
     {
       "date": "2025-05-01",
       "value_cm": -26,
       "precip_mm": 0.0,
+      "discharge_m3s": 314.3,
       "resolution": "daily"
     },
     {
       "date": "2025-05-02",
       "value_cm": -56,
       "precip_mm": 0.0,
+      "discharge_m3s": 283.4,
       "resolution": "daily"
     },
     {
       "date": "2025-05-03",
       "value_cm": -80,
       "precip_mm": 0.0,
+      "discharge_m3s": 253.9,
       "resolution": "daily"
     },
     {
       "date": "2025-05-04",
       "value_cm": -114,
       "precip_mm": 1.8,
+      "discharge_m3s": 217.8,
       "resolution": "daily"
     },
     {
       "date": "2025-05-05",
       "value_cm": -117,
       "precip_mm": 8.8,
+      "discharge_m3s": 250.1,
       "resolution": "daily"
     },
     {
       "date": "2025-05-06",
       "value_cm": -77,
       "precip_mm": 4.3,
+      "discharge_m3s": 280.5,
       "resolution": "daily"
     },
     {
       "date": "2025-05-07",
       "value_cm": -82,
       "precip_mm": 0.7,
+      "discharge_m3s": 264.6,
       "resolution": "daily"
     },
     {
       "date": "2025-05-08",
       "value_cm": -88,
       "precip_mm": 0.4,
+      "discharge_m3s": 262.2,
       "resolution": "daily"
     },
     {
       "date": "2025-05-09",
       "value_cm": -95,
       "precip_mm": 0.0,
+      "discharge_m3s": 249.0,
       "resolution": "daily"
     },
     {
       "date": "2025-05-10",
       "value_cm": -87,
       "precip_mm": 0.0,
+      "discharge_m3s": 258.7,
       "resolution": "daily"
     },
     {
       "date": "2025-05-11",
       "value_cm": -107,
       "precip_mm": 0.5,
+      "discharge_m3s": 237.4,
       "resolution": "daily"
     },
     {
       "date": "2025-05-12",
       "value_cm": -90,
       "precip_mm": 0.1,
+      "discharge_m3s": 271.2,
       "resolution": "daily"
     },
     {
       "date": "2025-05-13",
       "value_cm": -51,
       "precip_mm": 0.0,
+      "discharge_m3s": 336.5,
       "resolution": "daily"
     },
     {
       "date": "2025-05-14",
       "value_cm": -43,
       "precip_mm": 0.0,
+      "discharge_m3s": 289.9,
       "resolution": "daily"
     },
     {
       "date": "2025-05-15",
       "value_cm": -55,
       "precip_mm": 1.5,
+      "discharge_m3s": 305.1,
       "resolution": "daily"
     },
     {
       "date": "2025-05-16",
       "value_cm": -52,
       "precip_mm": 0.0,
+      "discharge_m3s": 289.1,
       "resolution": "daily"
     },
     {
       "date": "2025-05-17",
       "value_cm": -69,
       "precip_mm": 0.7,
+      "discharge_m3s": 274.9,
       "resolution": "daily"
     },
     {
       "date": "2025-05-18",
       "value_cm": -62,
       "precip_mm": 2.2,
+      "discharge_m3s": 296.2,
       "resolution": "daily"
     },
     {
       "date": "2025-05-19",
       "value_cm": -47,
       "precip_mm": 0.4,
+      "discharge_m3s": 316.9,
       "resolution": "daily"
     },
     {
       "date": "2025-05-20",
       "value_cm": -32,
       "precip_mm": 0.2,
+      "discharge_m3s": 336.5,
       "resolution": "daily"
     },
     {
       "date": "2025-05-21",
       "value_cm": -23,
       "precip_mm": 1.5,
+      "discharge_m3s": 345.8,
       "resolution": "daily"
     },
     {
       "date": "2025-05-22",
       "value_cm": 72,
       "precip_mm": 5.5,
+      "discharge_m3s": 546.6,
       "resolution": "daily"
     },
     {
       "date": "2025-05-23",
       "value_cm": 192,
       "precip_mm": 5.9,
+      "discharge_m3s": 732.5,
       "resolution": "daily"
     },
     {
       "date": "2025-05-24",
       "value_cm": 244,
       "precip_mm": 2.7,
+      "discharge_m3s": 730.7,
       "resolution": "daily"
     },
     {
       "date": "2025-05-25",
       "value_cm": 249,
       "precip_mm": 0.0,
+      "discharge_m3s": 643.8,
       "resolution": "daily"
     },
     {
       "date": "2025-05-26",
       "value_cm": 238,
       "precip_mm": 0.0,
+      "discharge_m3s": 646.4,
       "resolution": "daily"
     },
     {
       "date": "2025-05-27",
       "value_cm": 246,
       "precip_mm": 0.3,
+      "discharge_m3s": 718.4,
       "resolution": "daily"
     },
     {
       "date": "2025-05-28",
       "value_cm": 260,
       "precip_mm": 0.0,
+      "discharge_m3s": 708.9,
       "resolution": "daily"
     },
     {
       "date": "2025-05-29",
       "value_cm": 263,
       "precip_mm": 2.9,
+      "discharge_m3s": 704.3,
       "resolution": "daily"
     },
     {
       "date": "2025-05-30",
       "value_cm": 253,
       "precip_mm": 0.0,
+      "discharge_m3s": 636.7,
       "resolution": "daily"
     },
     {
       "date": "2025-05-31",
       "value_cm": 208,
       "precip_mm": 0.0,
+      "discharge_m3s": 572.4,
       "resolution": "daily"
     },
     {
       "date": "2025-06-01",
       "value_cm": 165,
       "precip_mm": 0.0,
+      "discharge_m3s": 521.4,
       "resolution": "daily"
     },
     {
       "date": "2025-06-02",
       "value_cm": 132,
       "precip_mm": 0.1,
+      "discharge_m3s": 472.3,
       "resolution": "daily"
     },
     {
       "date": "2025-06-03",
       "value_cm": 82,
       "precip_mm": 0.2,
+      "discharge_m3s": 392.4,
       "resolution": "daily"
     },
     {
       "date": "2025-06-04",
       "value_cm": 56,
       "precip_mm": 0.0,
+      "discharge_m3s": 398.2,
       "resolution": "daily"
     },
     {
       "date": "2025-06-05",
       "value_cm": 46,
       "precip_mm": 0.0,
+      "discharge_m3s": 393.5,
       "resolution": "daily"
     },
     {
       "date": "2025-06-06",
       "value_cm": 52,
       "precip_mm": 0.0,
+      "discharge_m3s": 424.7,
       "resolution": "daily"
     },
     {
       "date": "2025-06-07",
       "value_cm": 63,
       "precip_mm": 0.0,
+      "discharge_m3s": 439.2,
       "resolution": "daily"
     },
     {
       "date": "2025-06-08",
       "value_cm": 45,
       "precip_mm": 0.3,
+      "discharge_m3s": 376.5,
       "resolution": "daily"
     },
     {
       "date": "2025-06-09",
       "value_cm": -2,
       "precip_mm": 0.0,
+      "discharge_m3s": 321.2,
       "resolution": "daily"
     },
     {
       "date": "2025-06-10",
       "value_cm": -44,
       "precip_mm": 0.0,
+      "discharge_m3s": 283.3,
       "resolution": "daily"
     },
     {
       "date": "2025-06-11",
       "value_cm": -70,
       "precip_mm": 0.0,
+      "discharge_m3s": 264.0,
       "resolution": "daily"
     },
     {
       "date": "2025-06-12",
       "value_cm": -84,
       "precip_mm": 0.0,
+      "discharge_m3s": 257.2,
       "resolution": "daily"
     },
     {
       "date": "2025-06-13",
       "value_cm": -99,
       "precip_mm": 0.0,
+      "discharge_m3s": 241.3,
       "resolution": "daily"
     },
     {
       "date": "2025-06-14",
       "value_cm": -111,
       "precip_mm": 0.0,
+      "discharge_m3s": 228.8,
       "resolution": "daily"
     },
     {
       "date": "2025-06-15",
       "value_cm": -131,
       "precip_mm": 0.0,
+      "discharge_m3s": 200.5,
       "resolution": "daily"
     },
     {
       "date": "2025-06-16",
       "value_cm": -156,
       "precip_mm": 0.2,
+      "discharge_m3s": 176.1,
       "resolution": "daily"
     },
     {
       "date": "2025-06-17",
       "value_cm": -185,
       "precip_mm": 0.0,
+      "discharge_m3s": 149.1,
       "resolution": "daily"
     },
     {
       "date": "2025-06-18",
       "value_cm": -208,
       "precip_mm": 0.0,
+      "discharge_m3s": 130.3,
       "resolution": "daily"
     },
     {
       "date": "2025-06-19",
       "value_cm": -222,
       "precip_mm": 0.0,
+      "discharge_m3s": 124.5,
       "resolution": "daily"
     },
     {
       "date": "2025-06-20",
       "value_cm": -223,
       "precip_mm": 0.0,
+      "discharge_m3s": 124.2,
       "resolution": "daily"
     },
     {
       "date": "2025-06-21",
       "value_cm": -224,
       "precip_mm": 0.0,
+      "discharge_m3s": 122.9,
       "resolution": "daily"
     },
     {
       "date": "2025-06-22",
       "value_cm": -228,
       "precip_mm": 0.0,
+      "discharge_m3s": 113.6,
       "resolution": "daily"
     },
     {
       "date": "2025-06-23",
       "value_cm": -243,
       "precip_mm": 0.0,
+      "discharge_m3s": 101.2,
       "resolution": "daily"
     },
     {
       "date": "2025-06-24",
       "value_cm": -252,
       "precip_mm": 0.0,
+      "discharge_m3s": 98.5,
       "resolution": "daily"
     },
     {
       "date": "2025-06-25",
       "value_cm": -254,
       "precip_mm": 0.0,
+      "discharge_m3s": 97.6,
       "resolution": "daily"
     },
     {
       "date": "2025-06-26",
       "value_cm": -254,
       "precip_mm": 0.0,
+      "discharge_m3s": 95.2,
       "resolution": "daily"
     },
     {
       "date": "2025-06-27",
       "value_cm": -258,
       "precip_mm": 1.3,
+      "discharge_m3s": 90.7,
       "resolution": "daily"
     },
     {
       "date": "2025-06-28",
       "value_cm": -264,
       "precip_mm": 0.2,
+      "discharge_m3s": 83.6,
       "resolution": "daily"
     },
     {
       "date": "2025-06-29",
       "value_cm": -279,
       "precip_mm": 0.0,
+      "discharge_m3s": 74.6,
       "resolution": "daily"
     },
     {
       "date": "2025-06-30",
       "value_cm": -285,
       "precip_mm": 0.0,
+      "discharge_m3s": 70.7,
       "resolution": "daily"
     },
     {
       "date": "2025-07-01",
       "value_cm": -289,
       "precip_mm": 0.0,
+      "discharge_m3s": 68.0,
       "resolution": "daily"
     },
     {
       "date": "2025-07-02",
       "value_cm": -291,
       "precip_mm": 0.0,
+      "discharge_m3s": 66.6,
       "resolution": "daily"
     },
     {
       "date": "2025-07-03",
       "value_cm": -293,
       "precip_mm": 0.0,
+      "discharge_m3s": 64.9,
       "resolution": "daily"
     },
     {
       "date": "2025-07-04",
       "value_cm": -296,
       "precip_mm": 0.1,
+      "discharge_m3s": 62.8,
       "resolution": "daily"
     },
     {
       "date": "2025-07-05",
       "value_cm": -298,
       "precip_mm": 0.0,
+      "discharge_m3s": 60.5,
       "resolution": "daily"
     },
     {
       "date": "2025-07-06",
       "value_cm": -301,
       "precip_mm": 3.3,
+      "discharge_m3s": 58.9,
       "resolution": "daily"
     },
     {
       "date": "2025-07-07",
       "value_cm": -300,
       "precip_mm": 2.2,
+      "discharge_m3s": 59.3,
       "resolution": "daily"
     },
     {
       "date": "2025-07-08",
       "value_cm": -297,
       "precip_mm": 1.9,
+      "discharge_m3s": 61.8,
       "resolution": "daily"
     },
     {
       "date": "2025-07-09",
       "value_cm": -297,
       "precip_mm": 9.8,
+      "discharge_m3s": 61.5,
       "resolution": "daily"
     },
     {
       "date": "2025-07-10",
       "value_cm": -297,
       "precip_mm": 1.1,
+      "discharge_m3s": 60.9,
       "resolution": "daily"
     },
     {
       "date": "2025-07-11",
       "value_cm": -299,
       "precip_mm": 1.8,
+      "discharge_m3s": 60.0,
       "resolution": "daily"
     },
     {
       "date": "2025-07-12",
       "value_cm": -298,
       "precip_mm": 1.0,
+      "discharge_m3s": 61.5,
       "resolution": "daily"
     },
     {
       "date": "2025-07-13",
       "value_cm": -269,
       "precip_mm": 0.1,
+      "discharge_m3s": 103.4,
       "resolution": "daily"
     },
     {
       "date": "2025-07-14",
       "value_cm": -210,
       "precip_mm": 0.3,
+      "discharge_m3s": 151.0,
       "resolution": "daily"
     },
     {
       "date": "2025-07-15",
       "value_cm": -182,
       "precip_mm": 0.2,
+      "discharge_m3s": 159.6,
       "resolution": "daily"
     },
     {
       "date": "2025-07-16",
       "value_cm": -228,
       "precip_mm": 0.0,
+      "discharge_m3s": 108.9,
       "resolution": "daily"
     },
     {
       "date": "2025-07-17",
       "value_cm": -250,
       "precip_mm": 3.5,
+      "discharge_m3s": 94.4,
       "resolution": "daily"
     },
     {
       "date": "2025-07-18",
       "value_cm": -267,
       "precip_mm": 2.5,
+      "discharge_m3s": 83.5,
       "resolution": "daily"
     },
     {
       "date": "2025-07-19",
       "value_cm": -270,
       "precip_mm": 0.0,
+      "discharge_m3s": 87.1,
       "resolution": "daily"
     },
     {
       "date": "2025-07-20",
       "value_cm": -224,
       "precip_mm": 0.0,
+      "discharge_m3s": 133.7,
       "resolution": "daily"
     },
     {
       "date": "2025-07-21",
       "value_cm": -175,
       "precip_mm": 0.8,
+      "discharge_m3s": 190.7,
       "resolution": "daily"
     },
     {
       "date": "2025-07-22",
       "value_cm": -122,
       "precip_mm": 0.0,
+      "discharge_m3s": 227.2,
       "resolution": "daily"
     },
     {
       "date": "2025-07-23",
       "value_cm": -131,
       "precip_mm": 0.0,
+      "discharge_m3s": 209.0,
       "resolution": "daily"
     },
     {
       "date": "2025-07-24",
       "value_cm": -152,
       "precip_mm": 0.9,
+      "discharge_m3s": 180.0,
       "resolution": "daily"
     },
     {
       "date": "2025-07-25",
       "value_cm": -180,
       "precip_mm": 0.0,
+      "discharge_m3s": 151.7,
       "resolution": "daily"
     },
     {
       "date": "2025-07-26",
       "value_cm": -211,
       "precip_mm": 1.3,
+      "discharge_m3s": 123.6,
       "resolution": "daily"
     },
     {
       "date": "2025-07-27",
       "value_cm": -233,
       "precip_mm": 3.8,
+      "discharge_m3s": 109.8,
       "resolution": "daily"
     },
     {
       "date": "2025-07-28",
       "value_cm": -252,
       "precip_mm": 2.0,
+      "discharge_m3s": 91.8,
       "resolution": "daily"
     },
     {
       "date": "2025-07-29",
       "value_cm": -267,
       "precip_mm": 2.7,
+      "discharge_m3s": 86.9,
       "resolution": "daily"
     },
     {
       "date": "2025-07-30",
       "value_cm": -242,
       "precip_mm": 0.3,
+      "discharge_m3s": 111.2,
       "resolution": "daily"
     },
     {
       "date": "2025-07-31",
       "value_cm": -227,
       "precip_mm": 0.0,
+      "discharge_m3s": 121.6,
       "resolution": "daily"
     },
     {
       "date": "2025-08-01",
       "value_cm": -217,
       "precip_mm": 0.0,
+      "discharge_m3s": 131.4,
       "resolution": "daily"
     },
     {
       "date": "2025-08-02",
       "value_cm": -212,
       "precip_mm": 0.0,
+      "discharge_m3s": 130.7,
       "resolution": "daily"
     },
     {
       "date": "2025-08-03",
       "value_cm": -226,
       "precip_mm": 5.3,
+      "discharge_m3s": 115.5,
       "resolution": "daily"
     },
     {
       "date": "2025-08-04",
       "value_cm": -244,
       "precip_mm": 6.7,
+      "discharge_m3s": 99.6,
       "resolution": "daily"
     },
     {
       "date": "2025-08-05",
       "value_cm": -244,
       "precip_mm": 0.9,
+      "discharge_m3s": 107.7,
       "resolution": "daily"
     },
     {
       "date": "2025-08-06",
       "value_cm": -237,
       "precip_mm": 0.7,
+      "discharge_m3s": 108.8,
       "resolution": "daily"
     },
     {
       "date": "2025-08-07",
       "value_cm": -247,
       "precip_mm": 0.0,
+      "discharge_m3s": 97.8,
       "resolution": "daily"
     },
     {
       "date": "2025-08-08",
       "value_cm": -266,
       "precip_mm": 0.0,
+      "discharge_m3s": 82.7,
       "resolution": "daily"
     },
     {
       "date": "2025-08-09",
       "value_cm": -281,
       "precip_mm": 0.0,
+      "discharge_m3s": 71.5,
       "resolution": "daily"
     },
     {
       "date": "2025-08-10",
       "value_cm": -292,
       "precip_mm": 0.0,
+      "discharge_m3s": 63.8,
       "resolution": "daily"
     },
     {
       "date": "2025-08-11",
       "value_cm": -297,
       "precip_mm": 0.0,
+      "discharge_m3s": 60.6,
       "resolution": "daily"
     },
     {
       "date": "2025-08-12",
       "value_cm": -299,
       "precip_mm": 0.0,
+      "discharge_m3s": 59.4,
       "resolution": "daily"
     },
     {
       "date": "2025-08-13",
       "value_cm": -300,
       "precip_mm": 0.0,
+      "discharge_m3s": 58.8,
       "resolution": "daily"
     },
     {
       "date": "2025-08-14",
       "value_cm": -300,
       "precip_mm": 0.0,
+      "discharge_m3s": 58.8,
       "resolution": "daily"
     },
     {
       "date": "2025-08-15",
       "value_cm": -299,
       "precip_mm": 0.0,
+      "discharge_m3s": 59.3,
       "resolution": "daily"
     },
     {
       "date": "2025-08-16",
       "value_cm": -299,
       "precip_mm": 0.0,
+      "discharge_m3s": 59.1,
       "resolution": "daily"
     },
     {
       "date": "2025-08-17",
       "value_cm": -299,
       "precip_mm": 11.2,
+      "discharge_m3s": 59.3,
       "resolution": "daily"
     },
     {
       "date": "2025-08-18",
       "value_cm": -298,
       "precip_mm": 0.0,
+      "discharge_m3s": 59.8,
       "resolution": "daily"
     },
     {
       "date": "2025-08-19",
       "value_cm": -299,
       "precip_mm": 0.0,
+      "discharge_m3s": 59.5,
       "resolution": "daily"
     },
     {
       "date": "2025-08-20",
       "value_cm": -299,
       "precip_mm": 0.0,
+      "discharge_m3s": 59.4,
       "resolution": "daily"
     },
     {
       "date": "2025-08-21",
       "value_cm": -299,
       "precip_mm": 11.7,
+      "discharge_m3s": 59.1,
       "resolution": "daily"
     },
     {
       "date": "2025-08-22",
       "value_cm": -300,
       "precip_mm": 8.0,
+      "discharge_m3s": 58.9,
       "resolution": "daily"
     },
     {
       "date": "2025-08-23",
       "value_cm": -300,
       "precip_mm": 0.0,
+      "discharge_m3s": 58.8,
       "resolution": "daily"
     },
     {
       "date": "2025-08-24",
       "value_cm": -300,
       "precip_mm": 0.0,
+      "discharge_m3s": 58.6,
       "resolution": "daily"
     },
     {
       "date": "2025-08-25",
       "value_cm": -300,
       "precip_mm": 0.0,
+      "discharge_m3s": 58.8,
       "resolution": "daily"
     },
     {
       "date": "2025-08-26",
       "value_cm": -299,
       "precip_mm": 0.0,
+      "discharge_m3s": 59.3,
       "resolution": "daily"
     },
     {
       "date": "2025-08-27",
       "value_cm": -299,
       "precip_mm": 0.0,
+      "discharge_m3s": 59.4,
       "resolution": "daily"
     },
     {
       "date": "2025-08-28",
       "value_cm": -294,
       "precip_mm": 0.0,
+      "discharge_m3s": 67.2,
       "resolution": "daily"
     },
     {
       "date": "2025-08-29",
       "value_cm": -261,
       "precip_mm": 0.0,
+      "discharge_m3s": 90.8,
       "resolution": "daily"
     },
     {
       "date": "2025-08-30",
       "value_cm": -271,
       "precip_mm": 0.8,
+      "discharge_m3s": 78.2,
       "resolution": "daily"
     },
     {
       "date": "2025-08-31",
       "value_cm": -286,
       "precip_mm": 1.1,
+      "discharge_m3s": 67.8,
       "resolution": "daily"
     },
     {
       "date": "2025-09-01",
       "value_cm": -294,
       "precip_mm": 0.1,
+      "discharge_m3s": 62.1,
       "resolution": "daily"
     },
     {
       "date": "2025-09-02",
       "value_cm": -297,
       "precip_mm": 0.0,
+      "discharge_m3s": 60.6,
       "resolution": "daily"
     },
     {
       "date": "2025-09-03",
       "value_cm": -298,
       "precip_mm": 3.3,
+      "discharge_m3s": 60.0,
       "resolution": "daily"
     },
     {
       "date": "2025-09-04",
       "value_cm": -298,
       "precip_mm": 0.3,
+      "discharge_m3s": 59.8,
       "resolution": "daily"
     },
     {
       "date": "2025-09-05",
       "value_cm": -298,
       "precip_mm": 0.0,
+      "discharge_m3s": 59.5,
       "resolution": "daily"
     },
     {
       "date": "2025-09-06",
       "value_cm": -299,
       "precip_mm": 0.0,
+      "discharge_m3s": 59.2,
       "resolution": "daily"
     },
     {
       "date": "2025-09-07",
       "value_cm": -298,
       "precip_mm": 0.2,
+      "discharge_m3s": 59.7,
       "resolution": "daily"
     },
     {
       "date": "2025-09-08",
       "value_cm": -298,
       "precip_mm": 0.1,
+      "discharge_m3s": 59.9,
       "resolution": "daily"
     },
     {
       "date": "2025-09-09",
       "value_cm": -297,
       "precip_mm": 3.8,
+      "discharge_m3s": 60.3,
       "resolution": "daily"
     },
     {
       "date": "2025-09-10",
       "value_cm": -297,
       "precip_mm": 2.5,
+      "discharge_m3s": 60.3,
       "resolution": "daily"
     },
     {
       "date": "2025-09-11",
       "value_cm": -296,
       "precip_mm": 7.7,
+      "discharge_m3s": 60.9,
       "resolution": "daily"
     },
     {
       "date": "2025-09-12",
       "value_cm": -297,
       "precip_mm": 0.1,
+      "discharge_m3s": 60.6,
       "resolution": "daily"
     },
     {
       "date": "2025-09-13",
       "value_cm": -297,
       "precip_mm": 0.0,
+      "discharge_m3s": 60.4,
       "resolution": "daily"
     },
     {
       "date": "2025-09-14",
       "value_cm": -295,
       "precip_mm": 13.1,
+      "discharge_m3s": 61.2,
       "resolution": "daily"
     },
     {
       "date": "2025-09-15",
       "value_cm": -294,
       "precip_mm": 0.0,
+      "discharge_m3s": 64.2,
       "resolution": "daily"
     },
     {
       "date": "2025-09-16",
       "value_cm": -242,
       "precip_mm": 0.3,
+      "discharge_m3s": 132.3,
       "resolution": "daily"
     },
     {
       "date": "2025-09-17",
       "value_cm": -110,
       "precip_mm": 0.0,
+      "discharge_m3s": 259.9,
       "resolution": "daily"
     },
     {
       "date": "2025-09-18",
       "value_cm": -89,
       "precip_mm": 0.0,
+      "discharge_m3s": 263.4,
       "resolution": "daily"
     },
     {
       "date": "2025-09-19",
       "value_cm": -86,
       "precip_mm": 0.0,
+      "discharge_m3s": 263.0,
       "resolution": "daily"
     },
     {
       "date": "2025-09-20",
       "value_cm": -112,
       "precip_mm": 0.0,
+      "discharge_m3s": 212.0,
       "resolution": "daily"
     },
     {
       "date": "2025-09-21",
       "value_cm": -160,
       "precip_mm": 0.0,
+      "discharge_m3s": 164.1,
       "resolution": "daily"
     },
     {
       "date": "2025-09-22",
       "value_cm": -175,
       "precip_mm": 0.0,
+      "discharge_m3s": 167.7,
       "resolution": "daily"
     },
     {
       "date": "2025-09-23",
       "value_cm": -160,
       "precip_mm": 0.0,
+      "discharge_m3s": 182.1,
       "resolution": "daily"
     },
     {
       "date": "2025-09-24",
       "value_cm": -176,
       "precip_mm": 0.0,
+      "discharge_m3s": 150.1,
       "resolution": "daily"
     },
     {
       "date": "2025-09-25",
       "value_cm": -229,
       "precip_mm": 8.3,
+      "discharge_m3s": 104.2,
       "resolution": "daily"
     },
     {
       "date": "2025-09-26",
       "value_cm": -261,
       "precip_mm": 0.3,
+      "discharge_m3s": 86.1,
       "resolution": "daily"
     },
     {
       "date": "2025-09-27",
       "value_cm": -271,
       "precip_mm": 0.2,
+      "discharge_m3s": 82.7,
       "resolution": "daily"
     },
     {
       "date": "2025-09-28",
       "value_cm": -255,
       "precip_mm": 0.5,
+      "discharge_m3s": 97.1,
       "resolution": "daily"
     },
     {
       "date": "2025-09-29",
       "value_cm": -250,
       "precip_mm": 0.4,
+      "discharge_m3s": 97.1,
       "resolution": "daily"
     },
     {
       "date": "2025-09-30",
       "value_cm": -259,
       "precip_mm": 0.3,
+      "discharge_m3s": 88.9,
       "resolution": "daily"
     },
     {
       "date": "2025-10-01",
       "value_cm": -274,
       "precip_mm": 0.6,
+      "discharge_m3s": 77.3,
       "resolution": "daily"
     },
     {
       "date": "2025-10-02",
       "value_cm": -282,
       "precip_mm": 0.0,
+      "discharge_m3s": 73.6,
       "resolution": "daily"
     },
     {
       "date": "2025-10-03",
       "value_cm": -270,
       "precip_mm": 0.0,
+      "discharge_m3s": 86.1,
       "resolution": "daily"
     },
     {
       "date": "2025-10-04",
       "value_cm": -272,
       "precip_mm": 0.0,
+      "discharge_m3s": 80.1,
       "resolution": "daily"
     },
     {
       "date": "2025-10-05",
       "value_cm": -283,
       "precip_mm": 4.0,
+      "discharge_m3s": 71.0,
       "resolution": "daily"
     },
     {
       "date": "2025-10-06",
       "value_cm": -293,
       "precip_mm": 1.2,
+      "discharge_m3s": 63.9,
       "resolution": "daily"
     },
     {
       "date": "2025-10-07",
       "value_cm": -297,
       "precip_mm": 0.3,
+      "discharge_m3s": 61.0,
       "resolution": "daily"
     },
     {
       "date": "2025-10-08",
       "value_cm": -299,
       "precip_mm": 0.0,
+      "discharge_m3s": 59.9,
       "resolution": "daily"
     },
     {
       "date": "2025-10-09",
       "value_cm": -300,
       "precip_mm": 0.0,
+      "discharge_m3s": 59.4,
       "resolution": "daily"
     },
     {
       "date": "2025-10-10",
       "value_cm": -300,
       "precip_mm": 0.6,
+      "discharge_m3s": 59.5,
       "resolution": "daily"
     },
     {
       "date": "2025-10-11",
       "value_cm": -300,
       "precip_mm": 0.0,
+      "discharge_m3s": 59.5,
       "resolution": "daily"
     },
     {
       "date": "2025-10-12",
       "value_cm": -300,
       "precip_mm": 0.0,
+      "discharge_m3s": 59.0,
       "resolution": "daily"
     },
     {
       "date": "2025-10-13",
       "value_cm": -301,
       "precip_mm": 0.0,
+      "discharge_m3s": 58.5,
       "resolution": "daily"
     },
     {
       "date": "2025-10-14",
       "value_cm": -293,
       "precip_mm": 0.0,
+      "discharge_m3s": 67.6,
       "resolution": "daily"
     },
     {
       "date": "2025-10-15",
       "value_cm": -283,
       "precip_mm": 0.0,
+      "discharge_m3s": 73.4,
       "resolution": "daily"
     },
     {
       "date": "2025-10-16",
       "value_cm": -283,
       "precip_mm": 0.0,
+      "discharge_m3s": 73.1,
       "resolution": "daily"
     },
     {
       "date": "2025-10-17",
       "value_cm": -283,
       "precip_mm": 0.0,
+      "discharge_m3s": 73.1,
       "resolution": "daily"
     },
     {
       "date": "2025-10-18",
       "value_cm": -283,
       "precip_mm": 0.0,
+      "discharge_m3s": 73.5,
       "resolution": "daily"
     },
     {
       "date": "2025-10-19",
       "value_cm": -268,
       "precip_mm": 0.0,
+      "discharge_m3s": 90.2,
       "resolution": "daily"
     },
     {
       "date": "2025-10-20",
       "value_cm": -251,
       "precip_mm": 0.0,
+      "discharge_m3s": 100.4,
       "resolution": "daily"
     },
     {
       "date": "2025-10-21",
       "value_cm": -244,
       "precip_mm": 1.2,
+      "discharge_m3s": 106.6,
       "resolution": "daily"
     },
     {
       "date": "2025-10-22",
       "value_cm": -241,
       "precip_mm": 0.0,
+      "discharge_m3s": 107.4,
       "resolution": "daily"
     },
     {
       "date": "2025-10-23",
       "value_cm": -245,
       "precip_mm": 3.3,
+      "discharge_m3s": 103.5,
       "resolution": "daily"
     },
     {
       "date": "2025-10-24",
       "value_cm": -247,
       "precip_mm": 16.9,
+      "discharge_m3s": 101.5,
       "resolution": "daily"
     },
     {
       "date": "2025-10-25",
       "value_cm": -253,
       "precip_mm": 3.4,
+      "discharge_m3s": 94.9,
       "resolution": "daily"
     },
     {
       "date": "2025-10-26",
       "value_cm": -256,
       "precip_mm": 1.3,
+      "discharge_m3s": 93.9,
       "resolution": "daily"
     },
     {
       "date": "2025-10-27",
       "value_cm": -235,
       "precip_mm": 0.3,
+      "discharge_m3s": 137.8,
       "resolution": "daily"
     },
     {
       "date": "2025-10-28",
       "value_cm": -202,
       "precip_mm": 0.1,
+      "discharge_m3s": 151.1,
       "resolution": "daily"
     },
     {
       "date": "2025-10-29",
       "value_cm": -171,
       "precip_mm": 0.0,
+      "discharge_m3s": 174.9,
       "resolution": "daily"
     },
     {
       "date": "2025-10-30",
       "value_cm": -158,
       "precip_mm": 0.0,
+      "discharge_m3s": 191.4,
       "resolution": "daily"
     },
     {
       "date": "2025-10-31",
       "value_cm": -138,
       "precip_mm": 0.0,
+      "discharge_m3s": 210.4,
       "resolution": "daily"
     },
     {
       "date": "2025-11-01",
       "value_cm": -120,
       "precip_mm": 0.0,
+      "discharge_m3s": 234.5,
       "resolution": "daily"
     },
     {
       "date": "2025-11-02",
       "value_cm": -74,
       "precip_mm": 0.0,
+      "discharge_m3s": 299.4,
       "resolution": "daily"
     },
     {
       "date": "2025-11-03",
       "value_cm": -46,
       "precip_mm": 0.2,
+      "discharge_m3s": 312.0,
       "resolution": "daily"
     },
     {
       "date": "2025-11-04",
       "value_cm": -84,
       "precip_mm": 0.0,
+      "discharge_m3s": 240.1,
       "resolution": "daily"
     },
     {
       "date": "2025-11-05",
       "value_cm": -143,
       "precip_mm": 0.0,
+      "discharge_m3s": 179.1,
       "resolution": "daily"
     },
     {
       "date": "2025-11-06",
       "value_cm": -154,
       "precip_mm": 0.0,
+      "discharge_m3s": 196.0,
       "resolution": "daily"
     },
     {
       "date": "2025-11-07",
       "value_cm": -124,
       "precip_mm": 0.0,
+      "discharge_m3s": 236.7,
       "resolution": "daily"
     },
     {
       "date": "2025-11-08",
       "value_cm": -94,
       "precip_mm": 7.6,
+      "discharge_m3s": 261.2,
       "resolution": "daily"
     },
     {
       "date": "2025-11-09",
       "value_cm": -91,
       "precip_mm": 1.3,
+      "discharge_m3s": 261.5,
       "resolution": "daily"
     },
     {
       "date": "2025-11-10",
       "value_cm": -96,
       "precip_mm": 0.0,
+      "discharge_m3s": 254.0,
       "resolution": "daily"
     },
     {
       "date": "2025-11-11",
       "value_cm": -99,
       "precip_mm": 0.1,
+      "discharge_m3s": 252.0,
       "resolution": "daily"
     },
     {
       "date": "2025-11-12",
       "value_cm": -98,
       "precip_mm": 0.0,
+      "discharge_m3s": 254.3,
       "resolution": "daily"
     },
     {
       "date": "2025-11-13",
       "value_cm": -99,
       "precip_mm": 0.1,
+      "discharge_m3s": 250.4,
       "resolution": "daily"
     },
     {
       "date": "2025-11-14",
       "value_cm": -103,
       "precip_mm": 0.0,
+      "discharge_m3s": 247.7,
       "resolution": "daily"
     },
     {
       "date": "2025-11-15",
       "value_cm": -99,
       "precip_mm": 0.0,
+      "discharge_m3s": 255.3,
       "resolution": "daily"
     },
     {
       "date": "2025-11-16",
       "value_cm": -98,
       "precip_mm": 1.5,
+      "discharge_m3s": 254.0,
       "resolution": "daily"
     },
     {
       "date": "2025-11-17",
       "value_cm": -98,
       "precip_mm": 0.6,
+      "discharge_m3s": 253.3,
       "resolution": "daily"
     },
     {
       "date": "2025-11-18",
       "value_cm": -105,
       "precip_mm": 1.9,
+      "discharge_m3s": 239.8,
       "resolution": "daily"
     },
     {
       "date": "2025-11-19",
       "value_cm": -113,
       "precip_mm": 0.0,
+      "discharge_m3s": 238.4,
       "resolution": "daily"
     },
     {
       "date": "2025-11-20",
       "value_cm": -91,
       "precip_mm": 2.3,
+      "discharge_m3s": 275.9,
       "resolution": "daily"
     },
     {
       "date": "2025-11-21",
       "value_cm": -39,
       "precip_mm": 11.1,
+      "discharge_m3s": 344.0,
       "resolution": "daily"
     },
     {
       "date": "2025-11-22",
       "value_cm": -2,
       "precip_mm": 6.5,
+      "discharge_m3s": 376.8,
       "resolution": "daily"
     },
     {
       "date": "2025-11-23",
       "value_cm": 2,
       "precip_mm": 1.2,
+      "discharge_m3s": 374.5,
       "resolution": "daily"
     },
     {
       "date": "2025-11-24",
       "value_cm": 16,
       "precip_mm": 1.6,
+      "discharge_m3s": 396.2,
       "resolution": "daily"
     },
     {
       "date": "2025-11-25",
       "value_cm": 36,
       "precip_mm": 3.9,
+      "discharge_m3s": 425.6,
       "resolution": "daily"
     },
     {
       "date": "2025-11-26",
       "value_cm": 64,
       "precip_mm": 4.5,
+      "discharge_m3s": 455.3,
       "resolution": "daily"
     },
     {
       "date": "2025-11-27",
       "value_cm": 77,
       "precip_mm": 0.0,
+      "discharge_m3s": 484.3,
       "resolution": "daily"
     },
     {
       "date": "2025-11-28",
       "value_cm": 114,
       "precip_mm": 1.0,
+      "discharge_m3s": 541.6,
       "resolution": "daily"
     },
     {
       "date": "2025-11-29",
       "value_cm": 151,
       "precip_mm": 0.2,
+      "discharge_m3s": 589.9,
       "resolution": "daily"
     },
     {
       "date": "2025-11-30",
       "value_cm": 174,
       "precip_mm": 1.8,
+      "discharge_m3s": 615.4,
       "resolution": "daily"
     },
     {
       "date": "2025-12-01",
       "value_cm": 180,
       "precip_mm": 0.0,
+      "discharge_m3s": 612.9,
       "resolution": "daily"
     },
     {
       "date": "2025-12-02",
       "value_cm": 169,
       "precip_mm": 0.3,
+      "discharge_m3s": 587.3,
       "resolution": "daily"
     },
     {
       "date": "2025-12-03",
       "value_cm": 145,
       "precip_mm": 1.2,
+      "discharge_m3s": 543.7,
       "resolution": "daily"
     },
     {
       "date": "2025-12-04",
       "value_cm": 117,
       "precip_mm": 0.0,
+      "discharge_m3s": 501.8,
       "resolution": "daily"
     },
     {
       "date": "2025-12-05",
       "value_cm": 91,
       "precip_mm": 1.6,
+      "discharge_m3s": 471.5,
       "resolution": "daily"
     },
     {
       "date": "2025-12-06",
       "value_cm": 74,
       "precip_mm": 0.0,
+      "discharge_m3s": 453.4,
       "resolution": "daily"
     },
     {
       "date": "2025-12-07",
       "value_cm": 62,
       "precip_mm": 5.6,
+      "discharge_m3s": 439.7,
       "resolution": "daily"
     },
     {
       "date": "2025-12-08",
       "value_cm": 47,
       "precip_mm": 0.0,
+      "discharge_m3s": 408.9,
       "resolution": "daily"
     },
     {
       "date": "2025-12-09",
       "value_cm": 17,
       "precip_mm": 0.0,
+      "discharge_m3s": 380.3,
       "resolution": "daily"
     },
     {
       "date": "2025-12-10",
       "value_cm": 12,
       "precip_mm": 0.0,
+      "discharge_m3s": 379.6,
       "resolution": "daily"
     },
     {
       "date": "2025-12-11",
       "value_cm": 0,
       "precip_mm": 0.0,
+      "discharge_m3s": 360.9,
       "resolution": "daily"
     },
     {
       "date": "2025-12-12",
       "value_cm": -20,
       "precip_mm": 0.0,
+      "discharge_m3s": 337.1,
       "resolution": "daily"
     },
     {
       "date": "2025-12-13",
       "value_cm": -31,
       "precip_mm": 0.2,
+      "discharge_m3s": 328.7,
       "resolution": "daily"
     },
     {
       "date": "2025-12-14",
       "value_cm": -41,
       "precip_mm": 0.0,
+      "discharge_m3s": 315.0,
       "resolution": "daily"
     },
     {
       "date": "2025-12-15",
       "value_cm": -56,
       "precip_mm": 0.1,
+      "discharge_m3s": 296.4,
       "resolution": "daily"
     },
     {
       "date": "2025-12-16",
       "value_cm": -72,
       "precip_mm": 0.0,
+      "discharge_m3s": 280.2,
       "resolution": "daily"
     },
     {
       "date": "2025-12-17",
       "value_cm": -75,
       "precip_mm": 0.0,
+      "discharge_m3s": 284.1,
       "resolution": "daily"
     },
     {
       "date": "2025-12-18",
       "value_cm": -84,
       "precip_mm": 0.0,
+      "discharge_m3s": 267.6,
       "resolution": "daily"
     },
     {
       "date": "2025-12-19",
       "value_cm": -100,
       "precip_mm": 0.1,
+      "discharge_m3s": 244.3,
       "resolution": "daily"
     },
     {
       "date": "2025-12-20",
       "value_cm": -123,
       "precip_mm": 0.0,
+      "discharge_m3s": 220.3,
       "resolution": "daily"
     },
     {
       "date": "2025-12-21",
       "value_cm": -129,
       "precip_mm": 0.1,
+      "discharge_m3s": 222.6,
       "resolution": "daily"
     },
     {
       "date": "2025-12-22",
       "value_cm": -121,
       "precip_mm": 0.2,
+      "discharge_m3s": 231.0,
       "resolution": "daily"
     },
     {
       "date": "2025-12-23",
       "value_cm": -125,
       "precip_mm": 0.0,
+      "discharge_m3s": 220.9,
       "resolution": "daily"
     },
     {
       "date": "2025-12-24",
       "value_cm": -137,
       "precip_mm": 0.5,
+      "discharge_m3s": 207.4,
       "resolution": "daily"
     },
     {
       "date": "2025-12-25",
       "value_cm": -134,
       "precip_mm": 1.4,
+      "discharge_m3s": 216.7,
       "resolution": "daily"
     },
     {
       "date": "2025-12-26",
       "value_cm": -135,
       "precip_mm": 0.0,
+      "discharge_m3s": 210.4,
       "resolution": "daily"
     },
     {
       "date": "2025-12-27",
       "value_cm": -150,
       "precip_mm": 0.0,
+      "discharge_m3s": 187.7,
       "resolution": "daily"
     },
     {
       "date": "2025-12-28",
       "value_cm": -175,
       "precip_mm": 0.0,
+      "discharge_m3s": 164.8,
       "resolution": "daily"
     },
     {
       "date": "2025-12-29",
       "value_cm": -190,
       "precip_mm": 0.0,
+      "discharge_m3s": 155.3,
       "resolution": "daily"
     },
     {
       "date": "2025-12-30",
       "value_cm": -195,
       "precip_mm": 0.5,
+      "discharge_m3s": 152.5,
       "resolution": "daily"
     },
     {
       "date": "2025-12-31",
       "value_cm": -195,
       "precip_mm": 0.5,
+      "discharge_m3s": 153.8,
       "resolution": "daily"
     },
     {
       "date": "2026-01-01",
       "value_cm": -189,
       "precip_mm": 0.8,
+      "discharge_m3s": 157.1,
       "resolution": "daily"
     },
     {
       "date": "2026-01-02",
       "value_cm": -199,
       "precip_mm": 3.3,
+      "discharge_m3s": 147.5,
       "resolution": "daily"
     },
     {
       "date": "2026-01-03",
       "value_cm": -203,
       "precip_mm": 0.6,
+      "discharge_m3s": 141.9,
       "resolution": "daily"
     },
     {
       "date": "2026-01-04",
       "value_cm": -210,
       "precip_mm": 1.9,
+      "discharge_m3s": 139.7,
       "resolution": "daily"
     },
     {
       "date": "2026-01-05",
       "value_cm": -202,
       "precip_mm": 6.2,
+      "discharge_m3s": 146.9,
       "resolution": "daily"
     },
     {
       "date": "2026-01-06",
       "value_cm": -201,
       "precip_mm": 7.2,
+      "discharge_m3s": 145.6,
       "resolution": "daily"
     },
     {
       "date": "2026-01-07",
       "value_cm": -201,
       "precip_mm": 6.9,
+      "discharge_m3s": 146.4,
       "resolution": "daily"
     },
     {
       "date": "2026-01-08",
       "value_cm": -197,
       "precip_mm": 0.5,
+      "discharge_m3s": 150.4,
       "resolution": "daily"
     },
     {
       "date": "2026-01-09",
       "value_cm": -202,
       "precip_mm": 1.9,
+      "discharge_m3s": 140.1,
       "resolution": "daily"
     },
     {
       "date": "2026-01-10",
       "value_cm": -204,
       "precip_mm": 0.0,
+      "discharge_m3s": 146.0,
       "resolution": "daily"
     },
     {
       "date": "2026-01-11",
       "value_cm": -197,
       "precip_mm": 0.0,
+      "discharge_m3s": 145.9,
       "resolution": "daily"
     },
     {
       "date": "2026-01-12",
       "value_cm": -210,
       "precip_mm": 0.0,
+      "discharge_m3s": 135.6,
       "resolution": "daily"
     },
     {
       "date": "2026-01-13",
       "value_cm": -189,
       "precip_mm": 4.7,
+      "discharge_m3s": 171.2,
       "resolution": "daily"
     },
     {
       "date": "2026-01-14",
       "value_cm": -167,
       "precip_mm": 0.1,
+      "discharge_m3s": 177.8,
       "resolution": "daily"
     },
     {
       "date": "2026-01-15",
       "value_cm": -180,
       "precip_mm": 1.6,
+      "discharge_m3s": 159.7,
       "resolution": "daily"
     },
     {
       "date": "2026-01-16",
       "value_cm": -193,
       "precip_mm": 2.8,
+      "discharge_m3s": 146.7,
       "resolution": "daily"
     },
     {
       "date": "2026-01-17",
       "value_cm": -194,
       "precip_mm": 1.1,
+      "discharge_m3s": 150.8,
       "resolution": "daily"
     },
     {
       "date": "2026-01-18",
       "value_cm": -192,
       "precip_mm": 0.0,
+      "discharge_m3s": 156.0,
       "resolution": "daily"
     },
     {
       "date": "2026-01-19",
       "value_cm": -185,
       "precip_mm": 0.0,
+      "discharge_m3s": 165.0,
       "resolution": "daily"
     },
     {
       "date": "2026-01-20",
       "value_cm": -179,
       "precip_mm": 0.0,
+      "discharge_m3s": 164.5,
       "resolution": "daily"
     },
     {
       "date": "2026-01-21",
       "value_cm": -186,
       "precip_mm": 0.0,
+      "discharge_m3s": 168.9,
       "resolution": "daily"
     },
     {
       "date": "2026-01-22",
       "value_cm": -188,
       "precip_mm": 1.2,
+      "discharge_m3s": 160.6,
       "resolution": "daily"
     },
     {
       "date": "2026-01-23",
       "value_cm": -201,
       "precip_mm": 0.8,
+      "discharge_m3s": 141.0,
       "resolution": "daily"
     },
     {
       "date": "2026-01-24",
       "value_cm": -211,
       "precip_mm": 3.2,
+      "discharge_m3s": 132.6,
       "resolution": "daily"
     },
     {
       "date": "2026-01-25",
       "value_cm": -209,
       "precip_mm": 1.9,
+      "discharge_m3s": 136.6,
       "resolution": "daily"
     },
     {
       "date": "2026-01-26",
       "value_cm": -202,
       "precip_mm": 2.7,
+      "discharge_m3s": 145.5,
       "resolution": "daily"
     },
     {
       "date": "2026-01-27",
       "value_cm": -182,
       "precip_mm": 0.0,
+      "discharge_m3s": 169.3,
       "resolution": "daily"
     },
     {
       "date": "2026-01-28",
       "value_cm": -153,
       "precip_mm": 1.3,
+      "discharge_m3s": 207.6,
       "resolution": "daily"
     },
     {
       "date": "2026-01-29",
       "value_cm": -76,
       "precip_mm": 3.4,
+      "discharge_m3s": 314.8,
       "resolution": "daily"
     },
     {
       "date": "2026-01-30",
       "value_cm": 50,
       "precip_mm": 2.9,
+      "discharge_m3s": 489.4,
       "resolution": "daily"
     },
     {
       "date": "2026-01-31",
       "value_cm": 185,
       "precip_mm": 5.6,
+      "discharge_m3s": 682.1,
       "resolution": "daily"
     },
     {
       "date": "2026-02-01",
       "value_cm": 263,
       "precip_mm": 1.2,
+      "discharge_m3s": 760.2,
       "resolution": "daily"
     },
     {
       "date": "2026-02-02",
       "value_cm": 284,
       "precip_mm": 0.9,
+      "discharge_m3s": 752.0,
       "resolution": "daily"
     },
     {
       "date": "2026-02-03",
       "value_cm": 257,
       "precip_mm": 8.9,
+      "discharge_m3s": 672.9,
       "resolution": "daily"
     },
     {
       "date": "2026-02-04",
       "value_cm": 209,
       "precip_mm": 7.9,
+      "discharge_m3s": 588.7,
       "resolution": "daily"
     },
     {
       "date": "2026-02-05",
       "value_cm": 157,
       "precip_mm": 0.3,
+      "discharge_m3s": 515.5,
       "resolution": "daily"
     },
     {
       "date": "2026-02-06",
       "value_cm": 107,
       "precip_mm": 0.5,
+      "discharge_m3s": 454.9,
       "resolution": "daily"
     },
     {
       "date": "2026-02-07",
       "value_cm": 72,
       "precip_mm": 0.0,
+      "discharge_m3s": 425.8,
       "resolution": "daily"
     },
     {
       "date": "2026-02-08",
       "value_cm": 61,
       "precip_mm": 0.1,
+      "discharge_m3s": 434.0,
       "resolution": "daily"
     },
     {
       "date": "2026-02-09",
       "value_cm": 81,
       "precip_mm": 0.1,
+      "discharge_m3s": 472.1,
       "resolution": "daily"
     },
     {
       "date": "2026-02-10",
       "value_cm": 101,
       "precip_mm": 0.3,
+      "discharge_m3s": 499.2,
       "resolution": "daily"
     },
     {
       "date": "2026-02-11",
       "value_cm": 126,
       "precip_mm": 1.5,
+      "discharge_m3s": 534.6,
       "resolution": "daily"
     },
     {
       "date": "2026-02-12",
       "value_cm": 135,
       "precip_mm": 0.7,
+      "discharge_m3s": 536.8,
       "resolution": "daily"
     },
     {
       "date": "2026-02-13",
       "value_cm": 136,
       "precip_mm": 2.0,
+      "discharge_m3s": 536.8,
       "resolution": "daily"
     },
     {
       "date": "2026-02-14",
       "value_cm": 147,
       "precip_mm": 0.0,
+      "discharge_m3s": 565.2,
       "resolution": "daily"
     },
     {
       "date": "2026-02-15",
       "value_cm": 190,
       "precip_mm": 5.1,
+      "discharge_m3s": 652.8,
       "resolution": "daily"
     },
     {
       "date": "2026-02-16",
       "value_cm": 220,
       "precip_mm": 2.2,
+      "discharge_m3s": 666.6,
       "resolution": "daily"
     },
     {
       "date": "2026-02-17",
       "value_cm": 214,
       "precip_mm": 0.0,
+      "discharge_m3s": 651.8,
       "resolution": "daily"
     },
     {
       "date": "2026-02-18",
       "value_cm": 197,
       "precip_mm": 0.0,
+      "discharge_m3s": 618.7,
       "resolution": "daily"
     },
     {
       "date": "2026-02-19",
       "value_cm": 175,
       "precip_mm": 2.3,
+      "discharge_m3s": 584.4,
       "resolution": "daily"
     },
     {
       "date": "2026-02-20",
       "value_cm": 163,
       "precip_mm": 2.1,
+      "discharge_m3s": 566.6,
       "resolution": "daily"
     },
     {
       "date": "2026-02-21",
       "value_cm": 132,
       "precip_mm": 1.4,
+      "discharge_m3s": 502.8,
       "resolution": "daily"
     },
     {
       "date": "2026-02-22",
       "value_cm": 93,
       "precip_mm": 0.7,
+      "discharge_m3s": 457.7,
       "resolution": "daily"
     },
     {
       "date": "2026-02-23",
       "value_cm": 66,
       "precip_mm": 2.7,
+      "discharge_m3s": 427.4,
       "resolution": "daily"
     },
     {
       "date": "2026-02-24",
       "value_cm": 44,
       "precip_mm": 1.4,
+      "discharge_m3s": 402.6,
       "resolution": "daily"
     },
     {
       "date": "2026-02-25",
       "value_cm": 39,
       "precip_mm": 0.0,
+      "discharge_m3s": 413.2,
       "resolution": "daily"
     },
     {
       "date": "2026-02-26",
       "value_cm": 68,
       "precip_mm": 0.0,
+      "discharge_m3s": 464.5,
       "resolution": "daily"
     },
     {
       "date": "2026-02-27",
       "value_cm": 120,
       "precip_mm": 0.0,
+      "discharge_m3s": 545.2,
       "resolution": "daily"
     },
     {
       "date": "2026-02-28",
       "value_cm": 169,
       "precip_mm": 0.0,
+      "discharge_m3s": 596.7,
       "resolution": "daily"
     },
     {
       "date": "2026-03-01",
       "value_cm": 175,
       "precip_mm": 0.0,
+      "discharge_m3s": 587.1,
       "resolution": "daily"
     },
     {
       "date": "2026-03-02",
       "value_cm": 153,
       "precip_mm": 0.0,
+      "discharge_m3s": 533.4,
       "resolution": "daily"
     },
     {
       "date": "2026-03-03",
       "value_cm": 108,
       "precip_mm": 0.0,
+      "discharge_m3s": 466.6,
       "resolution": "daily"
     },
     {
       "date": "2026-03-04",
       "value_cm": 61,
       "precip_mm": 0.0,
+      "discharge_m3s": 403.5,
       "resolution": "daily"
     },
     {
       "date": "2026-03-05",
       "value_cm": 16,
       "precip_mm": 0.0,
+      "discharge_m3s": 354.3,
       "resolution": "daily"
     },
     {
       "date": "2026-03-06",
       "value_cm": -21,
       "precip_mm": 0.0,
+      "discharge_m3s": 318.0,
       "resolution": "daily"
     },
     {
       "date": "2026-03-07",
       "value_cm": -54,
       "precip_mm": 0.0,
+      "discharge_m3s": 284.3,
       "resolution": "daily"
     },
     {
       "date": "2026-03-08",
       "value_cm": -80,
       "precip_mm": 0.0,
+      "discharge_m3s": 260.7,
       "resolution": "daily"
     },
     {
       "date": "2026-03-09",
       "value_cm": -95,
       "precip_mm": 0.0,
+      "discharge_m3s": 252.2,
       "resolution": "daily"
     },
     {
       "date": "2026-03-10",
       "value_cm": -99,
       "precip_mm": 0.0,
+      "discharge_m3s": 248.9,
       "resolution": "daily"
     },
     {
       "date": "2026-03-11",
       "value_cm": -109,
       "precip_mm": 0.0,
+      "discharge_m3s": 237.2,
       "resolution": "daily"
     },
     {
       "date": "2026-03-12",
       "value_cm": -118,
       "precip_mm": 0.8,
+      "discharge_m3s": 226.3,
       "resolution": "daily"
     },
     {
       "date": "2026-03-13",
       "value_cm": -128,
       "precip_mm": 0.0,
+      "discharge_m3s": 215.0,
       "resolution": "daily"
     },
     {
       "date": "2026-03-14",
       "value_cm": -138,
       "precip_mm": 0.0,
+      "discharge_m3s": 203.6,
       "resolution": "daily"
     },
     {
       "date": "2026-03-15",
       "value_cm": -146,
       "precip_mm": 0.0,
+      "discharge_m3s": 195.9,
       "resolution": "daily"
     },
     {
       "date": "2026-03-16",
       "value_cm": -152,
       "precip_mm": 0.0,
+      "discharge_m3s": 189.0,
       "resolution": "daily"
     },
     {
       "date": "2026-03-17",
       "value_cm": -163,
       "precip_mm": 0.0,
+      "discharge_m3s": 178.3,
       "resolution": "daily"
     },
     {
       "date": "2026-03-18",
       "value_cm": -166,
       "precip_mm": 0.0,
+      "discharge_m3s": 178.9,
       "resolution": "daily"
     },
     {
       "date": "2026-03-19",
       "value_cm": -155,
       "precip_mm": 0.0,
+      "discharge_m3s": 196.4,
       "resolution": "daily"
     },
     {
       "date": "2026-03-20",
       "value_cm": -148,
       "precip_mm": 0.0,
+      "discharge_m3s": 193.4,
       "resolution": "daily"
     },
     {
       "date": "2026-03-21",
       "value_cm": -157,
       "precip_mm": 0.1,
+      "discharge_m3s": 184.3,
       "resolution": "daily"
     },
     {
       "date": "2026-03-22",
       "value_cm": -162,
       "precip_mm": 0.0,
+      "discharge_m3s": 181.8,
       "resolution": "daily"
     },
     {
       "date": "2026-03-23",
       "value_cm": -156,
       "precip_mm": 0.0,
+      "discharge_m3s": 191.9,
       "resolution": "daily"
     },
     {
       "date": "2026-03-24",
       "value_cm": -146,
       "precip_mm": 0.0,
+      "discharge_m3s": 201.2,
       "resolution": "daily"
     },
     {
       "date": "2026-03-25",
       "value_cm": -139,
       "precip_mm": 0.0,
+      "discharge_m3s": 207.9,
       "resolution": "daily"
     },
     {
       "date": "2026-03-26",
       "value_cm": -146,
       "precip_mm": 1.6,
+      "discharge_m3s": 194.3,
       "resolution": "daily"
     },
     {
       "date": "2026-03-27",
       "value_cm": -152,
       "precip_mm": 2.6,
+      "discharge_m3s": 199.6,
       "resolution": "daily"
     },
     {
       "date": "2026-03-28",
       "value_cm": -112,
       "precip_mm": 0.6,
+      "discharge_m3s": 239.0,
       "resolution": "daily"
     },
     {
       "date": "2026-03-29",
       "value_cm": -156,
       "precip_mm": 9.7,
+      "discharge_m3s": 168.3,
       "resolution": "daily"
     },
     {
       "date": "2026-03-30",
       "value_cm": -194,
       "precip_mm": 13.2,
+      "discharge_m3s": 145.0,
       "resolution": "daily"
     },
     {
       "date": "2026-03-31",
       "value_cm": -195,
       "precip_mm": 2.2,
+      "discharge_m3s": 153.6,
       "resolution": "daily"
     },
     {
       "date": "2026-04-01",
       "value_cm": -168,
       "precip_mm": 0.4,
+      "discharge_m3s": 183.8,
       "resolution": "daily"
     },
     {
       "date": "2026-04-02",
       "value_cm": -133,
       "precip_mm": 0.3,
+      "discharge_m3s": 224.8,
       "resolution": "daily"
     },
     {
       "date": "2026-04-03",
       "value_cm": -113,
       "precip_mm": 0.0,
+      "discharge_m3s": 239.8,
       "resolution": "daily"
     },
     {
       "date": "2026-04-04",
       "value_cm": -112,
       "precip_mm": 0.0,
+      "discharge_m3s": 234.6,
       "resolution": "daily"
     },
     {
       "date": "2026-04-05",
       "value_cm": -121,
       "precip_mm": 0.0,
+      "discharge_m3s": 216.9,
       "resolution": "daily"
     },
     {
       "date": "2026-04-06",
       "value_cm": -124,
       "precip_mm": 0.4,
+      "discharge_m3s": 222.2,
       "resolution": "daily"
     },
     {
       "date": "2026-04-07",
       "value_cm": -114,
       "precip_mm": 0.0,
+      "discharge_m3s": 235.7,
       "resolution": "daily"
     },
     {
       "date": "2026-04-08",
       "value_cm": -112,
       "precip_mm": 0.2,
+      "discharge_m3s": 233.8,
       "resolution": "daily"
     },
     {
       "date": "2026-04-09",
       "value_cm": -115,
       "precip_mm": 0.2,
+      "discharge_m3s": 230.2,
       "resolution": "daily"
     },
     {
       "date": "2026-04-10",
       "value_cm": -116,
       "precip_mm": 0.0,
+      "discharge_m3s": 227.9,
       "resolution": "daily"
     },
     {
       "date": "2026-04-11",
       "value_cm": -130,
       "precip_mm": 0.0,
+      "discharge_m3s": 207.2,
       "resolution": "daily"
     },
     {
       "date": "2026-04-12",
       "value_cm": -152,
       "precip_mm": 0.0,
+      "discharge_m3s": 181.4,
       "resolution": "daily"
     },
     {
       "date": "2026-04-13",
       "value_cm": -171,
       "precip_mm": 0.6,
+      "discharge_m3s": 167.7,
       "resolution": "daily"
     },
     {
       "date": "2026-04-14",
       "value_cm": -167,
       "precip_mm": 0.2,
+      "discharge_m3s": 178.8,
       "resolution": "daily"
     },
     {
       "date": "2026-04-15",
       "value_cm": -153,
       "precip_mm": 1.0,
+      "discharge_m3s": 195.2,
       "resolution": "daily"
     },
     {
       "date": "2026-04-16",
       "value_cm": -153,
       "precip_mm": 0.3,
+      "discharge_m3s": 184.7,
       "resolution": "daily"
     },
     {
       "date": "2026-04-17",
       "value_cm": -171,
       "precip_mm": 0.1,
+      "discharge_m3s": 165.6,
       "resolution": "daily"
     },
     {
       "date": "2026-04-18",
       "value_cm": -189,
       "precip_mm": 0.0,
+      "discharge_m3s": 148.8,
       "resolution": "daily"
     },
     {
       "date": "2026-04-19",
       "value_cm": -201,
       "precip_mm": 0.0,
+      "discharge_m3s": 142.8,
       "resolution": "daily"
     },
     {
       "date": "2026-04-20",
       "value_cm": -202,
       "precip_mm": 3.4,
+      "discharge_m3s": 139.3,
       "resolution": "daily"
     },
     {
       "date": "2026-04-21",
       "value_cm": -210,
       "precip_mm": 1.2,
+      "discharge_m3s": 134.8,
       "resolution": "daily"
     },
     {
       "date": "2026-04-22",
       "value_cm": -204,
       "precip_mm": 0.0,
+      "discharge_m3s": 141.9,
       "resolution": "daily"
     },
     {
       "date": "2026-04-23",
       "value_cm": -202,
       "precip_mm": 0.0,
+      "discharge_m3s": 143.5,
       "resolution": "daily"
     },
     {
       "date": "2026-04-24",
       "value_cm": -203,
       "precip_mm": 0.0,
+      "discharge_m3s": 140.4,
       "resolution": "daily"
     },
     {
       "date": "2026-04-25",
       "value_cm": -204,
       "precip_mm": 0.0,
+      "discharge_m3s": 143.5,
       "resolution": "daily"
     },
     {
       "date": "2026-04-26",
       "value_cm": -198,
       "precip_mm": 0.0,
+      "discharge_m3s": 145.4,
       "resolution": "daily"
     },
     {
       "date": "2026-04-27",
       "value_cm": -195,
       "precip_mm": 0.0,
+      "discharge_m3s": 151.1,
       "resolution": "daily"
     },
     {
       "date": "2026-04-28",
       "value_cm": -199,
       "precip_mm": 0.0,
+      "discharge_m3s": 141.8,
       "resolution": "daily"
     },
     {
       "date": "2026-04-29",
       "value_cm": -206,
       "precip_mm": 0.0,
+      "discharge_m3s": 138.0,
       "resolution": "daily"
     },
     {
       "date": "2026-04-30",
       "value_cm": -210,
       "precip_mm": 0.1,
+      "discharge_m3s": 134.1,
       "resolution": "daily"
     },
     {
       "date": "2026-05-01",
       "value_cm": -219,
       "precip_mm": 0.0,
+      "discharge_m3s": 125.5,
       "resolution": "daily"
     },
     {
       "date": "2026-05-02",
       "value_cm": -227,
       "precip_mm": 0.0,
+      "discharge_m3s": 117.9,
       "resolution": "daily"
     },
     {
       "date": "2026-05-03",
       "value_cm": -236,
       "precip_mm": 0.0,
+      "discharge_m3s": 110.9,
       "resolution": "daily"
     },
     {
       "date": "2026-05-04",
       "value_cm": -240,
       "precip_mm": 0.0,
+      "discharge_m3s": 108.1,
       "resolution": "daily"
     },
     {
       "date": "2026-05-05",
       "value_cm": -243,
       "precip_mm": 0.0,
+      "discharge_m3s": 104.9,
       "resolution": "daily"
     },
     {
       "date": "2026-05-06",
       "value_cm": -254,
       "precip_mm": 0.0,
+      "discharge_m3s": 92.7,
       "resolution": "daily"
     },
     {
       "date": "2026-05-07",
       "value_cm": -272,
       "precip_mm": 9.3,
+      "discharge_m3s": 79.3,
       "resolution": "daily"
     },
     {
       "date": "2026-05-08",
       "value_cm": -281,
       "precip_mm": 3.0,
+      "discharge_m3s": 73.1,
       "resolution": "daily"
     },
     {
       "date": "2026-05-09",
       "value_cm": -286,
       "precip_mm": 0.5,
+      "discharge_m3s": 71.2,
       "resolution": "daily"
     },
     {
       "date": "2026-05-10",
       "value_cm": -285,
       "precip_mm": 0.0,
+      "discharge_m3s": 72.1,
       "resolution": "daily"
     },
     {
       "date": "2026-05-11",
       "value_cm": -281,
       "precip_mm": 4.2,
+      "discharge_m3s": 75.9,
       "resolution": "daily"
     },
     {
       "date": "2026-05-12",
       "value_cm": -255,
       "precip_mm": 14.0,
+      "discharge_m3s": 101.2,
       "resolution": "daily"
     },
     {
       "date": "2026-05-13",
       "value_cm": -233,
       "precip_mm": 3.3,
+      "discharge_m3s": 118.0,
       "resolution": "daily"
     },
     {
       "date": "2026-05-14",
       "value_cm": -210,
       "precip_mm": 0.0,
+      "discharge_m3s": 141.9,
       "resolution": "daily"
     },
     {
       "date": "2026-05-15",
       "value_cm": -180,
       "precip_mm": 2.1,
+      "discharge_m3s": 168.5,
       "resolution": "daily"
     },
     {
       "date": "2026-05-16",
       "value_cm": -164,
       "precip_mm": 22.2,
+      "discharge_m3s": 179.0,
       "resolution": "daily"
     },
     {
       "date": "2026-05-17",
       "value_cm": -147,
       "precip_mm": 14.4,
+      "discharge_m3s": 201.9,
       "resolution": "daily"
     },
     {
       "date": "2026-05-18",
       "value_cm": -127,
       "precip_mm": 1.2,
+      "discharge_m3s": 220.8,
       "resolution": "daily"
     },
     {
       "date": "2026-05-19",
       "value_cm": -135,
       "precip_mm": 0.2,
+      "discharge_m3s": 197.2,
       "resolution": "daily"
     },
     {
       "date": "2026-05-20",
       "value_cm": -163,
       "precip_mm": 0.0,
+      "discharge_m3s": 170.8,
       "resolution": "daily"
     },
     {
       "date": "2026-05-21",
       "value_cm": -183,
       "precip_mm": 0.0,
+      "discharge_m3s": 150.8,
       "resolution": "daily"
     },
     {
       "date": "2026-05-22",
       "value_cm": -202,
       "precip_mm": 0.0,
+      "discharge_m3s": 138.4,
       "resolution": "daily"
     },
     {
       "date": "2026-05-23",
       "value_cm": -203,
       "precip_mm": 0.0,
+      "discharge_m3s": 139.2,
       "resolution": "daily"
     },
     {
       "date": "2026-05-24",
       "value_cm": -209,
       "precip_mm": 0.0,
+      "discharge_m3s": 130.9,
       "resolution": "daily"
     },
     {
       "date": "2026-05-25",
       "value_cm": -226,
       "precip_mm": 0.2,
+      "discharge_m3s": 117.4,
       "resolution": "daily"
     },
     {
       "date": "2026-05-26",
       "value_cm": -232,
       "precip_mm": 0.0,
+      "discharge_m3s": 113.5,
       "resolution": "daily"
     },
     {
       "date": "2026-05-27",
       "value_cm": -241,
       "precip_mm": 0.1,
+      "discharge_m3s": 102.8,
       "resolution": "daily"
     },
     {
       "date": "2026-05-28",
       "value_cm": -262,
       "precip_mm": 0.0,
+      "discharge_m3s": 84.8,
       "resolution": "daily"
     },
     {
       "date": "2026-05-29",
       "value_cm": -278,
       "precip_mm": 0.0,
+      "discharge_m3s": 75.1,
       "resolution": "daily"
     },
     {
       "date": "2026-05-30",
       "value_cm": -284,
       "precip_mm": 0.4,
+      "discharge_m3s": 71.1,
       "resolution": "daily"
     },
     {
       "date": "2026-05-31",
       "value_cm": -287,
       "precip_mm": 1.3,
+      "discharge_m3s": 69.9,
       "resolution": "daily"
     },
     {
       "date": "2026-06-01",
       "value_cm": -288,
       "precip_mm": 3.2,
+      "discharge_m3s": 69.5,
       "resolution": "daily"
     },
     {
       "date": "2026-06-02",
       "value_cm": -291,
       "precip_mm": 0.7,
+      "discharge_m3s": 66.6,
       "resolution": "daily"
     },
     {
       "date": "2026-06-03",
       "value_cm": -295,
       "precip_mm": 4.1,
+      "discharge_m3s": 64.9,
       "resolution": "daily"
     },
     {
       "date": "2026-06-04",
       "value_cm": -297,
       "precip_mm": 9.0,
+      "discharge_m3s": 64.4,
       "resolution": "daily"
     },
     {
       "date": "2026-06-05",
       "value_cm": -297,
       "precip_mm": 0.0,
+      "discharge_m3s": 64.3,
       "resolution": "daily"
     },
     {
       "date": "2026-06-06",
       "value_cm": -298,
       "precip_mm": 1.3,
+      "discharge_m3s": 64.0,
       "resolution": "daily"
     },
     {
       "date": "2026-06-07",
       "value_cm": -297,
       "precip_mm": 0.3,
+      "discharge_m3s": 64.3,
       "resolution": "daily"
     },
     {
       "date": "2026-06-08",
       "value_cm": -295,
       "precip_mm": 0.0,
+      "discharge_m3s": 67.5,
       "resolution": "daily"
     },
     {
       "date": "2026-06-09",
       "value_cm": -269,
       "precip_mm": 0.0,
+      "discharge_m3s": 86.3,
       "resolution": "daily"
     },
     {
       "date": "2026-06-10",
       "value_cm": -269,
       "precip_mm": 0.9,
+      "discharge_m3s": 79.7,
       "resolution": "daily"
     },
     {
       "date": "2026-06-11",
       "value_cm": -287,
       "precip_mm": 7.2,
+      "discharge_m3s": 68.0,
       "resolution": "daily"
     }
   ]

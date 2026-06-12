@@ -9,7 +9,7 @@ from dataclasses import dataclass
 from datetime import date as Date
 from typing import Protocol, runtime_checkable
 
-from ingest.domain.models import PrecipReading, WaterLevelReading
+from ingest.domain.models import DischargeReading, PrecipReading, WaterLevelReading
 
 
 @dataclass(frozen=True, slots=True)
@@ -45,4 +45,13 @@ class PrecipitationSource(Protocol):
 
     def fetch(self, date_range: DateRange) -> list[PrecipReading]:
         """Csapadék-leolvasások a megadott időtartamra. Forráshiba nem dobhat."""
+        ...
+
+
+@runtime_checkable
+class DischargeSource(Protocol):
+    """Forrásfüggetlen vízhozam-port: állomásonkénti napi vízhozam (m³/s)."""
+
+    def fetch(self, date_range: DateRange) -> list[DischargeReading]:
+        """Vízhozam-leolvasások a megadott időtartamra. Forráshiba nem dobhat."""
         ...

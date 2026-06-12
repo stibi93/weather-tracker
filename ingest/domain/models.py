@@ -55,6 +55,15 @@ class WaterLevelReading:
 
 
 @dataclass(frozen=True, slots=True)
+class DischargeReading:
+    """Egy állomás napi vízhozama (m³/s), egy napon."""
+
+    station_id: str
+    date: Date
+    value_m3s: float
+
+
+@dataclass(frozen=True, slots=True)
 class PrecipReading:
     """Egy víztest területi napi csapadéka (mm), egy napon.
 

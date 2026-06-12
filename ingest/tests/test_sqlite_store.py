@@ -3,6 +3,7 @@
 from datetime import date
 
 from ingest.domain.models import (
+    DischargeReading,
     PrecipReading,
     Station,
     WaterBody,
@@ -54,6 +55,16 @@ def test_precip_idempotent_upsert(tmp_path):
         store.upsert_precip([PrecipReading("balaton", date(2026, 6, 2), 9.5)])
         assert store.count_precip() == 2
         assert store.precip_for_water_body("balaton") == {date(2026, 6, 1): 4.0, date(2026, 6, 2): 9.5}
+
+
+def test_discharge_idempotent_upsert(tmp_path):
+    rows = [DischargeReading("142300", date(2026, 6, 1), 1343.0)]
+    with _store(tmp_path) as store:
+        store.upsert_discharge(rows)
+        store.upsert_discharge(rows)
+        assert store.count_discharge() == 1
+        store.upsert_discharge([DischargeReading("142300", date(2026, 6, 1), 1400.5)])
+        assert store.discharge_for_station("142300") == {date(2026, 6, 1): 1400.5}
 
 
 def test_persists_across_reopen(tmp_path):

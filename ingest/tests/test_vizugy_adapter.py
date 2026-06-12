@@ -7,8 +7,8 @@ from pathlib import Path
 import httpx
 import pytest
 
-from ingest.adapters.vizugy import VizugyApiAdapter, _aggregate_daily
-from ingest.domain.models import WaterLevelReading
+from ingest.adapters.vizugy import VizugyApiAdapter, VizugyDischargeAdapter, _aggregate_daily
+from ingest.domain.models import DischargeReading, WaterLevelReading
 from ingest.domain.ports import DateRange
 
 FIXTURES = Path(__file__).parent / "fixtures"
@@ -92,6 +92,36 @@ def test_aggregate_daily_means_and_rounds_to_cm():
     ]
     out = _aggregate_daily(points)
     assert out == {date(2026, 6, 1): 11, date(2026, 6, 2): 20}
+
+
+def test_discharge_adapter_uses_code_87_and_floats():
+    captured = {}
+
+    def handler(request: httpx.Request) -> httpx.Response:
+        url = str(request.url)
+        if "auth/token" in url:
+            return httpx.Response(200, json={"access_token": "FAKE"})
+        captured["body"] = json.loads(request.content)
+        return httpx.Response(
+            200,
+            json=[
+                {
+                    "ItemId": 1026,
+                    "TsItemList": [
+                        {"UTCTime": "2026-06-01T00:00:00Z", "Adat": 1340.0},
+                        {"UTCTime": "2026-06-01T12:00:00Z", "Adat": 1346.0},
+                    ],
+                }
+            ],
+        )
+
+    adapter = VizugyDischargeAdapter(["1026"], client=_client(handler))
+    readings = adapter.fetch(RANGE)
+
+    assert captured["body"]["adatFajtaKod"] == 87  # felszíni vízhozam
+    assert len(readings) == 1
+    assert isinstance(readings[0], DischargeReading)
+    assert readings[0].value_m3s == 1343.0  # napi átlag, egy tizedesre
 
 
 def test_daterange_rejects_inverted():
