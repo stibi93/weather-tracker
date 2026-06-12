@@ -311,3 +311,118 @@ body {
   margin-left: 12px;
   border-top-color: #b5562e;
 }
+
+/* Összefüggések szekció */
+.rel-toggle {
+  display: block;
+  width: 100%;
+  text-align: left;
+  margin: 12px 0 0;
+  padding: 8px 10px;
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  background: #fbf8f1;
+  color: var(--ink);
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.rel-toggle.open {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.rel {
+  border: 1px solid var(--line);
+  border-top: none;
+  border-radius: 0 0 9px 9px;
+  padding: 12px 12px 14px;
+}
+.rel-title {
+  font-size: 13px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+.rel-r2 {
+  color: #b5562e;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.scatter {
+  margin-bottom: 10px;
+}
+.rel-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.rel-table th {
+  text-align: left;
+  color: var(--ink-soft);
+  font-weight: 600;
+  border-bottom: 1px solid var(--line);
+  padding: 4px 6px;
+}
+.rel-table td {
+  padding: 4px 6px;
+  border-bottom: 1px solid #efe9df;
+}
+.r-bar {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+}
+.r-track {
+  position: relative;
+  display: inline-block;
+  width: 64px;
+  height: 8px;
+  background: #efe9df;
+  border-radius: 4px;
+}
+.r-fill {
+  position: absolute;
+  top: 0;
+  height: 8px;
+}
+.r-fill.pos {
+  background: #3f8f87;
+  border-radius: 0 4px 4px 0;
+}
+.r-fill.neg {
+  background: #b5562e;
+  border-radius: 4px 0 0 4px;
+}
+.r-num {
+  font-variant-numeric: tabular-nums;
+  color: var(--ink);
+}
+.r-na {
+  color: var(--ink-soft);
+}
+.rel-help {
+  font-size: 11.5px;
+  color: var(--ink-soft);
+  line-height: 1.5;
+}
+.rel-help p {
+  margin: 0 0 6px;
+}
+.rel-help b {
+  color: var(--ink);
+}
+.rel-caveat {
+  font-size: 11.5px;
+  line-height: 1.5;
+  color: #6b4a2e;
+  background: #f3e7d4;
+  border: 1px solid #e2cba6;
+  border-radius: 8px;
+  padding: 8px 10px;
+  margin: 8px 0 0;
+}

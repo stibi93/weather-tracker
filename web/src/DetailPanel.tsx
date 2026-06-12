@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Chart, type Metric, type Point, type Secondary } from "./Chart";
+import { RelationshipsPanel } from "./RelationshipsPanel";
 
 type Doc = {
   id: string;
@@ -29,6 +30,7 @@ export function DetailPanel({ id, onClose }: { id: string; onClose: () => void }
   const [rangeYears, setRangeYears] = useState<number | null>(5);
   const [metric, setMetric] = useState<Metric>("level");
   const [secondary, setSecondary] = useState<Secondary>("precip");
+  const [showRel, setShowRel] = useState(false);
   const [expanded, setExpanded] = useState(false);
   const [big, setBig] = useState(bigSize);
 
@@ -36,6 +38,7 @@ export function DetailPanel({ id, onClose }: { id: string; onClose: () => void }
     let cancelled = false;
     setDoc(null);
     setMetric("level");
+    setShowRel(false);
     fetch(`${import.meta.env.BASE_URL}data/water-levels/${id}.json`)
       .then((r) => r.json())
       .then((d) => {
@@ -164,6 +167,14 @@ export function DetailPanel({ id, onClose }: { id: string; onClose: () => void }
               </>
             )}
           </div>
+
+          <button
+            className={`rel-toggle${showRel ? " open" : ""}`}
+            onClick={() => setShowRel((s) => !s)}
+          >
+            {showRel ? "▾" : "▸"} Összefüggések — mihez köthető a vízszint?
+          </button>
+          {showRel && <RelationshipsPanel id={doc.id} width={size.w} />}
 
           <p className="detail-src">
             {doc.station} · {doc.source}

@@ -65,3 +65,12 @@ stílushoz (lásd `web/.env.example`).
   másodlagos rétegként, váltható: csapadék (oszlop, mm) ↔ hőmérséklet (vonal, °C) ↔ párolgás
   (ET₀, vonal, mm).
 - **Térkép:** OpenFreeMap vektor csempék, © OpenMapTiles, © OpenStreetMap közreműködők.
+
+## Összefüggés-elemzés
+
+A részletpanel „Összefüggések" szekciója a vízszint és a hajtó változók kapcsolatát mutatja,
+**a napi szintváltozáson (Δszint)** számolva (a nyers szint félrevezető lenne — autokorreláció,
+szezonalitás). Hajtónként késleltetett Spearman-korreláció + a fő kapcsolat illesztéssel és R²-tel
+(tavak: Δszint vs csapadék−párolgás; folyók: vízállás vs vízhozam). A metrikák magyarázva, és
+egyértelmű figyelmeztetéssel: **a korreláció nem okság** (a szabályozás, talajvíz, felvízi
+folyamatok is hatnak). Számítás: `ingest/analysis/` (tiszta Python).

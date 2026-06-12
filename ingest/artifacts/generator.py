@@ -17,6 +17,7 @@ from datetime import date as Date
 from datetime import timedelta
 from pathlib import Path
 
+from ingest.analysis import compute_relationships
 from ingest.storage import CanonicalStore
 
 SOURCE_ATTRIBUTION = "Országos Vízügyi Főigazgatóság"
@@ -133,6 +134,13 @@ def generate_artifacts(store: CanonicalStore, out_dir: str | Path) -> None:
                     "latest_date": latest[0].isoformat() if latest else None,
                 },
             }
+        )
+
+        _write_json(
+            out / "relationships" / f"{body.id}.json",
+            compute_relationships(
+                body.id, body.name, body.kind.value, dict(series), precip, et0, discharge, temp
+            ),
         )
 
         _write_json(
