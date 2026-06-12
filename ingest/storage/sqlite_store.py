@@ -14,6 +14,7 @@ from pathlib import Path
 
 from ingest.domain.models import (
     DischargeReading,
+    Et0Reading,
     PrecipReading,
     Station,
     TempReading,
@@ -57,6 +58,12 @@ CREATE TABLE IF NOT EXISTS temp_reading (
     water_body_id TEXT NOT NULL REFERENCES water_body(id),
     date          TEXT NOT NULL,
     temp_c        REAL NOT NULL,
+    PRIMARY KEY (water_body_id, date)
+);
+CREATE TABLE IF NOT EXISTS et0_reading (
+    water_body_id TEXT NOT NULL REFERENCES water_body(id),
+    date          TEXT NOT NULL,
+    et0_mm        REAL NOT NULL,
     PRIMARY KEY (water_body_id, date)
 );
 """
@@ -124,6 +131,14 @@ class CanonicalStore:
         )
         self._conn.commit()
 
+    def upsert_et0(self, readings: Iterable[Et0Reading]) -> None:
+        self._conn.executemany(
+            "INSERT INTO et0_reading (water_body_id, date, et0_mm) VALUES (?, ?, ?) "
+            "ON CONFLICT(water_body_id, date) DO UPDATE SET et0_mm=excluded.et0_mm",
+            [(r.water_body_id, r.date.isoformat(), float(r.et0_mm)) for r in readings],
+        )
+        self._conn.commit()
+
     # -- olvasás -----------------------------------------------------------
 
     def water_bodies(self) -> list[WaterBody]:
@@ -173,8 +188,18 @@ class CanonicalStore:
     def count_discharge(self) -> int:
         return self._conn.execute("SELECT COUNT(*) FROM discharge_reading").fetchone()[0]
 
+    def et0_for_water_body(self, water_body_id: str) -> dict[Date, float]:
+        rows = self._conn.execute(
+            "SELECT date, et0_mm FROM et0_reading WHERE water_body_id = ? ORDER BY date",
+            (water_body_id,),
+        ).fetchall()
+        return {Date.fromisoformat(r["date"]): r["et0_mm"] for r in rows}
+
     def count_temp(self) -> int:
         return self._conn.execute("SELECT COUNT(*) FROM temp_reading").fetchone()[0]
+
+    def count_et0(self) -> int:
+        return self._conn.execute("SELECT COUNT(*) FROM et0_reading").fetchone()[0]
 
     # -- élettartam --------------------------------------------------------
 

@@ -306,3 +306,8 @@ body {
   background: #3f8f87;
   color: #fff;
 }
+
+.chart-legend .cl-et0 {
+  margin-left: 12px;
+  border-top-color: #b5562e;
+}

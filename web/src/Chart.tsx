@@ -9,28 +9,51 @@ export type Point = {
   precip_mm: number | null;
   discharge_m3s: number | null;
   temp_c: number | null;
+  et0_mm: number | null;
   resolution?: string;
 };
 
 export type Metric = "level" | "discharge";
-export type Secondary = "precip" | "temp";
+export type Secondary = "precip" | "temp" | "et0";
 
 const HU_DATE = new Intl.DateTimeFormat("hu-HU", { year: "numeric", month: "short", day: "numeric" });
-const PRECIP = "rgba(74, 122, 150, 0.38)";
-const TEMP = theme.gold;
 const UNIT: Record<Metric, string> = { level: "cm", discharge: "m³/s" };
 
-function mainValue(p: Point, metric: Metric): number | null {
-  return metric === "discharge" ? p.discharge_m3s : p.value_cm;
-}
-function secondaryValue(p: Point, secondary: Secondary): number | null {
-  return secondary === "temp" ? p.temp_c : p.precip_mm;
-}
+type SecConfig = {
+  value: (p: Point) => number | null;
+  kind: "bars" | "line";
+  color: string;
+  zeroBased: boolean;
+  text: (v: number) => string;
+};
 
-// Kurzor-tooltip: dátum, fő metrika és aktív másodlagos érték (csapadék mm vagy hőmérséklet °C).
-function cursorTooltip(mainUnit: string, secondary: Secondary): uPlot.Plugin {
+const SECONDARY: Record<Secondary, SecConfig> = {
+  precip: {
+    value: (p) => p.precip_mm,
+    kind: "bars",
+    color: "#4a7a96",
+    zeroBased: true,
+    text: (v) => `${v} mm csapadék`,
+  },
+  temp: {
+    value: (p) => p.temp_c,
+    kind: "line",
+    color: theme.gold,
+    zeroBased: false,
+    text: (v) => `${v} °C`,
+  },
+  et0: {
+    value: (p) => p.et0_mm,
+    kind: "line",
+    color: "#b5562e",
+    zeroBased: true,
+    text: (v) => `${v} mm párolgás`,
+  },
+};
+
+// Kurzor-tooltip: dátum, fő metrika és aktív másodlagos érték.
+function cursorTooltip(mainUnit: string, secText: (v: number) => string): uPlot.Plugin {
   let tip: HTMLDivElement;
-  const secText = (v: number) => (secondary === "temp" ? `${v} °C` : `${v} mm csapadék`);
   return {
     hooks: {
       init: (u) => {
@@ -78,33 +101,34 @@ export function Chart({
 
   useEffect(() => {
     if (!ref.current) return;
+    const cfg = SECONDARY[secondary];
 
     const xs = points.map((p) => Date.parse(p.date) / 1000);
-    const sec = points.map((p) => secondaryValue(p, secondary));
-    const main = points.map((p) => mainValue(p, metric));
-    const isTemp = secondary === "temp";
+    const sec = points.map((p) => cfg.value(p));
+    const main = points.map((p) => (metric === "discharge" ? p.discharge_m3s : p.value_cm));
 
-    const secSeries: uPlot.Series = isTemp
-      ? { scale: "sec", stroke: TEMP, width: 2, points: { show: false } }
-      : {
-          scale: "sec",
-          paths: uPlot.paths.bars!({ size: [0.7, 18], align: 0 }),
-          points: { show: false },
-          fill: PRECIP,
-          stroke: PRECIP,
-          width: 0,
-        };
+    const secSeries: uPlot.Series =
+      cfg.kind === "line"
+        ? { scale: "sec", stroke: cfg.color, width: 2, points: { show: false } }
+        : {
+            scale: "sec",
+            paths: uPlot.paths.bars!({ size: [0.7, 18], align: 0 }),
+            points: { show: false },
+            fill: "rgba(74, 122, 150, 0.38)",
+            stroke: "rgba(74, 122, 150, 0.38)",
+            width: 0,
+          };
 
     const opts: uPlot.Options = {
       width,
       height,
       legend: { show: false },
       cursor: { y: false, points: { size: 7 } },
-      plugins: [cursorTooltip(UNIT[metric], secondary)],
+      plugins: [cursorTooltip(UNIT[metric], cfg.text)],
       scales: {
         x: { time: true },
         y: {},
-        sec: isTemp ? {} : { range: (_u, _min, max) => [0, Math.max(max ?? 1, 1)] },
+        sec: cfg.zeroBased ? { range: (_u, _min, max) => [0, Math.max(max ?? 1, 1)] } : {},
       },
       axes: [
         {
@@ -125,7 +149,7 @@ export function Chart({
         {
           scale: "sec",
           side: 1,
-          stroke: isTemp ? TEMP : "#4a7a96",
+          stroke: cfg.color,
           grid: { show: false },
           ticks: { show: false },
           size: 40,

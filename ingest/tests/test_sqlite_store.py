@@ -4,6 +4,7 @@ from datetime import date
 
 from ingest.domain.models import (
     DischargeReading,
+    Et0Reading,
     PrecipReading,
     Station,
     TempReading,
@@ -76,6 +77,16 @@ def test_temp_idempotent_upsert(tmp_path):
         assert store.count_temp() == 1
         store.upsert_temp([TempReading("balaton", date(2026, 6, 1), 22.0)])
         assert store.temp_for_water_body("balaton") == {date(2026, 6, 1): 22.0}
+
+
+def test_et0_idempotent_upsert(tmp_path):
+    rows = [Et0Reading("balaton", date(2026, 6, 1), 4.2)]
+    with _store(tmp_path) as store:
+        store.upsert_et0(rows)
+        store.upsert_et0(rows)
+        assert store.count_et0() == 1
+        store.upsert_et0([Et0Reading("balaton", date(2026, 6, 1), 5.0)])
+        assert store.et0_for_water_body("balaton") == {date(2026, 6, 1): 5.0}
 
 
 def test_persists_across_reopen(tmp_path):

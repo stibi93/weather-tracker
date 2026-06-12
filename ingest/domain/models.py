@@ -82,3 +82,26 @@ class TempReading:
     water_body_id: str
     date: Date
     temp_c: float
+
+
+@dataclass(frozen=True, slots=True)
+class Et0Reading:
+    """Egy víztest területi napi referencia-párolgása (ET₀, mm), egy napon."""
+
+    water_body_id: str
+    date: Date
+    et0_mm: float
+
+
+@dataclass(frozen=True, slots=True)
+class WeatherReading:
+    """Egy víztest területi napi időjárása egy hívásból: csapadék, hőmérséklet, ET₀.
+
+    Bármelyik mező lehet ``None``, ha az adott napra hiányzik.
+    """
+
+    water_body_id: str
+    date: Date
+    precip_mm: float | None
+    temp_c: float | None
+    et0_mm: float | None
