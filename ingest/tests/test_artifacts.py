@@ -106,6 +106,17 @@ def test_per_body_series_shape(tmp_path):
     ]
 
 
+def test_generates_relationships_artifact(tmp_path):
+    with _seed(tmp_path / "c.sqlite") as store:
+        generate_artifacts(store, tmp_path / "out")
+    rel = json.loads(
+        (tmp_path / "out" / "relationships" / "balaton.json").read_text(encoding="utf-8")
+    )
+    assert rel["id"] == "balaton"
+    assert rel["kind"] == "lake"
+    assert "primary" in rel and "drivers" in rel
+
+
 def test_output_is_deterministic(tmp_path):
     with _seed(tmp_path / "c.sqlite") as store:
         generate_artifacts(store, tmp_path / "a")

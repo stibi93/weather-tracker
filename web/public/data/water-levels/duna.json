@@ -7184,9 +7184,9 @@
     },
     {
       "date": "2026-05-12",
-      "value_cm": 87,
+      "value_cm": 86,
       "precip_mm": 3.2,
-      "discharge_m3s": 1135.3,
+      "discharge_m3s": 1129.0,
       "temp_c": 12.6,
       "et0_mm": 2.7,
       "resolution": "daily"
