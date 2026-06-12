@@ -73,3 +73,12 @@ class PrecipReading:
     water_body_id: str
     date: Date
     precip_mm: float
+
+
+@dataclass(frozen=True, slots=True)
+class TempReading:
+    """Egy víztest területi napi átlaghőmérséklete (°C), egy napon."""
+
+    water_body_id: str
+    date: Date
+    temp_c: float

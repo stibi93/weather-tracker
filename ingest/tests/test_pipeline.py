@@ -4,7 +4,12 @@ import json
 from datetime import date
 
 from ingest.config import STATIONS
-from ingest.domain.models import DischargeReading, PrecipReading, WaterLevelReading
+from ingest.domain.models import (
+    DischargeReading,
+    PrecipReading,
+    TempReading,
+    WaterLevelReading,
+)
 from ingest.domain.ports import DateRange
 from ingest.pipeline import run
 
@@ -41,6 +46,16 @@ class FakeDischargeSource:
         return self._readings
 
 
+class FakeTempSource:
+    """A `TemperatureSource` portot kielégítő teszt-forrás."""
+
+    def __init__(self, readings):
+        self._readings = readings
+
+    def fetch(self, _date_range: DateRange):
+        return self._readings
+
+
 def test_run_chains_fetch_store_artifacts(tmp_path):
     fake = FakeSource(
         [
@@ -56,6 +71,7 @@ def test_run_chains_fetch_store_artifacts(tmp_path):
         ]
     )
     discharge = FakeDischargeSource([DischargeReading("1026", date(2026, 6, 11), 1343.0)])
+    temp = FakeTempSource([TempReading("balaton", date(2026, 6, 11), 21.4)])
     count = run(
         db_path=tmp_path / "c.sqlite",
         out_dir=tmp_path / "out",
@@ -63,6 +79,7 @@ def test_run_chains_fetch_store_artifacts(tmp_path):
         source=fake,
         precip_source=precip,
         discharge_source=discharge,
+        temp_source=temp,
         today=date(2026, 6, 11),
     )
 
@@ -79,6 +96,7 @@ def test_run_chains_fetch_store_artifacts(tmp_path):
     assert balaton["latest"] == {"date": "2026-06-11", "value_cm": 83}
     by_date = {p["date"]: p for p in balaton["series"]}
     assert by_date["2026-06-11"]["precip_mm"] == 12.5  # csapadék igazítva
+    assert by_date["2026-06-11"]["temp_c"] == 21.4  # hőmérséklet igazítva
     assert by_date["2026-06-11"]["discharge_m3s"] is None  # tónál nincs vízhozam
 
     # A folyónál (Duna) a vízhozam igazítva jelenik meg
@@ -98,6 +116,7 @@ def test_years_overrides_range_for_backfill(tmp_path):
         source=fake,
         precip_source=FakePrecipSource([]),
         discharge_source=FakeDischargeSource([]),
+        temp_source=FakeTempSource([]),
         today=date(2026, 6, 11),
     )
     assert fake.received_range == DateRange(date(2026, 6, 11) - timedelta(days=3650), date(2026, 6, 11))

@@ -6,6 +6,7 @@ from ingest.domain.models import (
     DischargeReading,
     PrecipReading,
     Station,
+    TempReading,
     WaterBody,
     WaterBodyKind,
     WaterLevelReading,
@@ -65,6 +66,16 @@ def test_discharge_idempotent_upsert(tmp_path):
         assert store.count_discharge() == 1
         store.upsert_discharge([DischargeReading("142300", date(2026, 6, 1), 1400.5)])
         assert store.discharge_for_station("142300") == {date(2026, 6, 1): 1400.5}
+
+
+def test_temp_idempotent_upsert(tmp_path):
+    rows = [TempReading("balaton", date(2026, 6, 1), 18.3)]
+    with _store(tmp_path) as store:
+        store.upsert_temp(rows)
+        store.upsert_temp(rows)
+        assert store.count_temp() == 1
+        store.upsert_temp([TempReading("balaton", date(2026, 6, 1), 22.0)])
+        assert store.temp_for_water_body("balaton") == {date(2026, 6, 1): 22.0}
 
 
 def test_persists_across_reopen(tmp_path):

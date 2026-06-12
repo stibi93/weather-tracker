@@ -16,6 +16,7 @@ from ingest.domain.models import (
     DischargeReading,
     PrecipReading,
     Station,
+    TempReading,
     WaterBody,
     WaterBodyKind,
     WaterLevelReading,
@@ -51,6 +52,12 @@ CREATE TABLE IF NOT EXISTS discharge_reading (
     date       TEXT NOT NULL,
     value_m3s  REAL NOT NULL,
     PRIMARY KEY (station_id, date)
+);
+CREATE TABLE IF NOT EXISTS temp_reading (
+    water_body_id TEXT NOT NULL REFERENCES water_body(id),
+    date          TEXT NOT NULL,
+    temp_c        REAL NOT NULL,
+    PRIMARY KEY (water_body_id, date)
 );
 """
 
@@ -109,6 +116,14 @@ class CanonicalStore:
         )
         self._conn.commit()
 
+    def upsert_temp(self, readings: Iterable[TempReading]) -> None:
+        self._conn.executemany(
+            "INSERT INTO temp_reading (water_body_id, date, temp_c) VALUES (?, ?, ?) "
+            "ON CONFLICT(water_body_id, date) DO UPDATE SET temp_c=excluded.temp_c",
+            [(r.water_body_id, r.date.isoformat(), float(r.temp_c)) for r in readings],
+        )
+        self._conn.commit()
+
     # -- olvasás -----------------------------------------------------------
 
     def water_bodies(self) -> list[WaterBody]:
@@ -148,8 +163,18 @@ class CanonicalStore:
     def count_precip(self) -> int:
         return self._conn.execute("SELECT COUNT(*) FROM precip_reading").fetchone()[0]
 
+    def temp_for_water_body(self, water_body_id: str) -> dict[Date, float]:
+        rows = self._conn.execute(
+            "SELECT date, temp_c FROM temp_reading WHERE water_body_id = ? ORDER BY date",
+            (water_body_id,),
+        ).fetchall()
+        return {Date.fromisoformat(r["date"]): r["temp_c"] for r in rows}
+
     def count_discharge(self) -> int:
         return self._conn.execute("SELECT COUNT(*) FROM discharge_reading").fetchone()[0]
+
+    def count_temp(self) -> int:
+        return self._conn.execute("SELECT COUNT(*) FROM temp_reading").fetchone()[0]
 
     # -- élettartam --------------------------------------------------------
 
