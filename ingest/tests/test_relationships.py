@@ -4,6 +4,7 @@ from datetime import date, timedelta
 
 from ingest.analysis.relationships import (
     _best_lag_spearman,
+    _monthly_balance,
     compute_relationships,
     delta_level,
     ols,
@@ -43,18 +44,36 @@ def test_best_lag_finds_known_lag():
     assert r is not None and r > 0.99
 
 
+def test_monthly_balance_sums_and_diffs():
+    base = date(2024, 1, 1)
+    level, net = {}, {}
+    lvl = 100.0
+    for i in range(120):  # ~4 hónap
+        d = base + timedelta(days=i)
+        n = float((i % 7) - 2)  # nettó vízmérleg napi
+        net[d] = n
+        lvl += 0.5 * n
+        level[d] = lvl
+    xs, ys = _monthly_balance(level, net)
+    # a havi szintváltozás a havi nettó 0,5-szerese (a szintépítés szerint)
+    assert len(xs) >= 2
+    for x, y in zip(xs, ys):
+        assert abs(y - 0.5 * x) < 1.0  # kerekítési tűréssel
+
+
 def _synthetic(kind: str):
     base = date(2024, 1, 1)
     level, precip, et0, temp, discharge = {}, {}, {}, {}, {}
     lvl = 100.0
-    for i in range(60):
+    for i in range(900):
         d = base + timedelta(days=i)
         p = float((i * 3) % 11)  # csapadék
         e = 2.0 + (i % 5) * 0.5  # párolgás
         precip[d], et0[d], temp[d] = p, e, 10.0 + (i % 7)
         discharge[d] = 50.0 + (i % 9) * 4
-        # a szint a nettó vízmérleg szerint mozog (tavakra)
-        lvl += 0.1 * (p - e)
+        # a szint a nettó vízmérleg szerint mozog (tavakra); nagy együttható, hogy a havi
+        # szintváltozás az egész-cm kerekítés fölött legyen
+        lvl += 1.0 * (p - e)
         level[d] = lvl
     return base, level, precip, et0, temp, discharge
 
@@ -66,10 +85,11 @@ def test_compute_relationships_lake_structure():
     labels = [d["label"] for d in rel["drivers"]]
     assert "Csapadék − párolgás" in labels
     assert "Vízhozam" not in labels  # tónál nincs
+    assert "havi" in rel["primary"]["title"].lower()
     assert "csapadék − párolgás" in rel["primary"]["title"].lower()
-    assert rel["primary"]["r2"] is not None and rel["primary"]["n"] > 30
-    # a szintet a nettó hajtja -> magas R²
-    assert rel["primary"]["r2"] > 0.9
+    assert rel["primary"]["n"] >= 12  # hónapok
+    # a havi szintváltozást a havi nettó hajtja -> magas R²
+    assert rel["primary"]["r2"] is not None and rel["primary"]["r2"] > 0.9
 
 
 def test_compute_relationships_river_uses_discharge():

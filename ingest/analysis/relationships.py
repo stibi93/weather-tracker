@@ -98,6 +98,42 @@ def _aligned(driver: dict[Date, float], target: dict[Date, float], lag: int) -> 
     return xs, ys
 
 
+def _prev_month(ym: tuple[int, int]) -> tuple[int, int]:
+    year, month = ym
+    return (year - 1, 12) if month == 1 else (year, month - 1)
+
+
+def _monthly_balance(
+    level: dict[Date, float], net: dict[Date, float]
+) -> tuple[list[float], list[int]]:
+    """Havi vízmérleg: havi (csapadék − párolgás) összeg vs havi szintváltozás.
+
+    A havi szintváltozás a hó végi szint és az előző hó végi szint különbsége (csak
+    közvetlenül megelőző naptári hónapra). Feloldja a napi cm-kvantáltságot.
+    """
+    net_sum: dict[tuple[int, int], float] = {}
+    for day, value in net.items():
+        ym = (day.year, day.month)
+        net_sum[ym] = net_sum.get(ym, 0.0) + value
+
+    month_end_day: dict[tuple[int, int], Date] = {}
+    for day in level:
+        ym = (day.year, day.month)
+        if ym not in month_end_day or day > month_end_day[ym]:
+            month_end_day[ym] = day
+    month_end_level = {ym: level[day] for ym, day in month_end_day.items()}
+
+    months = sorted(set(net_sum) & set(month_end_level))
+    xs: list[float] = []
+    ys: list[int] = []
+    for ym in months:
+        prev = _prev_month(ym)
+        if prev in month_end_level:
+            xs.append(round(net_sum[ym], 1))
+            ys.append(round(month_end_level[ym] - month_end_level[prev]))
+    return xs, ys
+
+
 def _best_lag_spearman(
     driver: dict[Date, float], target: dict[Date, float], max_lag: int
 ) -> tuple[int, float | None]:
@@ -163,15 +199,14 @@ def compute_relationships(
             "y_label": "Vízállás (cm)",
         }
     else:
-        net_lag = next((d["lag_days"] for d in drivers if d["label"] == "Csapadék − párolgás"), 0)
-        xs, ys = _aligned(net, delta, net_lag)
+        # Havi aggregálás: a napi Δszint egész cm-be torlódna, ezért havi vízmérleg.
+        xs, ys = _monthly_balance(level, net)
         slope, intercept, r2 = ols(xs, ys)
-        points = [[round(x, 1), int(y)] for x, y in zip(xs, ys)]
-        suffix = f" ({net_lag} nap késéssel)" if net_lag else ""
+        points = [[x, y] for x, y in zip(xs, ys)]
         primary = {
-            "title": f"Napi szintváltozás vs (csapadék − párolgás){suffix}",
-            "x_label": "Csapadék − párolgás (mm)",
-            "y_label": "Δ vízállás (cm/nap)",
+            "title": "Havi szintváltozás vs havi (csapadék − párolgás)",
+            "x_label": "Havi csapadék − párolgás (mm/hó)",
+            "y_label": "Havi szintváltozás (cm/hó)",
         }
 
     primary.update(
