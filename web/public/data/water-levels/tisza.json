@@ -5,8 +5,8 @@
   "unit": "cm",
   "source": "Országos Vízügyi Főigazgatóság",
   "latest": {
-    "date": "2026-06-11",
-    "value_cm": -287
+    "date": "2026-06-14",
+    "value_cm": -272
   },
   "series": [
     {
@@ -875,39 +875,12 @@
     },
     {
       "date": "2024-06-01",
-      "value_cm": -82,
-      "precip_mm": 4.2,
-      "discharge_m3s": 262.9,
-      "temp_c": 21.1,
-      "et0_mm": 4.4,
+      "value_cm": -61,
+      "precip_mm": 3.6,
+      "discharge_m3s": 292.8,
+      "temp_c": 20.6,
+      "et0_mm": 4.2,
       "resolution": "monthly"
-    },
-    {
-      "date": "2024-06-11",
-      "value_cm": -23,
-      "precip_mm": 0.6,
-      "discharge_m3s": 335.4,
-      "temp_c": 20.4,
-      "et0_mm": 4.1,
-      "resolution": "daily"
-    },
-    {
-      "date": "2024-06-12",
-      "value_cm": -2,
-      "precip_mm": 2.7,
-      "discharge_m3s": 374.2,
-      "temp_c": 18.6,
-      "et0_mm": 2.7,
-      "resolution": "daily"
-    },
-    {
-      "date": "2024-06-13",
-      "value_cm": 55,
-      "precip_mm": 2.0,
-      "discharge_m3s": 467.6,
-      "temp_c": 17.5,
-      "et0_mm": 3.4,
-      "resolution": "daily"
     },
     {
       "date": "2024-06-14",
@@ -7211,9 +7184,9 @@
     },
     {
       "date": "2026-05-15",
-      "value_cm": -180,
+      "value_cm": -168,
       "precip_mm": 2.1,
-      "discharge_m3s": 168.5,
+      "discharge_m3s": 178.3,
       "temp_c": 15.6,
       "et0_mm": 4.5,
       "resolution": "daily"
@@ -7456,9 +7429,36 @@
       "date": "2026-06-11",
       "value_cm": -287,
       "precip_mm": 7.2,
-      "discharge_m3s": 68.0,
+      "discharge_m3s": 67.8,
       "temp_c": 18.4,
       "et0_mm": 4.6,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-06-12",
+      "value_cm": -293,
+      "precip_mm": 1.3,
+      "discharge_m3s": 65.4,
+      "temp_c": 18.1,
+      "et0_mm": 5.2,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-06-13",
+      "value_cm": -285,
+      "precip_mm": 1.6,
+      "discharge_m3s": 74.4,
+      "temp_c": 19.3,
+      "et0_mm": 4.6,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-06-14",
+      "value_cm": -272,
+      "precip_mm": 4.1,
+      "discharge_m3s": 81.1,
+      "temp_c": 20.7,
+      "et0_mm": 4.8,
       "resolution": "daily"
     }
   ]

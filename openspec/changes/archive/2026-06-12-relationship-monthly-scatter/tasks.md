@@ -2,7 +2,7 @@
 
 - [x] 1.1 `_monthly_balance(level, net)`: havi net-összeg + havi szintváltozás (hó végi szint különbsége)
 - [x] 1.2 A tavak fő kapcsolata havi aggregálásra vált (cím + feliratok: „Havi szintváltozás vs havi (csapadék − párolgás)")
-- [x] 1.3 A folyók és a napi hajtó-tábla változatlan
+- [x] 1.3 A folyók és a napi magyarázó változók táblája változatlan
 
 ## 2. Teszt és verifikáció
 

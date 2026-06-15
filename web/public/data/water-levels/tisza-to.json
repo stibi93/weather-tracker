@@ -5,8 +5,8 @@
   "unit": "cm",
   "source": "Országos Vízügyi Főigazgatóság",
   "latest": {
-    "date": "2026-06-11",
-    "value_cm": 748
+    "date": "2026-06-14",
+    "value_cm": 749
   },
   "series": [
     {
@@ -875,39 +875,12 @@
     },
     {
       "date": "2024-06-01",
-      "value_cm": 738,
-      "precip_mm": 3.9,
+      "value_cm": 739,
+      "precip_mm": 3.4,
       "discharge_m3s": null,
-      "temp_c": 20.7,
-      "et0_mm": 4.3,
+      "temp_c": 20.2,
+      "et0_mm": 4.1,
       "resolution": "monthly"
-    },
-    {
-      "date": "2024-06-11",
-      "value_cm": 741,
-      "precip_mm": 3.0,
-      "discharge_m3s": null,
-      "temp_c": 20.0,
-      "et0_mm": 3.4,
-      "resolution": "daily"
-    },
-    {
-      "date": "2024-06-12",
-      "value_cm": 744,
-      "precip_mm": 1.1,
-      "discharge_m3s": null,
-      "temp_c": 18.4,
-      "et0_mm": 3.2,
-      "resolution": "daily"
-    },
-    {
-      "date": "2024-06-13",
-      "value_cm": 742,
-      "precip_mm": 1.0,
-      "discharge_m3s": null,
-      "temp_c": 17.2,
-      "et0_mm": 3.5,
-      "resolution": "daily"
     },
     {
       "date": "2024-06-14",
@@ -7211,7 +7184,7 @@
     },
     {
       "date": "2026-05-15",
-      "value_cm": 740,
+      "value_cm": 741,
       "precip_mm": 3.1,
       "discharge_m3s": null,
       "temp_c": 14.7,
@@ -7459,6 +7432,33 @@
       "discharge_m3s": null,
       "temp_c": 18.9,
       "et0_mm": 4.6,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-06-12",
+      "value_cm": 750,
+      "precip_mm": 2.3,
+      "discharge_m3s": null,
+      "temp_c": 17.2,
+      "et0_mm": 4.4,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-06-13",
+      "value_cm": 748,
+      "precip_mm": 1.3,
+      "discharge_m3s": null,
+      "temp_c": 18.5,
+      "et0_mm": 4.6,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-06-14",
+      "value_cm": 749,
+      "precip_mm": 0.7,
+      "discharge_m3s": null,
+      "temp_c": 20.2,
+      "et0_mm": 5.0,
       "resolution": "daily"
     }
   ]

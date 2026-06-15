@@ -114,7 +114,7 @@ def test_generates_relationships_artifact(tmp_path):
     )
     assert rel["id"] == "balaton"
     assert rel["kind"] == "lake"
-    assert "primary" in rel and "drivers" in rel
+    assert "primary" in rel and "predictors" in rel
 
 
 def test_output_is_deterministic(tmp_path):

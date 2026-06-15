@@ -1,8 +1,8 @@
 ## 1. Statisztika modul (tiszta Python)
 
 - [x] 1.1 `ingest/analysis/relationships.py`: Δszint (szomszédos napokra), rang-alapú Spearman, OLS (slope/intercept/R²)
-- [x] 1.2 Késleltetett Spearman hajtónként, legjobb késleltetés egy rögzített ablakban (tavak 0–14, folyók 0–30)
-- [x] 1.3 `compute_relationships(...)`: kind-függő fő kapcsolat (tavak: Δszint vs csapadék−párolgás; folyók: szint vs vízhozam) + hajtó-tábla
+- [x] 1.2 Késleltetett Spearman magyarázó változónként, legjobb késleltetés egy rögzített ablakban (tavak 0–14, folyók 0–30)
+- [x] 1.3 `compute_relationships(...)`: kind-függő fő kapcsolat (tavak: Δszint vs csapadék−párolgás; folyók: szint vs vízhozam) + magyarázó változók táblája
 - [x] 1.4 Unit-teszt: ismert mintán helyes Spearman, R², legjobb késleltetés; determinisztikus
 
 ## 2. Artifact
@@ -14,7 +14,7 @@
 
 - [x] 3.1 `RelationshipsPanel`: lazy-load `relationships/{id}.json`
 - [x] 3.2 Szórásdiagram (uPlot, pont + illesztett vonal) R²-tel
-- [x] 3.3 Korrelációs tábla: hajtó | késleltetés | Spearman-r (kis sáv, előjellel)
+- [x] 3.3 Korrelációs tábla: magyarázó változó | késleltetés | Spearman-r (kis sáv, előjellel)
 - [x] 3.4 A metrikák pontos magyarázata (Δszint, Spearman-r, késleltetés, R²) + „korreláció ≠ okság" figyelmeztetés
 - [x] 3.5 A (C) földes stílushoz illő megjelenés; megnyitható szekció a panelben
 

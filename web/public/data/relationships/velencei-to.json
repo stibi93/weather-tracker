@@ -488,12 +488,12 @@
         -9
       ],
       [
-        -42.4,
-        -4
+        -51.4,
+        -5
       ]
     ]
   },
-  "drivers": [
+  "predictors": [
     {
       "label": "Csapadék",
       "lag_days": 0,

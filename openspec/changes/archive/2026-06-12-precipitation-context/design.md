@@ -32,7 +32,7 @@ kulcs nélkül (et0/hőmérséklet is jön — későbbi (b)/(c) bővítéshez).
 - **Kéttengelyes grafikon.** Vízállás bal (cm) vonal, csapadék jobb (mm) oszlop. A tooltip
   mindkettőt mutatja.
 - **Őszinte jelzés a folyókról.** A nagy folyóknál (Duna, Tisza) a helyi csapadék gyenge
-  magyarázó (a felvízi vízgyűjtő + hóolvadás a fő hajtó). A csapadékot megmutatjuk, de nem
+  magyarázó (a felvízi vízgyűjtő + hóolvadás a fő magyarázó tényező). A csapadékot megmutatjuk, de nem
   állítunk ok-okozatot; a sekély tavaknál a legbeszédesebb.
 
 ## Risks / Trade-offs

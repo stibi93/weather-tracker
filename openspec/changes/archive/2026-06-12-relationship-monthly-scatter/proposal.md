@@ -10,14 +10,14 @@ olvashatatlan**. A napi cm-kvantáltságot csak időbeli aggregálás oldja fel.
 - A tavak fő kapcsolatának szórásdiagramja **havi aggregálásra** vált: *havi szintváltozás vs
   havi (csapadék − párolgás)*. A felhő tisztán, pozitív meredekséggel látszik, az R² reálisabb.
 - A folyók vízállás vs vízhozam (rating curve) változatlan — az már tiszta és erős.
-- A hajtónkénti korrelációs tábla **napi, késleltetett Spearman** marad (a napi időzítés/late
+- A magyarázó változónkénti korrelációs tábla **napi, késleltetett Spearman** marad (a napi időzítés/late
   miatt informatív; a rang-alapú korreláció robusztus a kvantáltságra).
 
 ## Capabilities
 
 ### Modified Capabilities
 - `relationship-analysis`: a tavak fő kapcsolata havi aggregálásra vált (a napi cm-kvantáltság
-  feloldására); a folyóké és a hajtó-tábla változatlan.
+  feloldására); a folyóké és a magyarázó változók táblája változatlan.
 
 ## Impact
 

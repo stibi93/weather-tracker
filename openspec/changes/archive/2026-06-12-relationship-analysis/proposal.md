@@ -1,6 +1,6 @@
 ## Why
 
-A felhasználó látja a vízállást és a hajtó változókat (csapadék, párolgás, hőmérséklet,
+A felhasználó látja a vízállást és a magyarázó változókat (csapadék, párolgás, hőmérséklet,
 vízhozam), de nem látja **mihez kötődnek** — az összefüggést számszerűsíteni és őszintén
 elmagyarázni kell. A vízszint *felhalmozott állapot*: nyersen korrelálva hamis (autokorreláció
 + szezonalitás). A helyes feldolgozás a **napi szintváltozással (Δszint)** dolgozik, és tisztán
@@ -9,7 +9,7 @@ jelzi, hogy **korreláció ≠ okság**.
 ## What Changes
 
 - Az ingest víztestenként kiszámít egy **összefüggés-összegzést** (Pythonban, a teljes napi
-  adatból): Δszint vs hajtók **késleltetett Spearman-korrelációja** (a legjobb késleltetéssel),
+  adatból): Δszint vs magyarázó változók **késleltetett Spearman-korrelációja** (a legjobb késleltetéssel),
   és egy **fő kapcsolat** illesztett vonallal + **R²**-tel:
   - tavak: Δszint vs (csapadék − párolgás) — vízmérleg;
   - folyók: vízállás vs vízhozam — vízhozamgörbe (rating curve).
@@ -21,7 +21,7 @@ jelzi, hogy **korreláció ≠ okság**.
 ## Capabilities
 
 ### New Capabilities
-- `relationship-analysis`: a vízszint és a hajtó változók közti összefüggés számítása (Δszinten,
+- `relationship-analysis`: a vízszint és a magyarázó változók közti összefüggés számítása (Δszinten,
   késleltetett Spearman + vízmérleg/rating R²), és az „Összefüggések" megjelenítés magyarázatokkal.
 
 ## Impact

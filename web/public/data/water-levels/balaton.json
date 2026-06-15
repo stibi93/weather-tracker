@@ -5,8 +5,8 @@
   "unit": "cm",
   "source": "Országos Vízügyi Főigazgatóság",
   "latest": {
-    "date": "2026-06-11",
-    "value_cm": 79
+    "date": "2026-06-14",
+    "value_cm": 78
   },
   "series": [
     {
@@ -875,39 +875,12 @@
     },
     {
       "date": "2024-06-01",
-      "value_cm": 123,
-      "precip_mm": 3.6,
-      "discharge_m3s": null,
-      "temp_c": 20.4,
-      "et0_mm": 4.2,
-      "resolution": "monthly"
-    },
-    {
-      "date": "2024-06-11",
-      "value_cm": 125,
-      "precip_mm": 6.8,
-      "discharge_m3s": null,
-      "temp_c": 18.7,
-      "et0_mm": 3.1,
-      "resolution": "daily"
-    },
-    {
-      "date": "2024-06-12",
-      "value_cm": 125,
-      "precip_mm": 0.2,
-      "discharge_m3s": null,
-      "temp_c": 15.8,
-      "et0_mm": 3.3,
-      "resolution": "daily"
-    },
-    {
-      "date": "2024-06-13",
       "value_cm": 124,
-      "precip_mm": 0.1,
+      "precip_mm": 3.3,
       "discharge_m3s": null,
-      "temp_c": 15.5,
-      "et0_mm": 3.3,
-      "resolution": "daily"
+      "temp_c": 19.5,
+      "et0_mm": 4.0,
+      "resolution": "monthly"
     },
     {
       "date": "2024-06-14",
@@ -7459,6 +7432,33 @@
       "discharge_m3s": null,
       "temp_c": 15.7,
       "et0_mm": 3.2,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-06-12",
+      "value_cm": 79,
+      "precip_mm": 0.0,
+      "discharge_m3s": null,
+      "temp_c": 16.8,
+      "et0_mm": 4.4,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-06-13",
+      "value_cm": 78,
+      "precip_mm": 1.6,
+      "discharge_m3s": null,
+      "temp_c": 19.9,
+      "et0_mm": 4.8,
+      "resolution": "daily"
+    },
+    {
+      "date": "2026-06-14",
+      "value_cm": 78,
+      "precip_mm": 6.2,
+      "discharge_m3s": null,
+      "temp_c": 19.9,
+      "et0_mm": 4.2,
       "resolution": "daily"
     }
   ]

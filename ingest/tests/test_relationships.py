@@ -36,10 +36,12 @@ def test_delta_level_only_consecutive_days():
 
 def test_best_lag_finds_known_lag():
     base = date(2024, 1, 1)
-    driver = {base + timedelta(days=i): float((i * 7) % 13) for i in range(40)}
-    # a target a driver 2 nappal korábbi értéke
-    target = {base + timedelta(days=i): driver[base + timedelta(days=i - 2)] for i in range(2, 40)}
-    lag, r = _best_lag_spearman(driver, target, max_lag=5)
+    predictor = {base + timedelta(days=i): float((i * 7) % 13) for i in range(40)}
+    # a célváltozó a magyarázó változó 2 nappal korábbi értéke
+    target = {
+        base + timedelta(days=i): predictor[base + timedelta(days=i - 2)] for i in range(2, 40)
+    }
+    lag, r = _best_lag_spearman(predictor, target, max_lag=5)
     assert lag == 2
     assert r is not None and r > 0.99
 
@@ -82,7 +84,7 @@ def test_compute_relationships_lake_structure():
     _, level, precip, et0, temp, discharge = _synthetic("lake")
     rel = compute_relationships("balaton", "Balaton", "lake", level, precip, et0, {}, temp)
     assert rel["kind"] == "lake"
-    labels = [d["label"] for d in rel["drivers"]]
+    labels = [d["label"] for d in rel["predictors"]]
     assert "Csapadék − párolgás" in labels
     assert "Vízhozam" not in labels  # tónál nincs
     assert "havi" in rel["primary"]["title"].lower()
@@ -98,5 +100,5 @@ def test_compute_relationships_river_uses_discharge():
     assert rel["kind"] == "river"
     assert "vízhozam" in rel["primary"]["title"].lower()
     assert rel["primary"]["y_label"] == "Vízállás (cm)"
-    labels = [d["label"] for d in rel["drivers"]]
+    labels = [d["label"] for d in rel["predictors"]]
     assert "Vízhozam" in labels

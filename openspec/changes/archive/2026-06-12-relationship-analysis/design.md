@@ -8,7 +8,7 @@ tavaknál — vízmérleg-regresszióval. A Granger-oksági teszt kerülendő (f
 ## Goals / Non-Goals
 
 **Goals:**
-- Δszint-alapú, késleltetett Spearman-korreláció hajtónként + legjobb késleltetés.
+- Δszint-alapú, késleltetett Spearman-korreláció magyarázó változónként + legjobb késleltetés.
 - Fő kapcsolat illesztéssel + R² (tavak: Δszint vs csapadék−párolgás; folyók: szint vs vízhozam).
 - A részletpanelen szórásdiagram + tábla + **pontos metrika-magyarázatok** + figyelmeztetés.
 

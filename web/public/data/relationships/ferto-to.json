@@ -6,9 +6,9 @@
     "title": "Havi szintváltozás vs havi (csapadék − párolgás)",
     "x_label": "Havi csapadék − párolgás (mm/hó)",
     "y_label": "Havi szintváltozás (cm/hó)",
-    "r2": 0.605,
-    "slope": 0.0986,
-    "intercept": 2.47,
+    "r2": 0.606,
+    "slope": 0.0985,
+    "intercept": 2.45,
     "n": 120,
     "points": [
       [
@@ -488,12 +488,12 @@
         -11
       ],
       [
-        -21.0,
-        3
+        -23.9,
+        0
       ]
     ]
   },
-  "drivers": [
+  "predictors": [
     {
       "label": "Csapadék",
       "lag_days": 0,
@@ -502,7 +502,7 @@
     {
       "label": "Párolgás",
       "lag_days": 0,
-      "spearman_r": -0.1
+      "spearman_r": -0.11
     },
     {
       "label": "Csapadék − párolgás",

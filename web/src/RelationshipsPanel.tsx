@@ -3,7 +3,7 @@ import uPlot from "uplot";
 import "uplot/dist/uPlot.min.css";
 import { theme } from "./theme";
 
-type Driver = { label: string; lag_days: number; spearman_r: number | null };
+type Predictor = { label: string; lag_days: number; spearman_r: number | null };
 type Primary = {
   title: string;
   x_label: string;
@@ -14,7 +14,7 @@ type Primary = {
   n: number;
   points: [number, number][];
 };
-type Rel = { id: string; name: string; kind: string; primary: Primary; drivers: Driver[] };
+type Rel = { id: string; name: string; kind: string; primary: Primary; predictors: Predictor[] };
 
 // Szórásdiagram + illesztett egyenes (uPlot; a pontokat x szerint rendezzük).
 function Scatter({ primary, width, height }: { primary: Primary; width: number; height: number }) {
@@ -33,7 +33,7 @@ function Scatter({ primary, width, height }: { primary: Primary; width: number; 
       height,
       legend: { show: false },
       cursor: { show: false },
-      scales: { x: {}, y: {} },
+      scales: { x: { time: false }, y: {} },
       axes: [
         {
           stroke: theme.inkSoft,
@@ -122,13 +122,13 @@ export function RelationshipsPanel({ id, width }: { id: string; width: number })
       <table className="rel-table">
         <thead>
           <tr>
-            <th>Hajtó (napi szintváltozásra)</th>
+            <th>Magyarázó változó (napi szintváltozásra)</th>
             <th>Késés</th>
             <th>Spearman r</th>
           </tr>
         </thead>
         <tbody>
-          {rel.drivers.map((d) => (
+          {rel.predictors.map((d) => (
             <tr key={d.label}>
               <td>{d.label}</td>
               <td>{d.lag_days} nap</td>
@@ -149,7 +149,8 @@ export function RelationshipsPanel({ id, width }: { id: string; width: number })
           −1 ellentétes, 0 nincs egyértelmű kapcsolat (kiugró értékekre robusztus).
         </p>
         <p>
-          <b>Késés (nap):</b> hány nappal korábbi hajtó magyarázza legjobban a mai szintváltozást
+          <b>Késés (nap):</b> hány nappal korábbi magyarázó változó magyarázza legjobban a mai
+          szintváltozást
           (pl. eső 1–3 nap múlva emeli a szintet).
         </p>
         <p>

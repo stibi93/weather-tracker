@@ -1,9 +1,9 @@
-"""A vízszint és a hajtó változók közti összefüggés számítása — tiszta Python.
+"""A vízszint és a magyarázó változók közti összefüggés számítása — tiszta Python.
 
 A nyers vízszint *felhalmozott állapot* (autokorrelált + szezonális), ezért nyersen korrelálva
 hamis. A helyes feldolgozás a **napi szintváltozáson (Δszint)** alapul: ez a napi vízmérleg
-proxyja. Hajtónként késleltetett Spearman-korreláció (a legjobb késleltetéssel), és egy fő
-kapcsolat illesztéssel + R²-tel:
+proxyja. Magyarázó változónként késleltetett Spearman-korreláció (a legjobb késleltetéssel), és
+egy fő kapcsolat illesztéssel + R²-tel:
 
 - tavak: Δszint vs (csapadék − párolgás) — vízmérleg;
 - folyók: vízállás vs vízhozam — vízhozamgörbe (rating curve, pillanatnyi fizikai kapcsolat).
@@ -86,14 +86,14 @@ def delta_level(level: dict[Date, float]) -> dict[Date, float]:
     return out
 
 
-def _aligned(driver: dict[Date, float], target: dict[Date, float], lag: int) -> tuple[list, list]:
-    """A driver `lag` nappal korábbi értékét párosítja a target adott napi értékéhez."""
+def _aligned(predictor: dict[Date, float], target: dict[Date, float], lag: int) -> tuple[list, list]:
+    """A magyarázó változó `lag` nappal korábbi értékét párosítja a célváltozó napi értékéhez."""
     xs: list[float] = []
     ys: list[float] = []
     for day in sorted(target):
         src = day - timedelta(days=lag)
-        if src in driver:
-            xs.append(driver[src])
+        if src in predictor:
+            xs.append(predictor[src])
             ys.append(target[day])
     return xs, ys
 
@@ -135,13 +135,13 @@ def _monthly_balance(
 
 
 def _best_lag_spearman(
-    driver: dict[Date, float], target: dict[Date, float], max_lag: int
+    predictor: dict[Date, float], target: dict[Date, float], max_lag: int
 ) -> tuple[int, float | None]:
     """A |Spearman-r| maximumát adó késleltetés (0..max_lag)."""
     best_lag = 0
     best_r: float | None = None
     for lag in range(max_lag + 1):
-        xs, ys = _aligned(driver, target, lag)
+        xs, ys = _aligned(predictor, target, lag)
         if len(xs) < _MIN_PAIRS:
             continue
         r = spearman(xs, ys)
@@ -166,22 +166,22 @@ def compute_relationships(
 
     if kind == "river":
         max_lag = _MAX_LAG_RIVER
-        driver_specs = [("Vízhozam", discharge), ("Csapadék", precip), ("Hőmérséklet", temp)]
+        predictor_specs = [("Vízhozam", discharge), ("Csapadék", precip), ("Hőmérséklet", temp)]
     else:
         max_lag = _MAX_LAG_LAKE
-        driver_specs = [
+        predictor_specs = [
             ("Csapadék", precip),
             ("Párolgás", et0),
             ("Csapadék − párolgás", net),
             ("Hőmérséklet", temp),
         ]
 
-    drivers = []
-    for label, series in driver_specs:
+    predictors = []
+    for label, series in predictor_specs:
         if not series:
             continue
         lag, r = _best_lag_spearman(series, delta, max_lag)
-        drivers.append(
+        predictors.append(
             {"label": label, "lag_days": lag, "spearman_r": round(r, 2) if r is not None else None}
         )
 
@@ -218,4 +218,4 @@ def compute_relationships(
             "points": points,
         }
     )
-    return {"id": water_body_id, "name": name, "kind": kind, "primary": primary, "drivers": drivers}
+    return {"id": water_body_id, "name": name, "kind": kind, "primary": primary, "predictors": predictors}

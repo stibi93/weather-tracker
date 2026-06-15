@@ -68,9 +68,10 @@ stílushoz (lásd `web/.env.example`).
 
 ## Összefüggés-elemzés
 
-A részletpanel „Összefüggések" szekciója a vízszint és a hajtó változók kapcsolatát mutatja,
+A részletpanel „Összefüggések" szekciója a vízszint és a magyarázó változók kapcsolatát mutatja,
 **a napi szintváltozáson (Δszint)** számolva (a nyers szint félrevezető lenne — autokorreláció,
-szezonalitás). Hajtónként késleltetett Spearman-korreláció + a fő kapcsolat illesztéssel és R²-tel
+szezonalitás). Magyarázó változónként késleltetett Spearman-korreláció + a fő kapcsolat illesztéssel
+és R²-tel
 (tavak: Δszint vs csapadék−párolgás; folyók: vízállás vs vízhozam). A metrikák magyarázva, és
 egyértelmű figyelmeztetéssel: **a korreláció nem okság** (a szabályozás, talajvíz, felvízi
 folyamatok is hatnak). Számítás: `ingest/analysis/` (tiszta Python).
